@@ -1,0 +1,48 @@
+<!-- M0: Opening baseline. Ported from 06-prototype/prototype.html; IDs prefixed by slide ID. SL02 is generated (agenda).
+     SL01 opens its email in place (the only non-pause slide with a reveal; see checks.COVER_REVEAL_IDS). -->
+
+<section data-slide="SL01" data-head="none">
+<div class="cover"><div><p class="kicker">An interactive workplace story</p><h1 id="SL01-title">The request<br>before <span>5 PM</span></h1><p class="sub">A familiar name. A payment deadline.<br>What would you check?</p><button type="button" class="primary" data-act="reveal" aria-expanded="false" data-off="Open the first message" data-on="Close the message">Open the first message</button><p class="context"><b>Tuesday, 16:42 at Meranti.</b> 18 minutes before the payment cut-off, a new email arrives for Farid in Finance.</p></div>
+<div class="mail"><div class="mailbar"><span>Mail / Inbox · Farid</span><span>Tuesday, 16:42</span></div><div class="mailbody"><dl class="mailmeta"><dt>From</dt><dd>{{avatar:nadia}}<span>Nadia · Maju Supplies <span class="addr">&lt;nadia@maju-supplies.example&gt;</span></span></dd><dt>To</dt><dd>Farid · Finance</dd><dt>Subject</dt><dd class="subjectline">Re: Invoice MS-1048</dd></dl>
+<p class="preview if-unrevealed">“Please use our updated bank details for today’s payment.” <span class="inertnote">· 1 attachment</span></p>
+<div class="if-revealed"><div class="mailcopy"><p>Hi Farid, our bank details have changed. Please use the revised details for today’s payment.</p><p>Please complete this before 5 PM. The amount stays the same. Thanks, Nadia</p></div><div class="attachment"><b>PDF</b><span>Updated-payment-details.pdf · preview only, nothing opens</span></div></div>
+</div></div></div>
+<div class="coverfoot"><p class="prompt"><strong>Farid recognises the supplier. The invoice is expected.</strong> What would you check before paying?</p><p class="credit">Training scenario: all people, organisations and messages are fictional. Portraits and scene photographs are AI-generated; no real person is depicted.</p>{{sessionline}}</div>
+</section>
+
+<section data-slide="SL03" data-kicker="Scene 01 / The email" data-pill="Training scenario · 16:42">
+<div class="grid"><div class="mail"><div class="mailbar"><span>Mail / Inbox · Farid</span><span>Tuesday, 16:42</span></div><div class="mailbody"><dl class="mailmeta"><dt>From</dt><dd>{{avatar:nadia}}<span>Nadia · Maju Supplies <span class="addr">&lt;nadia@maju-supplies.example&gt;</span><span class="marker" aria-hidden="true">3</span></span></dd><dt>To</dt><dd><span>Farid · Finance <span class="addr">· Reply-to: nadia@maju-supplies.example</span></span></dd><dt>Subject</dt><dd class="subjectline">Re: Invoice MS-1048</dd></dl><div class="mailcopy"><p>Hi Farid, <mark class="hl">our bank details have changed.</mark><span class="marker" aria-hidden="true">1</span> Please use the revised details for today’s payment.</p><p><mark class="hl">Please complete this before 5 PM.</mark><span class="marker" aria-hidden="true">2</span> The amount stays the same. Thanks, Nadia</p></div><div class="attachment"><b>PDF</b><span>Updated-payment-details.pdf · files.maju-supplies.example/MS-1048 · preview only</span></div></div></div>
+<aside class="side"><p class="eyebrow">What the email shows</p><ol class="markers">
+<li><span class="marker" aria-hidden="true">1</span><span><strong>The risky action.</strong> New bank details for a real, expected payment.</span></li>
+<li><span class="marker" aria-hidden="true">2</span><span><strong>Time pressure.</strong> A same-day deadline leaves no time to check.</span></li>
+<li><span class="marker" aria-hidden="true">3</span><span><strong>Looks right.</strong> Sender and link use the supplier’s real domain, which cannot show who is typing.</span></li>
+</ol><p class="eyebrow">Discuss with the room</p><h3 class="big-question">What can this email actually prove?</h3></aside></div>
+</section>
+
+<section data-slide="SL04" data-kicker="Scene 02 / The follow-up" data-pill="Training scenario · 16:46">
+<div class="grid"><div class="chat"><div class="chathead">{{avatar:ravi}}<div><strong>Ravi</strong><small>Workplace chat · display name and photo shown</small></div></div><div class="chatstream"><div class="bubble">Have you seen Nadia’s email? We need that payment completed today.<small>Ravi · 16:46</small></div><div class="bubble out">I saw the new bank details. I’ll call the supplier to confirm.<small>Farid · 16:47</small></div><div class="bubble">I’m in a meeting. Please handle it now and update me afterwards.<small>Ravi · 16:47</small></div></div></div><aside class="side"><p class="eyebrow">Discuss with the room</p><p class="quote">Does this conversation give Farid enough confidence to pay?</p>{{image:img-002-farid-deadline|Farid reads the urgent request at his desk in late-afternoon light. Illustration of a fictional scene.}}</aside></div>
+</section>
+
+<section data-slide="SL04B" data-kicker="Scenes 01 and 02 / What the messages prove" data-pill="Training scenario · explanation">
+<!-- Explanation stage for SL03 and SL04 (layout fix, 8 Oct 2026): the room answers both questions first; the two points then get their own screen. No new scene or photograph. -->
+<div class="stack center">
+<div class="grid even">
+<div class="takeaway"><p class="tlabel">The email · 16:42</p><p class="tmain">A correct sender address and a familiar conversation do not prove who is writing.</p><ul class="tacts"><li>A change to bank details always needs an independent check.</li></ul></div>
+<div class="takeaway"><p class="tlabel">The chat · 16:46</p><p class="tmain">A display name and urgency tell you nothing about who controls the account.</p><ul class="tacts"><li>Anyone can set a name and copy a photo.</li><li>Pressure to skip a check is a reason to slow down.</li></ul></div>
+</div>
+</div>
+</section>
+
+<section data-slide="SL05" data-kicker="Your decision" data-pill="Discuss before selecting">
+<div class="decision-context">The invoice is expected. The bank details have changed.<br>A message using Ravi’s name adds pressure to pay.</div>
+{{decision}}
+<div class="if-chosen"><div class="takeaway row"><p class="tmain">Verify through a contact you already hold, then follow the normal approval process.</p><ul class="tacts"><li>Use the supplier record, not the email.</li><li>Replying to the same email cannot verify anything.</li></ul></div></div>
+</section>
+
+<section data-slide="SL06" data-kicker="The evidence / Trainer reveal" data-reveal="Reveal the findings|Hide the findings" data-source-note="Fictional outcome. Verification principle:" data-source-after="A matching address does not establish who controls the account.">
+<div class="grid"><div class="mail annotated"><div class="mailbar"><span>Re: Invoice MS-1048</span><span>Evidence recap</span></div><div class="mailbody"><dl class="mailmeta"><dt>From</dt><dd>{{avatar:nadia}}<span>Nadia · Maju Supplies <span class="addr">&lt;nadia@maju-supplies.example&gt;</span></span></dd><dt>Subject</dt><dd class="subjectline">Re: Invoice MS-1048</dd></dl><div class="mailcopy"><p>Hi Farid,</p><p><span class="mark">Our bank details have changed.</span> Please use the revised details for today’s payment.</p><p><span class="mark">Please complete this before 5 PM.</span> The amount stays the same.</p><p>Thanks, Nadia</p></div></div></div><aside class="side"><div class="if-unrevealed"><p class="eyebrow">An independent check</p><h3 class="big-question">Farid calls the number already held in the supplier record.</h3><p class="hint">What information would change your decision?</p></div><div class="if-revealed"><div class="findings"><div class="finding"><span class="num">01</span><div><strong>The supplier denies the change</strong><p>The contact confirms that the existing bank details still apply.</p></div></div><div class="finding"><span class="num">02</span><div><strong>Ravi denies sending the chat</strong><p>Farid checks through the staff directory. IT investigates the account.</p></div></div><div class="finding"><span class="num">03</span><div><strong>Farid holds the payment and reports</strong><p>He preserves the messages and reports them through the approved channel.</p></div></div></div><div class="takeaway"><p class="tmain">Independent verification gives you facts the message never could.</p><ul class="tacts"><li>Hold the payment, keep the evidence and report.</li></ul></div></div></aside></div>
+</section>
+
+<section data-slide="SL07" data-kicker="Documented incident / Hong Kong, January 2024" data-pill="Real incident · official account" data-source-after="Text reconstruction from the official account. No original victim messages or video shown.">
+<div class="casegrid"><div class="stat"><div class="number">HK$200m</div><p class="label">Approximate reported loss</p><p class="explain">A fabricated video conference reinforced an email impersonating a chief financial officer.</p></div><div><div class="timeline"><div class="event"><b>01</b><div><strong>An email claimed executive authority</strong><p>The sender invited an employee to a confidential meeting.</p></div></div><div class="event"><b>02</b><div><strong>A prerecorded video supported the story</strong><p>The official account describes no interaction during the fabricated meeting.</p></div></div><div class="event"><b>03</b><div><strong>Payment instructions continued in messages</strong><p>The employee authorised transfers to five local bank accounts.</p></div></div></div><div class="callout">Which independent check could interrupt this sequence?</div><div class="takeaway"><p class="tmain">Even a convincing meeting can be fabricated.</p><ul class="tacts"><li>A separate, authorised payment check is what stops the loss.</li></ul></div></div></div>
+</section>

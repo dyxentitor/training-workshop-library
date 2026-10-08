@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="698" height="340" viewBox="0 0 698 340" role="img" aria-labelledby="title desc"><title id="title">The code signs in their device</title><desc id="desc">The sender starts a sign-in and gets a demonstration code. The sender passes the code to Aina. Aina enters it on the real service, authenticates if required, and authorises the request. The service gives access to the sender’s device as Aina. Only authorise a sign-in you started yourself.</desc>
+<defs><style>text {font-family:Arial,Helvetica,sans-serif;}</style><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#B4C0D2"/></marker><marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2DD4BF"/></marker><marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FBBF24"/></marker><marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FB7185"/></marker></defs>
+<text id="label-1" x="14" y="24.0" font-size="19" fill="#B4C0D2" font-weight="700" text-anchor="start">SENDER’S DEVICE</text>
+<text id="label-2" x="14" y="174.0" font-size="19" fill="#B4C0D2" font-weight="700" text-anchor="start">AINA</text>
+<rect x="14" y="38" width="300" height="102" rx="14" fill="#F3F6FA" stroke="#FBBF24" stroke-width="2"/>
+<text id="label-3" x="30" y="65.0" font-size="21" fill="#19283B" font-weight="700" text-anchor="start">1  Starts a sign-in</text>
+<text id="label-4" x="30" y="94.0" font-size="18" fill="#19283B" font-weight="400" text-anchor="start">Gets the code: DEMO-ONLY</text>
+<text id="label-5" x="30" y="117.4" font-size="18" fill="#19283B" font-weight="400" text-anchor="start">for their own sign-in request.</text>
+<rect x="384" y="38" width="300" height="102" rx="14" fill="#141E30" stroke="#FB7185" stroke-width="2"/>
+<text id="label-6" x="400" y="65.0" font-size="20" fill="#F3F6FA" font-weight="700" text-anchor="start">4  Their device gets access</text>
+<text id="label-7" x="400" y="94.0" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="start">The service grants access</text>
+<text id="label-8" x="400" y="117.4" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="start">to Aina’s account.</text>
+<rect x="14" y="188" width="300" height="102" rx="14" fill="#F3F6FA" stroke="#FBBF24" stroke-width="2"/>
+<text id="label-9" x="30" y="215.0" font-size="20" fill="#19283B" font-weight="700" text-anchor="start">2  Sends the code to Aina</text>
+<text id="label-10" x="30" y="244.0" font-size="18" fill="#19283B" font-weight="400" text-anchor="start">The message claims it is needed</text>
+<text id="label-11" x="30" y="267.4" font-size="18" fill="#19283B" font-weight="400" text-anchor="start">to open a document.</text>
+<rect x="384" y="188" width="300" height="102" rx="14" fill="#F3F6FA" stroke="#2DD4BF" stroke-width="2"/>
+<text id="label-12" x="400" y="215.0" font-size="20" fill="#19283B" font-weight="700" text-anchor="start">3  Aina uses the real page</text>
+<text id="label-13" x="400" y="244.0" font-size="18" fill="#19283B" font-weight="400" text-anchor="start">Enters the code and authorises.</text>
+<text id="label-14" x="400" y="267.4" font-size="18" fill="#19283B" font-weight="400" text-anchor="start">May need to sign in first.</text>
+<path d="M164 140 V188" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-amber)"/>
+<path d="M314 239 H384" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-amber)"/>
+<path d="M534 188 V140" fill="none" stroke="#FB7185" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-coral)"/>
+<text id="label-15" x="349" y="326.0" font-size="21" fill="#2DD4BF" font-weight="700" text-anchor="middle">Only authorise a sign-in you started yourself.</text>
+</svg>

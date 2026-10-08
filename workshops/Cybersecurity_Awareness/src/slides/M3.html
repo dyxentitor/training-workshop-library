@@ -1,0 +1,168 @@
+<!-- M3: The message that fits your job (SL29–SL38) and the lunch break (SL40). SL28 opener and SL39 takeaway are generated. -->
+
+<section data-slide="SL29" data-kicker="Module 3 / The message that fits your job" data-pill="Training scenario · three inbox messages" data-source-note="Fictional messages. Phishing channels and targeted lures:">
+<div class="grid wide">
+<div class="stack inbox">
+<div class="ev"><span class="evtag">Calendar · Ravi’s assistant · 08:55</span><p><strong>Riverside move: updated agenda</strong> — Accept the invitation and sign in to view the agenda.</p><p class="askfor"><b>Requested action:</b> sign in with a work account from a link.</p></div>
+<div class="ev"><span class="evtag">HR Benefits · 09:10</span><p><strong>Confirm your 2027 benefits by Friday</strong> — Update your bank and ID details to keep your cover.</p><p class="askfor"><b>Requested action:</b> disclose personal and bank information.</p></div>
+<div class="ev"><span class="evtag">Document shared with you · 09:31</span><p><strong>Q4 supplier review</strong> — Farid shared a file with you. Open to review and comment.</p><p class="askfor"><b>Requested action:</b> open a document, possibly followed by a sign-in.</p></div>
+</div>
+<aside class="side">
+<p class="eyebrow">Three questions for every message</p>
+<div class="steps qsteps">
+<div class="stepitem"><span class="n">1</span><div><strong>Who is asking?</strong></div></div>
+<div class="stepitem"><span class="n">2</span><div><strong>What would I authorise or disclose?</strong></div></div>
+<div class="stepitem"><span class="n">3</span><div><strong>How can I verify outside this message?</strong></div></div>
+</div>
+<div class="takeaway"><p class="tmain">Look for the action, then verify outside the message.</p><ul class="tacts"><li>Sign in, share data, open a file: each is a request.</li><li>Any of these messages could be genuine.</li></ul></div>
+</aside>
+</div>
+</section>
+
+<section data-slide="SL30" data-kicker="Scene 10 / The sender" data-pill="Training scenario · Thursday">
+<div class="grid"><div class="mail"><div class="mailbar"><span>Mail / Inbox</span><span>Thursday, 13:48</span></div><div class="mailbody"><dl class="mailmeta"><dt>From</dt><dd>{{avatar:ravi}}<span>“Ravi” <span class="addr">&lt;<mark class="hl">ravi.meranti@freemail.example</mark>&gt;</span><span class="marker" aria-hidden="true">1</span></span></dd><dt>Reply-to</dt><dd><span class="addr"><mark class="hl">ravi.office.desk@freemail.example</mark></span><span class="marker" aria-hidden="true">2</span></dd><dt>To</dt><dd>Farid · Finance</dd><dt>Subject</dt><dd class="subjectline">Quick favour before 3 PM</dd></dl><div class="details static">Ravi’s directory address: ravi@meranti.example</div><div class="mailcopy"><p>Hi Farid, are you at your desk? I need you to process something discreetly today. Reply here and I’ll send the details. Ravi</p></div></div></div>
+<aside class="side">
+<p class="eyebrow">What the full sender details show</p>
+<ol class="markers">
+<li><span class="marker" aria-hidden="true">1</span><span><strong>The real address.</strong> A free-mail account, not Ravi’s directory address. The display name “Ravi” is just text anyone can type.</span></li>
+<li><span class="marker" aria-hidden="true">2</span><span><strong>The reply-to.</strong> Your reply would go somewhere else again.</span></li>
+</ol>
+<div class="takeaway"><p class="tmain">A mismatched address is a warning sign, but a matching one does not prove safety.</p><ul class="tacts"><li>A matching address could still come from a compromised mailbox, so verify the request itself.</li></ul></div>
+</aside></div>
+</section>
+
+<section data-slide="SL31" data-kicker="Scene 11 / Read the destination" data-reveal="Highlight the hostname|Hide">
+<div class="grid">
+<div class="stack">
+<div class="ev"><span class="evtag">Email · link label</span><p>Please review the agenda on the <u>Meranti document portal</u> before the meeting.</p></div>
+<div class="browser"><div class="browserbar"><span class="lights" aria-hidden="true"><i></i><i></i><i></i></span><span class="url">Link preview (not opened)</span></div><div class="browserbody">
+<p class="urlshow"><span>https://</span><span class="u-sub">login.company.example</span><span class="u-host">.attacker.test</span><span>/review</span></p>
+<div class="urlkey if-revealed"><b>attacker.test</b><span>The domain at the end of the hostname controls the site.</span><b>login.company.example</b><span>Words on the left can be any text the owner chooses.</span><b>/review</b><span>The path, after the first single slash, is not the owner.</span></div>
+<p class="inertnote">Inert text using reserved .example and .test names. Nothing here navigates.</p>
+</div></div>
+</div>
+<aside class="side">
+<p class="eyebrow">Preview without opening</p>
+<h3 class="big-question">Vote: which organisation controls this address?</h3>
+<p class="hint if-unrevealed">Read the hostname from the right, up to the first single slash.</p>
+<div class="if-revealed"><div class="takeaway"><p class="tlabel">Answer</p><p class="tmain">The last part, attacker.test, owns the site.</p><ul class="tacts"><li>Read the web address from the right, up to the first single slash.</li><li>A familiar-looking link can also be abused through redirects or genuine hosting, so the request still needs checking.</li></ul></div></div>
+</aside>
+</div>
+</section>
+
+<section data-slide="SL32" data-kicker="Scene 12 / Two polished messages" data-pill="Training scenario">
+<div class="stack">
+<div class="cards c2">
+<div class="ev"><span class="evtag">Message A · Meranti People Team</span><p><strong>Annual leave policy update</strong></p><p>Our updated leave policy takes effect on 1 January. You can read the full policy on the HR portal. No action is required.</p><p class="reveal-note"><span class="flag ok">Genuine</span> Information only. Still open the portal from your usual bookmark, not the link.</p></div>
+<div class="ev"><span class="evtag">Message B · Meranti Procurement</span><p><strong>Approval needed: vendor onboarding</strong></p><p>Please approve the attached access request for our new logistics vendor by 4 PM so onboarding can continue.</p><p class="reveal-note"><span class="flag">Deceptive</span> It asks for an approval. Check it in the procurement system or with the known approver.</p></div>
+</div>
+<div class="takeaway"><p class="tmain">Polish and logos prove nothing. The difference is the <strong>action</strong> each one asks for.</p><ul class="tacts"><li>Judge the action requested and check it in the system you normally use.</li></ul></div>
+</div>
+</section>
+
+<section data-slide="SL33" data-kicker="Scene 13 / The same request on a phone" data-pill="Training scenario">
+<div class="grid even">
+<div class="phone large"><div class="phonescreen"><div class="phonetop"><span>14:02</span><span>Messages</span></div>
+<div class="notif"><div class="app"><span>MERANTI-IT</span><span>now</span></div><p>Your work account needs review today to avoid suspension. Review: mrnt-review.example/a1</p></div>
+<p class="inertnote">Fictional text message. The link is inert text.</p>
+</div></div>
+<aside class="side">
+<p class="eyebrow">Inspect the request, not just the screen</p>
+<h3 class="big-question">Where would Aina check this?</h3>
+<p class="hint">A phone shows a sender label and the link text, with less room to compare than a desktop mail client.</p>
+</aside>
+</div>
+</section>
+
+<section data-slide="SL33B" data-kicker="Scene 13 / The same request on a phone · continued" data-pill="Training scenario">
+<div class="grid rev mid">
+<div class="phone"><div class="phonescreen"><div class="phonetop"><span>14:02</span><span>Messages</span></div>
+<div class="notif"><div class="app"><span>MERANTI-IT</span><span>now</span></div><p>Your work account needs review today to avoid suspension. Review: mrnt-review.example/a1</p></div>
+</div></div>
+<!-- INFO-002 (components/info-002-sms-inspection.html): the same SMS inspected; not a device UI; all addresses are inert text -->
+<div class="stack">
+<div class="ev visual-sms-check">
+<span class="evtag">Inspect this same text message</span>
+<p><b>Sender label:</b> MERANTI-IT. A label alone does not verify who sent it.</p>
+<dl class="mailmeta"><dt>Message link</dt><dd class="addr">mrnt-review.example/a1</dd><dt>Aina’s saved IT portal</dt><dd class="addr">it.meranti.example</dd></dl>
+<p><b>Independent check:</b> open your saved IT app or portal rather than following the message.</p>
+<small>Fictional comparison; inert addresses. What a messaging app shows about a sender or link differs by app.</small>
+</div>
+<div class="takeaway"><p class="tmain">The label is not identity, and the link does not match the saved portal.</p><ul class="tacts"><li>A short link gives little to compare, so open the saved portal yourself instead of tapping the message.</li></ul></div>
+</div>
+</div>
+</section>
+
+<section data-slide="SL34" data-kicker="Scene 14 / A QR code" data-pill="Training scenario · inert tile">
+<div class="grid">
+<div class="mail"><div class="mailbar"><span>Mail / Inbox</span><span>Friday, 10:15</span></div><div class="mailbody">
+<dl class="mailmeta"><dt>From</dt><dd><span class="avatar" aria-hidden="true">S</span><span>Security Notifications</span></dd><dt>To</dt><dd>Aina · Operations</dd><dt>Subject</dt><dd class="subjectline">Account access notice</dd></dl>
+<div class="qrwrap qrmail"><div class="mailcopy"><p>Your account requires a review. Scan to continue on your phone.</p></div>{{qr:SL34}}</div>
+</div></div>
+<aside class="side">
+<p class="eyebrow">A QR code moves the request to your phone</p>
+<h3 class="big-question">Where would this code take you? Did you start this sign-in?</h3>
+<div class="ev"><span class="evtag">Where the code would go</span><p>account-review.example<b>.attacker.test</b>/start</p><small>Training tile; it cannot be scanned.</small></div>
+<div class="takeaway"><p class="tmain">Treat a QR code like a link you cannot read.</p><ul class="tacts"><li>Use the known portal instead.</li></ul><p class="tnote">Device-linking QR codes come later in the day. They grant account access instead of opening a page.</p></div>
+</aside>
+</div>
+</section>
+
+<section data-slide="SL35" data-kicker="Scene 15 / Shared files" data-pill="Training scenario · no file opens" data-source-note="Fictional files. Attachment and file-sharing lures:">
+<div class="grid">
+<div class="stack">
+<div class="ev"><span class="evtag">Document shared with you · Maju Supplies</span><p><strong>Nadia shared “Q4 statement” with you.</strong> Open to review. You may be asked to sign in.</p></div>
+<div class="cards c3 files">
+<div class="ev"><span class="evtag">PDF</span><p>Q4-statement.pdf</p><p class="askfor">Can carry a link to a sign-in page.</p></div>
+<div class="ev"><span class="evtag">HTML</span><p>Invoice-viewer.html</p><p class="askfor">Can show a sign-in form once opened.</p></div>
+<div class="ev"><span class="evtag">SVG image</span><p>Signed-contract.svg</p><p class="askfor">An image that can contain links or scripts.</p></div>
+</div>
+<p class="inertnote light">These formats are everyday examples, not automatic signs of an attack.</p>
+</div>
+<aside class="side">
+<p class="eyebrow">A shared file is still a request</p>
+<h3 class="big-question">Did Aina expect this file? What happens after she opens it?</h3>
+<div class="takeaway"><p class="tmain">A file type or brand does not make it safe.</p><ul class="tacts"><li>If you did not expect it, check with the sender through a known contact first.</li><li>Open the known storage app, or ask Nadia through the established contact, before an unexpected sign-in or download.</li></ul></div>
+</aside>
+</div>
+</section>
+
+<section data-slide="SL36" data-kicker="Table exercise · show of hands" data-reveal="Reveal the answers|Hide the answers" data-source-note="Fictional cards. Guidance:">
+<p class="lede ex-intro"><strong>Proceed, verify first, or hold and report?</strong> Tables vote with a show of hands for each card, then reveal.</p>
+<div class="cards c4 excards">
+<div class="card"><p class="eyebrow">Card 1 · Finance</p><p class="exreq">Nadia (known supplier contact): “Our bank has changed. New details on our letterhead attached.”</p><p class="reveal-note if-revealed"><span class="flag ok">Verify first</span> Genuine change, not yet approved: call the established contact, then complete approval.</p></div>
+<div class="card"><p class="eyebrow">Card 2 · Operations</p><p class="exreq">Siti’s usual chat account: “Can you add me to the payroll folder? IT is slow today.”</p><p class="reveal-note if-revealed"><span class="flag">Verify first</span> Genuine account, someone else using it: check with Siti through the directory and report.</p></div>
+<div class="card"><p class="eyebrow">Card 3 · Everyone</p><p class="exreq">Notice inside the IT portal Aina opened herself: “Laptop update on Saturday. No action needed.”</p><p class="reveal-note if-revealed"><span class="flag ok">Proceed</span> Genuine notice found through a known route; it asks for nothing sensitive.</p></div>
+<div class="card"><p class="eyebrow">Card 4 · Finance</p><p class="exreq">“Ravi”: “Skip the second approval on this transfer. I’m boarding a flight.”</p><p class="reveal-note if-revealed"><span class="flag">Hold and report</span> Not Ravi: an impersonated urgent exception. Verify through the directory.</p></div>
+</div>
+<div class="if-revealed"><div class="takeaway"><p class="tmain">Some requests are genuine.</p><ul class="tacts"><li>The right answer depends on the action and the route, not on calling everything phishing.</li></ul></div></div>
+</section>
+
+<section data-slide="SL37" data-kicker="Signals that do not prove safety" data-pill="Training reference">
+<div class="sigtable">
+<div class="sigrow headrow"><span>Signal</span><span>What it establishes</span><span>What it does not establish</span></div>
+<div class="sigrow"><span class="sig">Familiar logo</span><p class="cell">Someone used that image.</p><p class="cell limit">Logos are easy to copy.</p></div>
+<div class="sigrow"><span class="sig">Known sender</span><p class="cell">The message came from, or claims, that address.</p><p class="cell limit">Accounts can be compromised; display names can be faked.</p></div>
+<div class="sigrow"><span class="sig">HTTPS padlock</span><p class="cell">Your connection to that site is encrypted.</p><p class="cell limit">Who runs the site, or why it asks.</p></div>
+<div class="sigrow"><span class="sig">No email warning</span><p class="cell">Filters did not flag it.</p><p class="cell limit">Filters miss new and targeted messages.</p></div>
+<div class="sigrow"><span class="sig">Fluent wording</span><p class="cell">Someone wrote it carefully, possibly with AI help.</p><p class="cell limit">Grammar is a weak signal of intent.</p></div>
+<div class="sigrow"><span class="sig">MFA completed</span><p class="cell">Someone passed a sign-in check.</p><p class="cell limit">That the business request is valid.</p></div>
+</div>
+<div class="takeaway row"><p class="tmain">None of these signals validates the request.</p><ul class="tacts"><li>HTTPS still matters: it protects the connection, not the request.</li></ul></div>
+</section>
+
+<section data-slide="SL38" data-kicker="Your verification route" data-pill="Course summary">
+<div class="decision-context"><span>Aina receives another document invitation. <strong>Each table: name the route you would use.</strong></span></div>
+<div class="cards c3">
+<div class="card">{{icon:route-app|lg}}<p class="eyebrow">Route 1</p><h3>A known app or saved address</h3><p>Open the storage app or your bookmark yourself, then look for the file there.</p></div>
+<div class="card">{{icon:route-contact|lg}}<p class="eyebrow">Route 2</p><h3>An established contact</h3><p>The staff directory, the supplier record, or a number you already hold.</p></div>
+<div class="card">{{icon:route-process|lg}}<p class="eyebrow">Route 3</p><h3>Your organisation’s process</h3><p>{{config:support.ticket_process}}</p></div>
+</div>
+<div class="takeaway row"><p class="tmain">Never use the contact details inside the message.</p><ul class="tacts"><li>Use a known app or bookmark, an established contact, or your organisation’s process.</li></ul></div>
+<p class="caption route-close">This summary is a course aid, not an official mnemonic. Your organisation’s actual process comes first.</p>
+</section>
+
+<section data-slide="SL40" data-head="none">
+<div class="intermission"><div><p class="kicker">Break</p><h1 id="SL40-title">Lunch break</h1><p class="sub">We return with Module 4 · Beyond the password.</p></div>
+<div class="scene"><p class="eyebrow">Next</p><p class="return"><strong>Module 4 · Beyond the password</strong></p><p class="small">Sign-ins, codes, app permissions and linked devices. No slide advances automatically.</p></div></div>
+</section>

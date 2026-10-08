@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc"><title id="title">Decorative opener backdrop</title><desc id="desc">Decorative near-navy texture confined to the top of the slide; no information is encoded.</desc>
+<defs><style>text {font-family:Arial,Helvetica,sans-serif;}</style><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#B4C0D2"/></marker><marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2DD4BF"/></marker><marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FBBF24"/></marker><marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FB7185"/></marker></defs>
+<rect width="1600" height="900" fill="#0B1220"/>
+<defs><clipPath id="opener-band"><rect x="0" y="74" width="1600" height="114"/></clipPath></defs><g clip-path="url(#opener-band)" stroke="#141E30" stroke-width="1" opacity="0.55">
+<path d="M-180 188 L-66 74"/>
+<path d="M-148 188 L-34 74"/>
+<path d="M-116 188 L-2 74"/>
+<path d="M-84 188 L30 74"/>
+<path d="M-52 188 L62 74"/>
+<path d="M-20 188 L94 74"/>
+<path d="M12 188 L126 74"/>
+<path d="M44 188 L158 74"/>
+<path d="M76 188 L190 74"/>
+<path d="M108 188 L222 74"/>
+<path d="M140 188 L254 74"/>
+<path d="M172 188 L286 74"/>
+<path d="M204 188 L318 74"/>
+<path d="M236 188 L350 74"/>
+<path d="M268 188 L382 74"/>
+<path d="M300 188 L414 74"/>
+<path d="M332 188 L446 74"/>
+<path d="M364 188 L478 74"/>
+<path d="M396 188 L510 74"/>
+<path d="M428 188 L542 74"/>
+<path d="M460 188 L574 74"/>
+<path d="M492 188 L606 74"/>
+<path d="M524 188 L638 74"/>
+<path d="M556 188 L670 74"/>
+<path d="M588 188 L702 74"/>
+<path d="M620 188 L734 74"/>
+<path d="M652 188 L766 74"/>
+<path d="M684 188 L798 74"/>
+<path d="M716 188 L830 74"/>
+<path d="M748 188 L862 74"/>
+<path d="M780 188 L894 74"/>
+<path d="M812 188 L926 74"/>
+<path d="M844 188 L958 74"/>
+<path d="M876 188 L990 74"/>
+<path d="M908 188 L1022 74"/>
+<path d="M940 188 L1054 74"/>
+<path d="M972 188 L1086 74"/>
+<path d="M1004 188 L1118 74"/>
+<path d="M1036 188 L1150 74"/>
+<path d="M1068 188 L1182 74"/>
+<path d="M1100 188 L1214 74"/>
+<path d="M1132 188 L1246 74"/>
+<path d="M1164 188 L1278 74"/>
+<path d="M1196 188 L1310 74"/>
+<path d="M1228 188 L1342 74"/>
+<path d="M1260 188 L1374 74"/>
+<path d="M1292 188 L1406 74"/>
+<path d="M1324 188 L1438 74"/>
+<path d="M1356 188 L1470 74"/>
+<path d="M1388 188 L1502 74"/>
+<path d="M1420 188 L1534 74"/>
+<path d="M1452 188 L1566 74"/>
+<path d="M1484 188 L1598 74"/>
+<path d="M1516 188 L1630 74"/>
+<path d="M1548 188 L1662 74"/>
+<path d="M1580 188 L1694 74"/>
+<path d="M1612 188 L1726 74"/>
+<path d="M1644 188 L1758 74"/>
+<path d="M1676 188 L1790 74"/>
+<path d="M1708 188 L1822 74"/>
+</g>
+</svg>

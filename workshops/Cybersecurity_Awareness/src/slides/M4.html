@@ -1,0 +1,113 @@
+<!-- M4: Beyond the password (SL42–SL49). SL41 opener (with glossary) and SL50 takeaway are generated. All screens are static mock-ups: no fields, codes or links work. -->
+
+<section data-slide="SL42" data-kicker="Module 4 / Beyond the password" data-pill="Course explanation" data-source-note="Course explanation. Sources:">
+<div class="stack flow">
+<div class="cards c4 grants">
+<div class="ev">{{icon:grant-session}}<span class="evtag">Login session</span><p>You signed in this morning. The browser keeps you signed in.</p><p class="askfor"><b>Grants:</b> whoever holds that session can act as you until it ends.</p></div>
+<div class="ev">{{icon:grant-mfa}}<span class="evtag">MFA request</span><p>“Approve sign-in to your Meranti account?”</p><p class="askfor"><b>Grants:</b> access for the sign-in attempt that triggered it, wherever it came from.</p></div>
+<div class="ev">{{icon:grant-app}}<span class="evtag">App permission</span><p>“Meeting Helper wants to read your mail and files.”</p><p class="askfor"><b>Grants:</b> the app can use that data, often without asking again.</p></div>
+<div class="ev">{{icon:grant-device}}<span class="evtag">Linked device</span><p>“Link a new device to your messaging account.”</p><p class="askfor"><b>Grants:</b> that device can read and send messages as you.</p></div>
+</div>
+<div class="takeaway row"><p class="tmain">A session, an MFA approval, an app permission or a linked device can each let someone act as you.</p><ul class="tacts"><li>None of them needs your password to be shared.</li><li><strong>Check what access you are granting:</strong> what does it give? To whom? Did you start it?</li></ul></div>
+</div>
+</section>
+
+<section data-slide="SL43" data-kicker="Scene 16 / A relayed sign-in · static sequence" data-pill="Training scenario · no fields" data-source-note="Fictional sequence. Session theft and phishing-resistant MFA:">
+<!-- FLOW-001 replaces the three mock screens (lookalike page, real MFA prompt, someone else’s browser); their wording is kept in the presenter notes -->
+{{asset:flow-001-relayed-signin|wide}}
+<div class="takeaway row brief"><p class="tmain">Sign in from your bookmark or app, not from a link.</p><ul class="tacts"><li>Phishing-resistant MFA (security keys and passkeys) blocks this relay, and MFA still blocks many attacks, so keep using it.</li><li>Report any sign-in page you reached from a message.</li></ul></div>
+</section>
+
+<section data-slide="SL44" data-kicker="Scene 17 / Prompts you did not start" data-pill="Training scenario · 22:47">
+<div class="grid even">
+<div class="phone"><div class="phonescreen"><div class="phonetop"><span>22:47</span><span>Authenticator</span></div>
+<div class="notif"><div class="app"><span>Meranti sign-in</span><span>now</span></div><p><strong>Approve sign-in?</strong> Location unknown.</p><div class="acts" aria-hidden="true"><span>Deny</span><span>Approve</span></div></div>
+<div class="notif"><div class="app"><span>Meranti sign-in</span><span>1 min ago</span></div><p><strong>Approve sign-in?</strong> Location unknown.</p><div class="acts" aria-hidden="true"><span>Deny</span><span>Approve</span></div></div>
+<p class="inertnote">Static picture. The buttons inside the phone do nothing.</p>
+</div></div>
+<aside class="side">
+<p class="eyebrow">Aina is at home and not signing in</p>
+<h3 class="big-question">The prompts keep arriving. What should she do?</h3>
+<div class="takeaway"><p class="tlabel">What Aina should do</p><p class="tmain">Deny each prompt and report it to IT.</p><ul class="tacts"><li>Approving one, even just to stop the prompts, lets the other person in.</li></ul></div>
+<p class="hint">Repeated prompts can mean someone already has her password. IT can check and reset it.</p>
+</aside>
+</div>
+</section>
+
+<section data-slide="SL45" data-kicker="Scene 18 / A real page, someone else’s code" data-pill="Training scenario · placeholder code" data-source-note="Fictional scenario. Documented technique:">
+<div class="grid even">
+<div class="stack">
+<div class="ev"><span class="evtag">Message to Aina · project contact</span><p>“To open the meeting document, go to the sign-in page and enter this code: <span class="code">DEMO-ONLY</span>”</p><small>Training placeholder. Not a real code.</small></div>
+<div class="browser"><div class="browserbar"><span class="lights" aria-hidden="true"><i></i><i></i><i></i></span><span class="url">login.service.example/device</span></div><div class="browserbody"><h3>Enter code</h3><p>Enter the code shown on your other device to sign it in.</p><div class="fakefield"><b class="code">DEMO-ONLY</b>&nbsp; static image, not a form</div></div></div>
+</div>
+<aside class="side">
+<p class="eyebrow">The sign-in page is genuine</p>
+<h3 class="big-question">Whose device or session would this code authorise?</h3>
+<p class="hint">The address is the real service. Ask who started this sign-in.</p>
+</aside>
+</div>
+</section>
+
+<section data-slide="SL45B" data-kicker="Scene 18 / A real page, someone else’s code · continued" data-pill="Training scenario · placeholder code" data-source-note="Fictional scenario. Documented technique:">
+<div class="grid">
+<!-- FLOW-002: the code came from the sender’s device; entering it on the real page, signing in if asked and authorising signs that device in as Aina -->
+{{asset:flow-002-device-code}}
+<aside class="side">
+<p class="eyebrow">What authorising the code does</p>
+<p class="lede">The code was generated by the sender’s device. If Aina enters it on the real page, signs in if asked and authorises the request, <strong>that device is signed in as Aina</strong>.</p>
+<div class="takeaway"><p class="tmain">Only enter and authorise a code for a sign-in you started yourself.</p></div>
+</aside>
+</div>
+</section>
+
+<section data-slide="SL46" data-kicker="Scene 19 / An app permission request" data-pill="Training scenario · fictional app">
+<div class="grid">
+<div class="browser"><div class="browserbar"><span class="lights" aria-hidden="true"><i></i><i></i><i></i></span><span class="url">login.service.example/consent</span></div><div class="browserbody">
+<div class="consenthead"><span class="appicon" aria-hidden="true">MH</span><div><h3>Meeting Helper</h3><small>wants permission to:</small></div></div>
+<div class="perms"><div class="perm">Sign you in and read your profile</div>
+<div class="perm"><mark class="hl">Read and send mail as you</mark><span class="marker" aria-hidden="true">1</span></div>
+<div class="perm"><mark class="hl">Read and write all files you can access</mark><span class="marker" aria-hidden="true">1</span></div>
+<div class="perm"><mark class="hl">Keep access to data you have given it</mark><span class="marker" aria-hidden="true">2</span></div></div>
+<div class="consentbtns"><p class="inertnote">Static mock-up. These buttons do nothing.</p><span class="fakebtn" aria-hidden="true">Cancel</span><span class="fakebtn solid" aria-hidden="true">Accept</span></div>
+</div></div>
+<aside class="side">
+<ol class="markers">
+<li><span class="marker" aria-hidden="true">1</span><span><strong>More than it needs.</strong> A meeting scheduler should not send mail as you or change all your files.</span></li>
+<li><span class="marker" aria-hidden="true">2</span><span><strong>Lasting access.</strong> It keeps working after you close the page.</span></li>
+</ol>
+<div class="takeaway"><p class="tlabel">What Aina should do</p><p class="tmain">A real permission screen does not make the app trustworthy.</p><ul class="tacts"><li>Request the app through the approved IT process. Accepting gives access immediately.</li></ul></div>
+</aside>
+</div>
+</section>
+
+<section data-slide="SL47" data-kicker="Scene 20 / Joining or linking?" data-pill="Training scenario · inert tile" data-source-note="Course explanation of device linking. Related research:">
+<div class="grid even">
+<div class="ev"><span class="evtag">Message · “Riverside project group”</span><p>“Join our project group on your messaging app. Scan this QR with the app to continue.”</p><div class="qrwrap linkqr">{{qr:SL47}}<p class="inertnote">Decorative tile. It cannot be scanned and links nothing.</p></div></div>
+<div class="stack">
+<div class="ev"><span class="evtag">What the app shows after scanning a linking code</span><p><strong>Link a device?</strong> This device will be able to see your chats and send messages as you.</p></div>
+<div class="takeaway"><p class="tmain">This invitation says “join”, but the app asks to link a device.</p><ul class="tacts"><li>Check your linked-devices list if unsure.</li></ul></div>
+</div>
+</div>
+</section>
+
+<section data-slide="SL47B" data-kicker="Scene 20 / Joining or linking? · continued" data-pill="Course explanation" data-source-note="Course explanation of device linking. Related research:">
+<div class="stack center">
+<!-- FLOW-003: joining adds you to one conversation; linking gives another device access to your account -->
+{{asset:flow-003-join-vs-link|hero}}
+<div class="takeaway row hero-note"><p class="tmain">Linking gives another device ongoing access to your account.</p></div>
+</div>
+</section>
+
+<section data-slide="SL48" data-kicker="Documented incident / July 2022" data-pill="Real incident · first-party disclosure" data-source-after="Course summary of the company’s own account.">
+<div class="casegrid"><div class="stat"><div class="number">3</div><p class="label">Employees entered credentials</p><p class="explain">Cloudflare reported three credential submissions on a phishing page. Hardware-key requirements prevented the attempted access.</p></div><div><div class="timeline"><div class="event"><b>01</b><div><strong>Text messages targeted employees</strong><p>They pointed to a lookalike sign-in page (July 2022).</p></div></div><div class="event"><b>02</b><div><strong>Three people submitted credentials</strong><p>The page captured what they typed.</p></div></div><div class="event"><b>03</b><div><strong>Security keys stopped the sign-in</strong><p>The keys only work with the genuine site, so the attempted access did not succeed.</p></div></div></div><div class="takeaway"><p class="tmain">Strong controls and quick reporting work together.</p><ul class="tacts"><li>Some MFA types resist phishing much better than others.</li><li>Keys do not stop consent or payment fraud, so the other checks still matter.</li></ul></div></div></div>
+</section>
+
+<section data-slide="SL49" data-kicker="Module 4 decision" data-pill="Discuss before selecting">
+<div class="cards c3 approvals">
+<div class="ev"><span class="evtag">Code</span><p>“Enter <span class="code">DEMO-ONLY</span> to open the file.”</p></div>
+<div class="ev"><span class="evtag">Consent</span><p>“Meeting Helper wants to read your mail.”</p></div>
+<div class="ev"><span class="evtag">MFA</span><p>“Approve sign-in?” You are not signing in.</p></div>
+</div>
+{{decision}}
+<div class="if-chosen"><div class="takeaway row"><p class="tmain">Check who started it through a route you know.</p><ul class="tacts"><li>If you did not start it, deny it and report it.</li></ul></div></div>
+</section>

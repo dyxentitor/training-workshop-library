@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="698" height="210" viewBox="0 0 698 210" role="img" aria-labelledby="title desc"><title id="title">Joining is different from linking</title><desc id="desc">Joining adds you to one group conversation. Linking connects another device to your account, granting the access supported by that service. Only link devices you own and set up yourself.</desc>
+<defs><style>text {font-family:Arial,Helvetica,sans-serif;}</style><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#B4C0D2"/></marker><marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2DD4BF"/></marker><marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FBBF24"/></marker><marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FB7185"/></marker></defs>
+<text id="label-1" x="14" y="24.0" font-size="21" fill="#F3F6FA" font-weight="700" text-anchor="start">JOINING A GROUP</text>
+<text id="label-2" x="370" y="24.0" font-size="21" fill="#F3F6FA" font-weight="700" text-anchor="start">LINKING A DEVICE</text>
+<rect x="14" y="38" width="310" height="128" rx="14" fill="#141E30" stroke="#405572" stroke-width="2"/>
+<g transform="translate(70 77)" stroke="#2DD4BF" stroke-width="2" fill="none"><circle cx="0" cy="-10" r="9"/><path d="M-17 17 C-17 -1 17 -1 17 17"/></g>
+<text id="label-3" x="124" y="86.0" font-size="28" fill="#2DD4BF" font-weight="700" text-anchor="start">+</text>
+<g transform="translate(185 75)" stroke="#B4C0D2" stroke-width="2" fill="none"><circle cx="0" cy="-10" r="9"/><path d="M-17 17 C-17 -1 17 -1 17 17"/></g>
+<g transform="translate(227 65)" stroke="#B4C0D2" stroke-width="2" fill="none"><circle cx="0" cy="-10" r="9"/><path d="M-17 17 C-17 -1 17 -1 17 17"/></g>
+<g transform="translate(269 75)" stroke="#B4C0D2" stroke-width="2" fill="none"><circle cx="0" cy="-10" r="9"/><path d="M-17 17 C-17 -1 17 -1 17 17"/></g>
+<text id="label-4" x="169" y="137.0" font-size="20" fill="#B4C0D2" font-weight="400" text-anchor="middle">You join one conversation.</text>
+<rect x="370" y="38" width="314" height="128" rx="14" fill="#141E30" stroke="#405572" stroke-width="2"/>
+<rect x="388" y="55" width="130" height="56" rx="8" fill="#F3F6FA" stroke="#405572" stroke-width="2"/>
+<text id="label-5" x="453" y="89.0" font-size="19" fill="#19283B" font-weight="700" text-anchor="middle">Your account</text>
+<path d="M518 83 H567" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-amber)"/>
+<g stroke="#FBBF24" stroke-width="2" fill="none"><rect x="576" y="47" width="60" height="48" rx="6"/><path d="M589 103 H623 M606 95 V103"/></g>
+<text id="label-6" x="527" y="134" font-size="20" fill="#B4C0D2" font-weight="400" text-anchor="middle">Another device gains</text>
+<text id="label-7" x="527" y="158" font-size="20" fill="#B4C0D2" font-weight="400" text-anchor="middle">access to your account.</text>
+<text id="label-8" x="349" y="198.0" font-size="20" fill="#2DD4BF" font-weight="700" text-anchor="middle">Link only devices you own and set up yourself.</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc"><title id="title">The relay keeps the session</title><desc id="desc">Aina sends sign-in details through an attacker-controlled lookalike page to the real service. A genuine MFA prompt reaches her, and she approves. The service returns a session through the relay, which can capture and reuse it while it remains valid. FIDO2 passkeys and security keys resist this website-relay technique.</desc>
+<defs><style>text {font-family:Arial,Helvetica,sans-serif;}</style><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#B4C0D2"/></marker><marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2DD4BF"/></marker><marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FBBF24"/></marker><marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FB7185"/></marker></defs>
+<text id="label-1" x="20" y="28.0" font-size="20" fill="#B4C0D2" font-weight="700" text-anchor="start">AINA</text>
+<text id="label-2" x="540" y="28.0" font-size="20" fill="#FBBF24" font-weight="700" text-anchor="start">ATTACKER’S RELAY</text>
+<text id="label-3" x="1060" y="28.0" font-size="20" fill="#2DD4BF" font-weight="700" text-anchor="start">REAL SERVICE</text>
+<rect x="20" y="56" width="350" height="148" rx="14" fill="#F3F6FA" stroke="#405572" stroke-width="2"/>
+<text id="label-4" x="44" y="88.0" font-size="24" fill="#19283B" font-weight="700" text-anchor="start">Aina starts a sign-in</text>
+<text id="label-5" x="44" y="124.0" font-size="22" fill="#19283B" font-weight="400" text-anchor="start">The page looks familiar.</text>
+<text id="label-6" x="44" y="152.6" font-size="22" fill="#19283B" font-weight="400" text-anchor="start">She types her sign-in details.</text>
+<rect x="540" y="56" width="350" height="148" rx="14" fill="#F3F6FA" stroke="#FBBF24" stroke-width="2"/>
+<text id="label-7" x="564" y="88.0" font-size="24" fill="#19283B" font-weight="700" text-anchor="start">Lookalike page</text>
+<text id="label-8" x="564" y="118.0" font-size="18" fill="#19283B" font-weight="400" text-anchor="start">sign-in.meranti-docs.example</text>
+<text id="label-9" x="564" y="151.0" font-size="21" fill="#19283B" font-weight="400" text-anchor="start">Passes the sign-in through</text>
+<text id="label-10" x="564" y="178.3" font-size="21" fill="#19283B" font-weight="400" text-anchor="start">to the genuine service.</text>
+<rect x="1060" y="56" width="350" height="148" rx="14" fill="#F3F6FA" stroke="#2DD4BF" stroke-width="2"/>
+<text id="label-11" x="1084" y="88.0" font-size="24" fill="#19283B" font-weight="700" text-anchor="start">Genuine sign-in service</text>
+<text id="label-12" x="1084" y="118.0" font-size="18" fill="#19283B" font-weight="400" text-anchor="start">login.service.example</text>
+<text id="label-13" x="1084" y="151.0" font-size="21" fill="#19283B" font-weight="400" text-anchor="start">Checks the sign-in.</text>
+<text id="label-14" x="1084" y="178.3" font-size="21" fill="#19283B" font-weight="400" text-anchor="start">Issues an access session.</text>
+<path d="M370 105 H540" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-amber)"/>
+<text id="label-15" x="455" y="68.0" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="middle">1  Details</text>
+<text id="label-16" x="455" y="91.4" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="middle">sent</text>
+<path d="M890 105 H1060" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-amber)"/>
+<text id="label-17" x="975" y="68.0" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="middle">2  Details</text>
+<text id="label-18" x="975" y="91.4" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="middle">forwarded</text>
+<path d="M1060 182 H890" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-amber)"/>
+<text id="label-19" x="975" y="142.0" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="middle">5  Session</text>
+<text id="label-20" x="975" y="165.4" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="middle">returned</text>
+<rect x="20" y="244" width="450" height="118" rx="14" fill="#141E30" stroke="#2DD4BF" stroke-width="2"/>
+<text id="label-21" x="44" y="279.0" font-size="24" fill="#F3F6FA" font-weight="700" text-anchor="start">3  A real MFA prompt</text>
+<text id="label-22" x="44" y="313.0" font-size="21" fill="#B4C0D2" font-weight="400" text-anchor="start">The real service asks Aina to approve.</text>
+<text id="label-23" x="44" y="340.3" font-size="21" fill="#B4C0D2" font-weight="400" text-anchor="start">4  Aina approves the genuine prompt.</text>
+<path d="M1410 135 H1428 V384 H245 V362" fill="none" stroke="#2DD4BF" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 6" marker-end="url(#arrow-teal)"/>
+<rect x="540" y="244" width="870" height="118" rx="14" fill="#141E30" stroke="#FB7185" stroke-width="2"/>
+<text id="label-24" x="564" y="279.0" font-size="24" fill="#F3F6FA" font-weight="700" text-anchor="start">6  Attacker captures and reuses the session</text>
+<text id="label-25" x="564" y="313.0" font-size="21" fill="#B4C0D2" font-weight="400" text-anchor="start">Another browser may access Aina’s account while that session is valid.</text>
+<text id="label-26" x="564" y="340.3" font-size="21" fill="#B4C0D2" font-weight="400" text-anchor="start">A new password or MFA prompt may not be requested for that access.</text>
+<path d="M715 204 V244" fill="none" stroke="#FB7185" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-coral)"/>
+<text id="label-27" x="741" y="230.0" font-size="20" fill="#FB7185" font-weight="700" text-anchor="start">Keeps a copy</text>
+<text id="label-28" x="20" y="410.0" font-size="20" fill="#2DD4BF" font-weight="700" text-anchor="start">MFA still matters. FIDO2 passkeys / security keys resist this lookalike-site relay.</text>
+</svg>

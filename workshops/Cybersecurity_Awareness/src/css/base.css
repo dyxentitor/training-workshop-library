@@ -1,0 +1,257 @@
+/* ==========================================================================
+   Base: design tokens, presentation canvas, shell, typography scale, overlays.
+   The slide canvas is authored at 1600×900 canvas pixels and scaled to the
+   viewport (deck.js sets --s). Narrow screens switch to an unscaled reading
+   layout. Component styles live in deck.css and only use the tokens below.
+   ========================================================================== */
+
+:root{
+  color-scheme:dark;
+  /* palette: navy, teal, warm white */
+  --bg:#0B1220;
+  --surface:#141E30;
+  --surface-2:#1B2840;
+  --line:#2A3A52;
+  --line-strong:#405572;
+  --text:#F3F6FA;
+  --text-2:#B4C0D2;
+  --text-3:#8A98AE;
+  --accent:#2DD4BF;
+  --accent-ink:#06211D;
+  --accent-soft:#113632;
+  --warn:#FBBF24;
+  --warn-ink:#1B1300;
+  --danger:#FB7185;
+  --danger-soft:#2A1D27;
+  --info:#7CB4FA;
+  /* light surfaces for email, documents and screens */
+  --paper:#FFFFFF;
+  --paper-2:#F3F6FA;
+  --paper-3:#E8EEF5;
+  --paper-line:#D3DCE7;
+  --ink:#19283B;
+  --ink-2:#4F6078;
+  --ink-3:#2B4057;
+  --hl:#FFF0BB;
+  /* type scale in canvas pixels (8 steps; raised 8 Oct 2026 so supporting text reads at a projector distance) */
+  --t-display:76px;
+  --t-title:56px;
+  --t-lead:32px;
+  --t-h3:28px;
+  --t-body:28px;
+  --t-read:26px;   /* message bodies inside evidence mock-ups */
+  --t-copy:24px;
+  --t-small:20px;
+  --t-label:14px;
+  --lh-tight:1.08;
+  --lh-snug:1.3;
+  --lh:1.45;
+  /* spacing and radii */
+  --sp-1:8px; --sp-2:12px; --sp-3:18px; --sp-4:24px; --sp-5:32px; --sp-6:44px;
+  --r-s:8px; --r-m:14px; --r-l:20px;
+  /* safe area of the canvas */
+  --safe-x:80px; --safe-top:96px; --safe-bottom:60px;
+  --avatar:44px;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--text);overflow:hidden;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,p,dl,dd,figure{margin:0}
+ul,ol{margin:0}
+img{display:block;max-width:100%}
+a{color:var(--info)}
+button,a{touch-action:manipulation}
+button{font:inherit;cursor:pointer;color:inherit}
+button:disabled{opacity:.45;cursor:default}
+:focus-visible{outline:3px solid var(--warn);outline-offset:3px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+[hidden]{display:none!important}
+
+/* ---------- buttons ---------- */
+button{border:1px solid var(--line-strong);background:var(--surface-2);color:var(--text);border-radius:var(--r-s);padding:12px 20px;font-size:var(--t-small);line-height:1.2}
+button:hover:not(:disabled){border-color:var(--accent)}
+button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:700;font-size:var(--t-copy);padding:14px 24px}
+button.primary:hover:not(:disabled){background:#3BE0CC}
+
+/* ---------- canvas ---------- */
+.viewport{position:fixed;inset:0;overflow:hidden}
+.stage{--s:1;position:absolute;left:50%;top:50%;width:1600px;height:900px;transform:translate(-50%,-50%) scale(var(--s));transform-origin:center}
+.slides{position:absolute;inset:0}
+/* Three regions with reliable space (8 Oct 2026): header, body, footer are grid rows. The body row is the space left
+   after the header and the footer's actual height (a wrapped source line takes more), so the footer never moves and body
+   content that does not fit shows over it instead of pushing it off the canvas; build/qa/render.cjs fails that state. */
+.slide{position:absolute;inset:0;padding:var(--safe-top) var(--safe-x) var(--safe-bottom);display:none;grid-template-rows:auto minmax(0,1fr) auto;grid-template-columns:minmax(0,1fr)}
+.slide.active{display:grid;animation:arrive .16s ease-out}
+.slide>*{min-width:0}
+.head{grid-row:1}
+.body{grid-row:2;display:flex;flex-direction:column;min-height:0}
+.body>*{min-width:0}
+.foot{grid-row:3}
+@keyframes arrive{from{opacity:0}to{opacity:1}}
+
+/* ---------- shell: identity, module label, menu button, counter ---------- */
+.top{position:absolute;top:0;left:0;right:0;height:72px;padding:0 var(--safe-x);display:flex;align-items:center;justify-content:space-between;gap:var(--sp-4);z-index:2}
+.brand{display:flex;align-items:center;gap:10px;font-size:var(--t-label);letter-spacing:1.8px;text-transform:uppercase;font-weight:700;color:var(--text-2);white-space:nowrap}
+.brandmark{color:var(--accent);font-size:20px;letter-spacing:0;text-transform:none}
+.brandsub{font-weight:400;color:var(--text-3)}
+.topright{display:flex;align-items:center;gap:var(--sp-3);min-width:0}
+.tag{font-size:var(--t-label);letter-spacing:1.8px;text-transform:uppercase;color:var(--text-3);max-width:520px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.menubtn{width:44px;height:44px;padding:0;display:grid;place-items:center;border-radius:var(--r-s);background:transparent;border-color:var(--line);color:var(--text-2);flex-shrink:0}
+.menubtn:hover{color:var(--text)}
+.menubtn[aria-expanded="true"]{color:var(--accent);border-color:var(--accent)}
+.counter{position:absolute;right:var(--safe-x);bottom:22px;font-size:16px;color:var(--text-3);font-variant-numeric:tabular-nums;letter-spacing:.5px}
+
+/* ---------- slide header: label, title, explanation ---------- */
+.head{position:relative;margin-bottom:var(--sp-4)}
+.headrow{display:flex;justify-content:space-between;align-items:baseline;gap:var(--sp-4);margin-bottom:10px}
+.kicker{font-size:var(--t-label);letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700;min-width:0}
+.head.has-btn h2,.head.has-btn .what{padding-right:400px}
+h1{font-size:var(--t-display);line-height:var(--lh-tight);letter-spacing:-2.5px;font-weight:700}
+h2{font-size:var(--t-title);line-height:var(--lh-tight);letter-spacing:-1.4px;font-weight:700}
+h3{font-size:var(--t-h3);line-height:var(--lh-snug);font-weight:700}
+.what{font-size:var(--t-body);line-height:1.4;color:var(--text-2);margin-top:12px}
+.sub{font-size:var(--t-lead);color:var(--text-2);line-height:1.4;margin-top:14px;max-width:760px}
+.pill{flex-shrink:0;font-size:var(--t-label);letter-spacing:1.6px;text-transform:uppercase;color:var(--text-3);max-width:560px;text-align:right;line-height:1.5}
+.head .primary{position:absolute;right:0;top:30px;white-space:nowrap}
+.eyebrow{font-size:var(--t-label);text-transform:uppercase;letter-spacing:1.8px;color:var(--text-3);font-weight:700;line-height:1.3}
+
+/* ---------- takeaway: the slide's teaching point, placed inside the content it explains (8 Oct 2026) ----------
+   Typography and spacing only: a teal rule, an optional small label, one statement, supporting lines.
+   It participates in the slide's grid or stack; nothing is pinned to the bottom. .takeaway.row lays the
+   statement and its support side by side under a wide diagram. .lesson is the dedicated takeaway slide. */
+.takeaway{display:flex;flex-direction:column;gap:8px;border-top:2px solid var(--accent);padding-top:14px;min-width:0}
+.takeaway .tlabel{font-size:var(--t-label);letter-spacing:1.8px;text-transform:uppercase;color:var(--accent);font-weight:700;line-height:1.3}
+.takeaway .tmain{font-size:var(--t-h3);line-height:1.3;font-weight:700;color:var(--text);letter-spacing:-.2px}
+.takeaway .tacts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+.takeaway .tacts li,.takeaway .tnote{font-size:var(--t-copy);line-height:1.4;color:var(--text-2)}
+.takeaway .tacts li{position:relative;padding-left:22px}
+.takeaway .tacts li::before{content:"";position:absolute;left:0;top:.72em;width:10px;height:2px;background:var(--accent)}
+.takeaway .tacts strong,.takeaway .tnote strong{color:var(--text)}
+.takeaway.row{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);column-gap:var(--sp-5);row-gap:6px;align-items:start}
+.takeaway.row .tlabel,.takeaway.row .tmain:only-child{grid-column:1/-1}
+.takeaway.row.brief{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}   /* short statement, longer actions */
+/* a takeaway that follows a sibling inside a container without its own gap (the slide body, a reveal or vote wrapper, a plain
+   column) gets one deliberate step, so its rule never sits on the element above; containers with a gap already provide it */
+:where(:not(.stack,.side,.findings,.record,.card,.panel,.lesson,.tcard,.scene,.grid,.cards,.casegrid))>:where(*)+.takeaway{margin-top:var(--sp-4)}
+.feedback+.if-chosen{margin-top:14px}
+.if-chosen,.if-revealed,.takeaway,.feedback,.choices{flex-shrink:0}   /* never squash the answer; overflow must show (and fail QA) instead */
+.side>.takeaway,.stack>.takeaway{flex:0 0 auto}
+.lesson{flex:1;display:flex;flex-direction:column;justify-content:center;gap:var(--sp-4);max-width:1240px}
+.lesson .tlabel{font-size:var(--t-label);letter-spacing:1.8px;text-transform:uppercase;color:var(--accent);font-weight:700}
+.lesson .statement{font-size:48px;line-height:1.18;letter-spacing:-1px;font-weight:700}
+.lesson .statement span{color:var(--accent)}
+.lesson .tacts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;border-top:1px solid var(--line);padding-top:var(--sp-4)}
+.lesson .tacts li{font-size:var(--t-lead);line-height:1.35;color:var(--text);position:relative;padding-left:30px}
+.lesson .tacts li::before{content:"";position:absolute;left:0;top:.68em;width:14px;height:3px;background:var(--accent)}
+.lesson .tnote{font-size:var(--t-copy);line-height:1.45;color:var(--text-2);max-width:980px}
+
+/* ---------- slide footer: source line only ---------- */
+.foot{padding-top:10px;display:flex;flex-direction:column;gap:6px}
+.source{font-size:15px;color:var(--text-3);line-height:1.45;max-width:calc(100% - 200px)}
+.source a{color:var(--text-3)}
+
+/* ---------- reveal and vote states (slide-scoped) ---------- */
+.slide:not(.revealed) .if-revealed{display:none!important}
+.slide.revealed .if-unrevealed{display:none!important}
+.slide.pause-vote:not(.chosen) .if-chosen{display:none!important}
+
+/* ---------- overlays: drawer and side panels (viewport units, unscaled) ---------- */
+dialog{border:0;padding:0;margin:0;max-width:none;max-height:none;background:transparent;color:var(--text);font-size:16px;line-height:1.5}
+dialog::backdrop{background:rgba(4,8,16,.6)}
+.drawer,.panel-dialog{position:fixed;inset:0 0 0 auto;width:min(500px,100vw);height:100vh;height:100dvh}
+.sheet{height:100%;display:flex;flex-direction:column;background:var(--surface);border-left:1px solid var(--line)}
+.drawer[open] .sheet,.panel-dialog[open] .sheet{animation:slidein .18s ease-out}
+@keyframes slidein{from{transform:translateX(24px);opacity:0}to{transform:none;opacity:1}}
+.sheethead{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:18px 24px 16px;border-bottom:1px solid var(--line);flex-shrink:0}
+.sheethead h2{font-size:22px;letter-spacing:-.3px;line-height:1.2}
+.sheetkicker{font-size:12px;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:6px}
+.sheetbody{flex:1;min-height:0;overflow:auto;padding:20px 24px 32px;overscroll-behavior:contain}
+.sheetbody p,.sheetbody li{font-size:16px;line-height:1.55}
+.sheetbody p+p{margin-top:10px}
+.sheetbody h3{font-size:13px;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);margin:22px 0 8px}
+.sheetbody h3:first-child{margin-top:0}
+.sheetbody h4{font-size:12px;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);margin:20px 0 6px}
+.sheetbody ul{padding-left:20px}
+.sheetbody li{margin:6px 0}
+.close{padding:8px 14px;font-size:14px;flex-shrink:0}
+.muted{color:var(--text-3)}
+
+/* menu tools */
+.tools{display:flex;flex-direction:column;gap:8px;margin-bottom:24px}
+.tool{text-align:left;padding:12px 16px;display:flex;flex-direction:column;gap:3px;font-size:16px;font-weight:700;background:var(--surface-2);border-color:var(--line)}
+.tool .toolsub{font-weight:400;font-size:13px;color:var(--text-3)}
+.tool:disabled{opacity:.55}
+
+/* menu slide index */
+.index{display:flex;flex-direction:column;gap:4px}
+.idxmod{border-top:1px solid var(--line);padding:4px 0}
+.idxhead{margin:0;font-size:inherit}
+.idxtoggle{width:100%;text-align:left;display:flex;align-items:center;gap:10px;padding:10px 8px;background:transparent;border-color:transparent;font-size:15px;font-weight:700;color:var(--text)}
+.idxtoggle:hover{border-color:var(--line)}
+.idxmod.brk .idxtoggle{color:var(--text-2);font-weight:400}
+.idxmod.current .idxtoggle{color:var(--accent)}
+.idxchev{width:9px;height:9px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform .15s;flex-shrink:0;margin-left:4px}
+.idxtoggle[aria-expanded="true"] .idxchev{transform:rotate(45deg)}
+.idxname{flex:1;min-width:0}
+.idxcount{font-size:12px;color:var(--text-3);font-weight:400;white-space:nowrap}
+.idxlist{list-style:none;padding:0 0 8px 0;margin:0}
+.idxbtn{width:100%;text-align:left;display:flex;gap:12px;align-items:baseline;padding:7px 10px 7px 28px;font-size:15px;background:transparent;border-color:transparent;border-radius:6px;line-height:1.35}
+.idxbtn:hover{border-color:var(--line)}
+.idxbtn.here{background:var(--accent-soft);border-color:var(--accent);color:var(--text)}
+.idxid{color:var(--text-3);font-size:12px;font-variant-numeric:tabular-nums;min-width:22px;flex-shrink:0}
+.idxbtn.here .idxid{color:var(--accent)}
+
+/* notes, sources, help, about */
+.notemeta{color:var(--text-3)!important;font-size:14px!important}
+.notewarn{border-top:1px solid var(--line);padding-top:12px;margin-top:22px!important;font-size:14px!important;color:var(--text-3)}
+.refintro{color:var(--text-2);font-size:15px!important;margin-bottom:6px}
+.reflist{list-style:none;padding:0!important}
+.reflist li{margin:10px 0}
+.refuse{display:block;color:var(--text-3);font-size:13px;margin-top:2px;line-height:1.45}
+.keys{border-collapse:collapse;width:100%;margin-bottom:18px}
+.keys th,.keys td{text-align:left;padding:9px 4px;border-bottom:1px solid var(--line);font-size:15px;vertical-align:top}
+.keys th{font-weight:400;white-space:nowrap;width:46%}
+kbd{display:inline-block;font-family:inherit;font-size:13px;font-weight:700;background:var(--surface-2);border:1px solid var(--line-strong);border-bottom-width:2px;border-radius:6px;padding:2px 8px;min-width:28px;text-align:center;color:var(--text)}
+.aboutlist{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:15px}
+.aboutlist dt{color:var(--text-3)}
+.aboutlist dd{margin:0}
+
+/* ---------- motion ---------- */
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* ---------- narrow screens: unscaled reading layout with page scrolling ---------- */
+@media(max-width:899px){
+  :root{--t-display:44px;--t-title:34px;--t-lead:23px;--t-h3:21px;--t-body:20px;--t-read:19px;--t-copy:18px;--t-small:16px;--t-label:12px;--safe-x:16px;--avatar:40px}
+  body{overflow:auto}
+  .viewport{position:static;overflow:visible}
+  .stage{position:static;width:auto;height:auto;transform:none}
+  .top{position:sticky;top:0;height:56px;padding:0 16px;background:var(--bg);border-bottom:1px solid var(--line)}
+  .tag{display:none}
+  .slides{position:static}
+  .slide{position:static;padding:20px 16px 64px;min-height:calc(100dvh - 56px);grid-template-rows:auto 1fr auto}
+  .counter{position:fixed;right:16px;bottom:12px;background:var(--bg);padding:4px 8px;border-radius:6px}
+  .headrow{flex-wrap:wrap;gap:var(--sp-1) var(--sp-2)}
+  .pill{white-space:normal;max-width:none;text-align:left;flex:1 1 100%}
+  .head .primary{position:static;margin-top:var(--sp-2)}
+  .head.has-btn h2,.head.has-btn .what{padding-right:0}
+  .foot{padding-top:var(--sp-4)}
+  .takeaway.row{grid-template-columns:1fr}
+  .lesson .statement{font-size:30px;letter-spacing:-.5px}
+  .source{max-width:none}
+  h1,h2{letter-spacing:-1px}
+  .drawer,.panel-dialog{width:100vw}
+}
+
+/* ---------- print: one slide per landscape page (convenience only) ---------- */
+@media print{
+  @page{size:landscape;margin:10mm}
+  body{overflow:visible;background:#fff}
+  .viewport,.stage{position:static;transform:none;width:auto;height:auto}
+  .top,.counter,dialog{display:none!important}
+  .slides{position:static}
+  .slide,.slide.active{display:grid!important;grid-template-rows:auto auto auto;position:static;height:auto;min-height:0;break-after:page;background:var(--bg);padding:24px;print-color-adjust:exact;-webkit-print-color-adjust:exact;animation:none}
+  .slide:last-child{break-after:auto}
+  .slide:not(.revealed) .if-revealed{display:none!important}
+}

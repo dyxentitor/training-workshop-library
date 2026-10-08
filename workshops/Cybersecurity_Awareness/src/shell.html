@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<title>{{course_title}} — Workshop</title>
+<style>
+/*CSS*/
+</style></head><body>
+<!--SPRITE-->
+<div class="viewport" id="viewport">
+<div class="stage" id="stage">
+<header class="top"><div class="brand"><span class="brandmark" aria-hidden="true">m.</span> Meranti <span class="brandsub">Awareness workshop</span></div><div class="topright"><span class="tag" id="modlabel"></span><button type="button" class="menubtn" id="menuBtn" aria-label="Open menu" aria-haspopup="dialog" aria-expanded="false" aria-controls="menu"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" focusable="false"><path d="M3 5.5h16M3 11h16M3 16.5h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div></header>
+<main class="slides" id="slides">
+<!--SLIDES-->
+</main>
+<div class="counter" id="counter" aria-hidden="true"></div>
+</div>
+</div>
+
+<dialog class="drawer" id="menu" aria-labelledby="menuTitle">
+<div class="sheet">
+<div class="sheethead"><h2 id="menuTitle">Menu</h2><button type="button" class="close" data-close aria-label="Close menu">Close</button></div>
+<div class="sheetbody">
+<div class="tools" role="group" aria-label="Presenter tools">
+<button type="button" id="notesBtn" class="tool">Presenter notes<span class="toolsub">Shown on this screen</span></button>
+<button type="button" id="refsBtn" class="tool">Sources<span class="toolsub">Cited here and the full index</span></button>
+<button type="button" id="resetBtn" class="tool" hidden>Reset this interaction<span class="toolsub" id="resetSub">Clears this slide’s choice or reveal</span></button>
+<button type="button" id="fullBtn" class="tool">Enter fullscreen<span class="toolsub" id="fullSub">Shortcut: F</span></button>
+<button type="button" id="helpBtn" class="tool">Keyboard shortcuts<span class="toolsub">Shortcut: ?</span></button>
+<button type="button" id="aboutBtn" class="tool">About this workshop<span class="toolsub">Scenario, portraits and session details</span></button>
+</div>
+<nav class="index" id="indexBody" aria-label="Slides by module"></nav>
+</div>
+</div>
+</dialog>
+
+<dialog class="panel-dialog" id="notes" aria-labelledby="noteTitle">
+<div class="sheet">
+<div class="sheethead"><div><p class="sheetkicker">Presenter notes · shown on this screen</p><h2 id="noteTitle">Presenter notes</h2></div><button type="button" class="close" data-close aria-label="Close notes">Close</button></div>
+<div id="noteBody" class="sheetbody"></div>
+</div>
+</dialog>
+
+<dialog class="panel-dialog" id="refs" aria-labelledby="refsTitle">
+<div class="sheet">
+<div class="sheethead"><div><p class="sheetkicker">Reference index</p><h2 id="refsTitle">Sources</h2></div><button type="button" class="close" data-close aria-label="Close sources">Close</button></div>
+<div class="sheetbody"><p class="refintro">Primary sources cited in this workshop. Links open the publisher’s website in a new tab only when you select them. Meranti, its people and messages are fictional.</p><div id="refBody"></div></div>
+</div>
+</dialog>
+
+<dialog class="panel-dialog" id="help" aria-labelledby="helpTitle">
+<div class="sheet">
+<div class="sheethead"><div><p class="sheetkicker">Presenting this workshop</p><h2 id="helpTitle">Keyboard shortcuts</h2></div><button type="button" class="close" data-close aria-label="Close keyboard help">Close</button></div>
+<div class="sheetbody">
+<table class="keys"><tbody>
+<tr><th scope="row"><kbd>→</kbd> <kbd>Page Down</kbd></th><td>Next slide</td></tr>
+<tr><th scope="row"><kbd>←</kbd> <kbd>Page Up</kbd></th><td>Previous slide</td></tr>
+<tr><th scope="row"><kbd>Home</kbd> <kbd>End</kbd></th><td>First or last slide</td></tr>
+<tr><th scope="row"><kbd>M</kbd></th><td>Open or close the menu</td></tr>
+<tr><th scope="row"><kbd>F</kbd></th><td>Enter or exit fullscreen</td></tr>
+<tr><th scope="row"><kbd>?</kbd></th><td>Open this keyboard help</td></tr>
+<tr><th scope="row"><kbd>Esc</kbd></th><td>Close the open menu or panel</td></tr>
+</tbody></table>
+<p>Presentation clickers that send Page Up and Page Down work as previous and next. Shortcuts pause while a menu or panel is open and while you are using a control on a slide. Use Tab, Enter and Space to operate buttons as usual. On a phone or tablet, swipe horizontally on empty slide space.</p>
+<p>Most slides show everything at once. Pause-point slides (votes, reveals and the tabletop) wait for one click so the room can discuss first. Choices and reveals are kept while you move around the deck and cleared when the page reloads. “Reset this interaction” in the menu restores only the current slide.</p>
+<p><strong>Presenter notes are shown on this screen, not privately.</strong> They open as a panel over the current slide, so a projected audience sees them. Use the printed facilitator guide for private reference.</p>
+</div>
+</div>
+</dialog>
+
+<dialog class="panel-dialog" id="about" aria-labelledby="aboutTitle">
+<div class="sheet">
+<div class="sheethead"><div><p class="sheetkicker">Workshop information</p><h2 id="aboutTitle">About this workshop</h2></div><button type="button" class="close" data-close aria-label="Close workshop information">Close</button></div>
+<div class="sheetbody">
+<h3>Session</h3>
+<dl class="aboutlist"><dt>Workshop</dt><dd>{{course_title}}</dd><dt>Date</dt><dd>{{config:session_date}}</dd><dt>Venue</dt><dd>{{config:venue}}</dd><dt>Organisation</dt><dd>{{config:customer_name}}</dd></dl>
+<p class="muted">Bracketed fields are filled from the configuration file once the customer confirms them.</p>
+<h3>Fictional scenario</h3>
+<p>Meranti, its people, organisations and messages are fictional and reusable across sectors. Documented incidents are labelled on the slide and cited. Nobody needs to share a personal incident.</p>
+<h3>Portraits and scene photographs</h3>
+<p>Character portraits and the desk-scene photographs are AI-generated illustrations of fictional people; no real person is depicted. Diagrams are plain-language course illustrations, not reproductions of vendor figures.</p>
+<h3>Safety</h3>
+<p>This file works offline. Only the cited source links open external websites, and only when selected. It collects no information, stores nothing after reload and sends no messages. All mock links, files, codes and QR tiles are inert.</p>
+</div>
+</div>
+</dialog>
+
+<div class="sr-only" id="announce" aria-live="polite"></div>
+<script type="application/json" id="deck-data">/*DATA*/</script>
+<script>
+/*JS*/
+</script></body></html>

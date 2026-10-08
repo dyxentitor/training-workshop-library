@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="594" height="210" viewBox="0 0 594 210" role="img" aria-labelledby="title desc"><title id="title">Copied profile or taken-over account?</title><desc id="desc">Copied profile: a second account copies Aina’s name and appearance while her real account remains separate. Taken-over account: Siti’s real account is operated by someone else. Both can send a familiar-looking request, so verify outside the chat.</desc>
+<defs><style>text {font-family:Arial,Helvetica,sans-serif;}</style><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#B4C0D2"/></marker><marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2DD4BF"/></marker><marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FBBF24"/></marker><marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FB7185"/></marker></defs>
+<text id="label-1" x="14" y="23.0" font-size="21" fill="#F3F6FA" font-weight="700" text-anchor="start">COPIED PROFILE</text>
+<text id="label-2" x="314" y="23.0" font-size="21" fill="#F3F6FA" font-weight="700" text-anchor="start">TAKEN-OVER ACCOUNT</text>
+<rect x="14" y="36" width="130" height="82" rx="14" fill="#F3F6FA" stroke="#405572" stroke-width="2"/>
+<g transform="translate(79 65)" stroke="#19283B" stroke-width="2" fill="none"><circle cx="0" cy="-10" r="9"/><path d="M-17 17 C-17 -1 17 -1 17 17"/></g>
+<text id="label-3" x="79" y="107.0" font-size="18" fill="#19283B" font-weight="400" text-anchor="middle">Real: Aina</text>
+<rect x="158" y="36" width="130" height="82" rx="14" fill="#F3F6FA" stroke="#FBBF24" stroke-width="2"/>
+<g transform="translate(223 65)" stroke="#19283B" stroke-width="2" fill="none"><circle cx="0" cy="-10" r="9"/><path d="M-17 17 C-17 -1 17 -1 17 17"/></g>
+<text id="label-4" x="223" y="107.0" font-size="18" fill="#19283B" font-weight="400" text-anchor="middle">Copy: Aina</text>
+<text id="label-5" x="14" y="141" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="start">A separate account</text>
+<text id="label-6" x="14" y="163" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="start">copies her profile.</text>
+<rect x="314" y="36" width="130" height="82" rx="14" fill="#F3F6FA" stroke="#405572" stroke-width="2"/>
+<g transform="translate(379 65)" stroke="#19283B" stroke-width="2" fill="none"><circle cx="0" cy="-10" r="9"/><path d="M-17 17 C-17 -1 17 -1 17 17"/></g>
+<text id="label-7" x="379" y="107.0" font-size="18" fill="#19283B" font-weight="400" text-anchor="middle">Real: Siti</text>
+<g transform="translate(532 65)" stroke="#B4C0D2" stroke-width="2" fill="none"><circle cx="0" cy="-10" r="9"/><path d="M-17 17 C-17 -1 17 -1 17 17"/></g>
+<path d="M513 70 H444" fill="none" stroke="#B4C0D2" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-grey)"/>
+<text id="label-8" x="532" y="99" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="middle">Unknown</text>
+<text id="label-9" x="532" y="120" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="middle">operator</text>
+<text id="label-10" x="314" y="141" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="start">Someone else operates</text>
+<text id="label-11" x="314" y="163" font-size="18" fill="#B4C0D2" font-weight="400" text-anchor="start">the real account.</text>
+<path d="M14 177 H580" stroke="#2DD4BF" stroke-width="2"/>
+<text id="label-12" x="297" y="200.0" font-size="20" fill="#2DD4BF" font-weight="700" text-anchor="middle">Both need an independent check.</text>
+</svg>

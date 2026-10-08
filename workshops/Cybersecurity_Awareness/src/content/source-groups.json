@@ -1,0 +1,9 @@
+[
+  {"name": "Payment, impersonation and voice", "ids": ["S7", "S5", "S6", "S9", "S8"]},
+  {"name": "Email, files, QR and phishing taxonomy", "ids": ["S10", "S3"]},
+  {"name": "Sign-in, sessions, codes, consent and MFA", "ids": ["S11", "S12", "S13", "S14"]},
+  {"name": "Fake support, verification and repair", "ids": ["S15", "S16", "S17"]},
+  {"name": "Learning programme and frameworks", "ids": ["S20", "S21", "S18"]},
+  {"name": "Risk context (trainer reference)", "ids": ["S1", "S2"]},
+  {"name": "Malaysian context and external reporting", "ids": ["S4", "S19"]}
+]

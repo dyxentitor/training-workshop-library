@@ -1,0 +1,90 @@
+[
+ {
+  "id": "M0",
+  "name": "Opening baseline",
+  "kind": "module",
+  "start": "10:00",
+  "end": "10:20",
+  "minutes": 20
+ },
+ {
+  "id": "M1",
+  "name": "The borrowed identity",
+  "kind": "module",
+  "start": "10:20",
+  "end": "11:05",
+  "minutes": 45
+ },
+ {
+  "id": "B1",
+  "name": "Short break",
+  "kind": "break",
+  "start": "11:05",
+  "end": "11:15",
+  "minutes": 10
+ },
+ {
+  "id": "M2",
+  "name": "The trusted request",
+  "kind": "module",
+  "start": "11:15",
+  "end": "12:00",
+  "minutes": 45
+ },
+ {
+  "id": "M3",
+  "name": "The message that fits your job",
+  "kind": "module",
+  "start": "12:00",
+  "end": "13:00",
+  "minutes": 60
+ },
+ {
+  "id": "B2",
+  "name": "Lunch break",
+  "kind": "break",
+  "start": "13:00",
+  "end": "14:15",
+  "minutes": 75
+ },
+ {
+  "id": "M4",
+  "name": "Beyond the password",
+  "kind": "module",
+  "start": "14:15",
+  "end": "15:05",
+  "minutes": 50
+ },
+ {
+  "id": "M5",
+  "name": "The helpful stranger",
+  "kind": "module",
+  "start": "15:05",
+  "end": "15:40",
+  "minutes": 35
+ },
+ {
+  "id": "B3",
+  "name": "Tea break",
+  "kind": "break",
+  "start": "15:40",
+  "end": "16:05",
+  "minutes": 25
+ },
+ {
+  "id": "M6",
+  "name": "Stop the chain",
+  "kind": "module",
+  "start": "16:05",
+  "end": "16:40",
+  "minutes": 35
+ },
+ {
+  "id": "M7",
+  "name": "Report and recover",
+  "kind": "module",
+  "start": "16:40",
+  "end": "17:00",
+  "minutes": 20
+ }
+]

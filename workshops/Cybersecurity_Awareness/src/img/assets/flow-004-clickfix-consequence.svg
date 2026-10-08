@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="594" height="360" viewBox="0 0 594 360" role="img" aria-labelledby="title desc"><title id="title">What the paste step can do</title><desc id="desc">An unexpected web page asks the employee to paste into a system tool. Pasted instructions can execute, download or run malicious software, and may lead to information theft or remote control. Stop, close the page and contact IT by a known route. If anything was already run, report immediately. Outcomes depend on what ran and which protections blocked it.</desc>
+<defs><style>text {font-family:Arial,Helvetica,sans-serif;}</style><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#B4C0D2"/></marker><marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2DD4BF"/></marker><marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FBBF24"/></marker><marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FB7185"/></marker></defs>
+<text id="label-1" x="16" y="24.0" font-size="19" fill="#B4C0D2" font-weight="700" text-anchor="start">WHAT THE REQUEST CAN DO</text>
+<rect x="16" y="42" width="340" height="60" rx="14" fill="#F3F6FA" stroke="#FBBF24" stroke-width="2"/>
+<text id="label-2" x="30" y="67" font-size="19" fill="#19283B" font-weight="400" text-anchor="start">1  Page asks you to paste</text>
+<text id="label-3" x="30" y="90" font-size="19" fill="#19283B" font-weight="400" text-anchor="start">into a system tool.</text>
+<rect x="16" y="122" width="340" height="60" rx="14" fill="#F3F6FA" stroke="#405572" stroke-width="2"/>
+<text id="label-4" x="30" y="147" font-size="19" fill="#19283B" font-weight="400" text-anchor="start">2  Pasted text can execute</text>
+<text id="label-5" x="30" y="170" font-size="19" fill="#19283B" font-weight="400" text-anchor="start">instructions on your device.</text>
+<rect x="16" y="202" width="340" height="60" rx="14" fill="#141E30" stroke="#FB7185" stroke-width="2"/>
+<text id="label-6" x="30" y="227" font-size="19" fill="#F3F6FA" font-weight="400" text-anchor="start">3  Malicious instructions can</text>
+<text id="label-7" x="30" y="250" font-size="19" fill="#F3F6FA" font-weight="400" text-anchor="start">download or run software.</text>
+<rect x="16" y="282" width="340" height="54" rx="14" fill="#141E30" stroke="#FB7185" stroke-width="2"/>
+<text id="label-8" x="30" y="307" font-size="19" fill="#F3F6FA" font-weight="400" text-anchor="start">4  Possible harm: data theft</text>
+<text id="label-9" x="30" y="330" font-size="19" fill="#F3F6FA" font-weight="400" text-anchor="start">or remote control.</text>
+<path d="M186 102 V122" fill="none" stroke="#B4C0D2" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-grey)"/>
+<path d="M186 182 V202" fill="none" stroke="#FB7185" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-coral)"/>
+<path d="M186 262 V282" fill="none" stroke="#FB7185" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-coral)"/>
+<rect x="388" y="42" width="190" height="142" rx="14" fill="#141E30" stroke="#2DD4BF" stroke-width="2"/>
+<text id="label-10" x="406" y="75.0" font-size="25" fill="#2DD4BF" font-weight="700" text-anchor="start">STOP</text>
+<text id="label-11" x="406" y="107" font-size="19" fill="#B4C0D2" font-weight="400" text-anchor="start">Close the page.</text>
+<text id="label-12" x="406" y="133" font-size="19" fill="#B4C0D2" font-weight="400" text-anchor="start">Contact IT using</text>
+<text id="label-13" x="406" y="159" font-size="19" fill="#B4C0D2" font-weight="400" text-anchor="start">your known route.</text>
+<path d="M356 74 H388" fill="none" stroke="#2DD4BF" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="388" y="202" width="190" height="110" rx="14" fill="#141E30" stroke="#405572" stroke-width="2"/>
+<text id="label-14" x="406" y="230" font-size="19" fill="#B4C0D2" font-weight="400" text-anchor="start">Already ran it?</text>
+<text id="label-15" x="406" y="256" font-size="19" fill="#B4C0D2" font-weight="400" text-anchor="start">Report to IT</text>
+<text id="label-16" x="406" y="282" font-size="19" fill="#B4C0D2" font-weight="400" text-anchor="start">immediately.</text>
+</svg>

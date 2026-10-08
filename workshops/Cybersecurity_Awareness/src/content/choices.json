@@ -1,0 +1,127 @@
+{
+ "SL05": {
+  "aria": "Choose Farid’s next action",
+  "subs": [
+   "The invoice and manager’s message appear to match.",
+   "Reply to the same conversation before making the change.",
+   "Use existing records and follow the payment approval process."
+  ],
+  "details": [
+   "A familiar invoice and an apparent manager’s instruction do not verify the new bank account.",
+   "If someone controls the mailbox, they can also send the confirmation.",
+   "Use the supplier’s established contact details, then follow the normal payment approval process."
+  ]
+ },
+ "SL11-pick": {
+  "aria": "Choose how to establish which profile is genuine",
+  "options": [
+   {
+    "label": "Profile A is the real Aina",
+    "feedback": "The screen cannot tell you that.",
+    "detail": "Names, photos and posts can all be copied."
+   },
+   {
+    "label": "Profile B is the real Aina",
+    "feedback": "The screen cannot tell you that.",
+    "detail": "Account age and followers can be faked too."
+   },
+   {
+    "label": "Contact Aina through the staff directory",
+    "feedback": "Verify outside both profiles.",
+    "detail": "Use the directory or a known number.",
+    "preferred": true
+   }
+  ]
+ },
+ "SL16": {
+  "aria": "Choose Farid’s response to the profile request",
+  "subs": [
+   "The face and name match Aina’s.",
+   "Ask “Is this really you?” in the same conversation.",
+   "Use the established contact, then check sharing permission."
+  ],
+  "details": [
+   "A photo, name and job title are exactly what a copied profile reproduces.",
+   "If someone else controls the chat, they will simply say yes.",
+   "Even if Aina really sent it, confirm she needs the contract and that sharing it this way is allowed."
+  ]
+ },
+ "SL25": {
+  "aria": "Choose which number Farid calls",
+  "subs": [
+   "It arrived with the change request.",
+   "The contact already held in the finance system.",
+   "Leave it until someone else notices."
+  ],
+  "details": [
+   "Whoever sent the change also controls that number.",
+   "If Maju’s number has genuinely changed, update the record through the approved procedure first.",
+   "Pausing is right, but the payment owner and security need to know."
+  ]
+ },
+ "SL26": {
+  "aria": "Choose what Farid does after the confirmation call",
+  "subs": [
+   "The supplier confirmed it is real.",
+   "Record the change, get approvals, then pay.",
+   "Refuse until the supplier gives up."
+  ],
+  "details": [
+   "The call answers who is asking. It does not replace the approval step.",
+   "A genuine change still follows the bank-change and payment controls.",
+   "Treating genuine requests as fraud damages trust and still skips the process."
+  ]
+ },
+ "SL49": {
+  "aria": "Choose the response to an unfamiliar approval",
+  "subs": [
+   "The sign-in page and app store are real.",
+   "Find out who started it and why, using a route you know.",
+   "Stop the prompts by turning protection off."
+  ],
+  "details": [
+   "A real service can still sign in someone else’s device or app.",
+   "If you did not start it, deny or cancel and report it.",
+   "MFA still blocks many attacks. Report unexpected prompts instead."
+  ]
+ },
+ "SL53": {
+  "aria": "Choose Aina’s response to the screen-control request",
+  "subs": [
+   "It is a common remote support tool.",
+   "Find the ticket using the portal or number you already know.",
+   "Read out the code from your phone."
+  ],
+  "details": [
+   "A legitimate tool can give a stranger full control.",
+   "A genuine technician can wait while you check.",
+   "IT will never need you to read out a code."
+  ]
+ },
+ "SL57": {
+  "aria": "Choose what Aina can proceed with",
+  "subs": [
+   "Accept the booked session under the normal support policy.",
+   "Let Mei see and copy anything she likes.",
+   "Refuse because all remote help is risky."
+  ],
+  "details": [
+   "Stay present and share only what the fix needs.",
+   "A verified ticket covers the agreed fix, not unlimited access.",
+   "Rejecting all help leaves real problems unfixed."
+  ]
+ },
+ "SL73": {
+  "aria": "Choose Aina’s response to the HR request",
+  "subs": [
+   "HR is confirmed, so send everything.",
+   "Check the task, then share only what is needed, the approved way.",
+   "Refuse every request for staff data."
+  ],
+  "details": [
+   "A genuine requester still needs a permitted reason and the approved route.",
+   "For example: names and contact details only, through the HR system rather than an email attachment.",
+   "This request is genuine. Report suspicious requests, not every sensitive one."
+  ]
+ }
+}

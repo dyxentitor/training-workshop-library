@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc"><title id="title">Decorative break backdrop</title><desc id="desc">Decorative near-navy texture confined to the top of the slide; no information is encoded.</desc>
+<defs><style>text {font-family:Arial,Helvetica,sans-serif;}</style><marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#B4C0D2"/></marker><marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2DD4BF"/></marker><marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FBBF24"/></marker><marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#FB7185"/></marker></defs>
+<rect width="1600" height="900" fill="#0B1220"/>
+<defs><clipPath id="break-band"><rect x="0" y="74" width="650" height="154"/></clipPath></defs><g clip-path="url(#break-band)" stroke="#1B2840" stroke-width="1" opacity="0.35">
+<path d="M-200 228 L-46 74"/>
+<path d="M-162 228 L-8 74"/>
+<path d="M-124 228 L30 74"/>
+<path d="M-86 228 L68 74"/>
+<path d="M-48 228 L106 74"/>
+<path d="M-10 228 L144 74"/>
+<path d="M28 228 L182 74"/>
+<path d="M66 228 L220 74"/>
+<path d="M104 228 L258 74"/>
+<path d="M142 228 L296 74"/>
+<path d="M180 228 L334 74"/>
+<path d="M218 228 L372 74"/>
+<path d="M256 228 L410 74"/>
+<path d="M294 228 L448 74"/>
+<path d="M332 228 L486 74"/>
+<path d="M370 228 L524 74"/>
+<path d="M408 228 L562 74"/>
+<path d="M446 228 L600 74"/>
+<path d="M484 228 L638 74"/>
+<path d="M522 228 L676 74"/>
+<path d="M560 228 L714 74"/>
+<path d="M598 228 L752 74"/>
+<path d="M636 228 L790 74"/>
+<path d="M674 228 L828 74"/>
+</g>
+</svg>

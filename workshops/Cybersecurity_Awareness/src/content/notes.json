@@ -1,0 +1,579 @@
+{
+ "SL01": {
+  "answer": "No hidden answer. Let the room say what they would check before paying.",
+  "extra": [
+   "Say: “Today we will practise handling requests involving information, account access and money. Some messages are genuine. We will focus on how to verify and what to do if we already acted.”",
+   "Meranti, its people and messages are fictional and reusable across sectors. Documented cases later are labelled and cited. Nobody needs to share a personal incident.",
+   "Farid is the central character of the opening. Aina and Mei appear later. Do not reveal the eventual fraud outcome.",
+   "The cover carries an optional dusk-office backdrop at 15% opacity. It is decorative only; the headline and the email stay the two focal points."
+  ]
+ },
+ "SL02": {
+  "answer": "",
+  "extra": [
+   "Set expectations: everything is fictional, no wrong questions, nobody shares personal incidents, reporting is never blamed."
+  ]
+ },
+ "SL03": {
+  "answer": "The email proves little: the sender and destination both use the expected fictional supplier domain, but that does not show who controls the mailbox or whether the bank change is genuine.",
+  "extra": [
+   "Let participants inspect the sender and the destination. This is intentionally a hard example involving possible account misuse, not an obvious typo.",
+   "Ask: What changed? How would you verify it? No attachment opens."
+  ]
+ },
+ "SL04": {
+  "answer": "No. A display name and a deadline say little about who controls the account.",
+  "extra": [
+   "Reveal one message at a time. After each, ask whether the evidence supports making the bank change.",
+   "Participants should feel comfortable keeping approval procedures even under pressure from an apparent manager.",
+   "The desk photograph is an AI-generated illustration of Farid (fictional); no readable screen or chat content is shown. It illustrates the scene and is not evidence.",
+   "The point for this scene is on the next slide, after the room has answered."
+  ]
+ },
+ "SL04B": {
+  "answer": "Little. The email’s matching address and the chat’s display name show only what a sender chose to display; neither shows who controls the account or whether the bank change is genuine. Farid’s call to the number in the supplier record is the check that can.",
+  "extra": [
+   "Explanation stage for scenes 01 and 02 (layout fix, 8 Oct 2026): the room answers both questions first, then this slide gives the two points. The desk photograph stays on the previous slide; no new scene.",
+   "Keep the link to the decision: the next slide asks what Farid should do."
+  ]
+ },
+ "SL05": {
+  "answer": "C: call the supplier using existing records, then follow normal approval. B relies on the same possibly compromised channel; A leaves the change unverified.",
+  "extra": [
+   "Baseline decision (see ASSESSMENT.md). Ask for a show of hands before selecting. Record reasoning, not names.",
+   "Do not shame an incorrect choice. Discuss why it feels convenient. A genuine payment change would still need the same controls."
+  ]
+ },
+ "SL06": {
+  "answer": "The callback adds facts the messages could not provide: the supplier denies the change and Ravi denies the chat. Farid holds and reports.",
+  "extra": [
+   "Reveal only after discussion. These are fictional facts disclosed now, not clues the audience could have spotted earlier.",
+   "IT investigates how the identities were misused. Preserve evidence and use the organisation’s actual reporting channel.",
+   "Source wording: the FBI IC3 page advises verifying through secondary channels. “Existing records” is this course’s practical form of that advice."
+  ]
+ },
+ "SL07": {
+  "answer": "An independent, authorised transaction workflow, such as a call-back on a known number and a second approver, could interrupt the sequence regardless of how convincing the meeting looked.",
+  "extra": [
+   "Official account: Hong Kong Government LCQ9, 26 June 2024, describing an incident in January 2024. About HK$200 million; an email impersonating the CFO; a fabricated, prerecorded video conference with no interaction; transfers to five local bank accounts; later instructions by instant messaging.",
+   "Do not describe this as proven real-time interactive AI. Do not name the company or invent dialogue."
+  ]
+ },
+ "SL08": {
+  "answer": "",
+  "extra": [
+   "Read the ‘why this matters’ line, then ask: has anyone seen something like this at work? Keep it to one or two answers."
+  ]
+ },
+ "SL09": {
+  "answer": "",
+  "extra": [
+   "Definitions are course paraphrases in plain English. MITRE ATT&CK T1566 lists phishing sub-techniques (attachment, link, via service, voice) if participants ask for a taxonomy.",
+   "Optional risk context for the trainer only: Verizon’s 2026 DBIR reports vulnerability exploitation as the leading initial access vector, at 31% of breaches analysed (incidents from 1 November 2024 to 31 October 2025). Do not say most attacks begin with spear phishing."
+  ]
+ },
+ "SL09B": {
+  "answer": "Step 1 is impersonation; step 2 targets a particular group (spear phishing); step 3 asks for a harmful action (phishing). One incident can involve all three.",
+  "extra": []
+ },
+ "SL10": {
+  "answer": "Job title, project, colleague and supplier names, and an event date can all make a message feel expected. None proves the sender works with Aina or has authority.",
+  "extra": [
+   "Use only these invented posts. Public context reduces suspicion; that is a normal human reaction, not carelessness. Avoid victim blame.",
+   "If asked: organisations can agree what staff share publicly about projects, but the course does not prescribe a social-media policy."
+  ]
+ },
+ "SL11": {
+  "answer": "C: contact Aina through the staff directory. Neither profile can be shown to be genuine from the screen.",
+  "extra": [
+   "Give no credit for guessing from account age, follower counts or handle style; these can be bought, built or copied.",
+   "Which details can be copied? Photo, name, title, posts, handle style and even mutual connections."
+  ]
+ },
+ "SL12": {
+  "answer": "",
+  "extra": [
+   "Even if Siti really sent it, a full staff contact list may be more than the task needs.",
+   "Ask what the request would disclose before moving on; the findings and the copied/taken-over diagram are on the next slide."
+  ]
+ },
+ "SL12B": {
+  "answer": "Verify the purpose through the directory and share only what the event needs through the approved route. The account may genuinely be Siti’s and still be controlled by someone else.",
+  "extra": [
+   "Distinguish compromise (someone controls the genuine account) from cloning (a separate copy). The response differs: see SL15.",
+   "The diagram replaces the earlier hint: cloning copies a profile (a separate account), compromise means someone else controls the real account. Both can send this message, so both need an independent check."
+  ]
+ },
+ "SL13": {
+  "answer": "The support contact found Aina, not the other way round. Start support from the known service: saved bookmark, installed app or the IT helpdesk.",
+  "extra": [
+   "Do not suggest every advert or reply is malicious. The safe habit is choosing the route yourself.",
+   "Never send a code you receive to anyone. The fictional brand CloudDocs and all addresses use reserved .example names."
+  ]
+ },
+ "SL14": {
+  "answer": "At message 2 (sign in with a work account) and message 3 (internal documents). The earlier friendly exchange does not authorise either.",
+  "extra": [
+   "Pair exercise: three minutes. Each pair names the point requiring verification and the route they would use.",
+   "Riverside Partners and Daniel are fictional."
+  ]
+ },
+ "SL15": {
+  "answer": "Preserve, report and warn. The sorting of actions by situation follows on the next slide.",
+  "extra": [
+   "Internal security or communications owns coordination for work-related impersonation. Do not promise platform takedown times."
+  ]
+ },
+ "SL15B": {
+  "answer": "Report the copy: copied profile. Official recovery: takeover. Warn contacts through a trusted channel: both. Preserving details applies to both.",
+  "extra": [
+   "A password change secures the genuine account but does nothing about a separate copied profile."
+  ]
+ },
+ "SL16": {
+  "answer": "Contact Aina through the staff directory, then check whether the contract may be shared and how.",
+  "extra": [
+   "Ask learners to justify the route, not only the label (“it’s phishing”). “Not enough evidence: verify” is a sound answer."
+  ]
+ },
+ "SL17": {
+  "answer": "",
+  "extra": [
+   "Ask one person to put the habit in their own words for their job."
+  ]
+ },
+ "SL18": {
+  "answer": "",
+  "extra": [
+   "10-minute break. Restart on time; nothing advances automatically."
+  ]
+ },
+ "SL19": {
+  "answer": "",
+  "extra": [
+   "Read the ‘why this matters’ line, then ask: has anyone seen something like this at work? Keep it to one or two answers."
+  ]
+ },
+ "SL20": {
+  "answer": "Confirm through established channels (Ravi’s directory number) and use the normal purchasing approval, even under deadline.",
+  "extra": [
+   "Connect to the opening without replaying it: the pattern is authority plus urgency plus a process exception.",
+   "Managers in the room: say explicitly that you will support staff who pause to verify.",
+   "The desk photograph is an AI-generated illustration of Farid (fictional) reading the request; no readable screen or chat content is shown."
+  ]
+ },
+ "SL21": {
+  "answer": "Urgency, secrecy and an exception to normal approval. The risk is the exception itself, even if the sender is genuine.",
+  "extra": [
+   "Discuss authority, fear and helpfulness as normal reactions. Do not stereotype who falls for this."
+  ]
+ },
+ "SL22": {
+  "answer": "A strong response is polite, names a specific route (directory number, approval system) and states the next step and rough time.",
+  "extra": [
+   "Two minutes per round, then swap. Make room for cultural and hierarchy concerns: what makes challenging a senior person hard here?",
+   "Do not reward refusing everything without escalation. Managers should model welcoming the pause."
+  ]
+ },
+ "SL23": {
+  "answer": "Nothing in the call proves identity. End politely and contact the service desk through its established number or portal. Never read out a sign-in code.",
+  "extra": [
+   "Read the script aloud; no recording or voice cloning of real people is used.",
+   "The joint Scattered Spider advisory (updated 29 July 2025) describes helpdesk impersonation and phone-based social engineering. Our recheck could not retrieve that page on 2 October 2026; the description rests on the earlier research review.",
+   "The desk photograph is an AI-generated illustration of Aina (fictional) taking the call; the caller is deliberately not shown and no real person is depicted."
+  ]
+ },
+ "SL23B": {
+  "answer": "Nothing in the call proves identity. End politely and contact the service desk through its established number or portal. Never read out a sign-in code.",
+  "extra": [
+   "The three actions are the whole response; keep them in this order. A genuine service desk can wait while Aina calls it back.",
+   "Continuation of SL23 (takeaway rework, 8 Oct 2026): the transcript, question and photograph fill the previous slide, so the lesson has its own screen. No new scene."
+  ]
+ },
+ "SL24": {
+  "answer": "Spotting glitches is unreliable as the only defence; an independent, authorised transaction process works whether or not the media is fake.",
+  "extra": [
+   "Do not claim all synthetic media is detectable, or that all video calls are unsafe.",
+   "Hong Kong case detail to preserve: the official account describes a prerecorded video with no interaction."
+  ]
+ },
+ "SL25": {
+  "answer": "B: the existing vendor record. A number supplied with the change comes from the same unverified request.",
+  "extra": [
+   "The genuine vendor may really have a new number too. Then update the record through the approved procedure before relying on it.",
+   "Option C: pausing is right, but the payment owner and security need to know."
+  ]
+ },
+ "SL26": {
+  "answer": "B: complete the approved bank-change and payment process. Verification (who) and authorisation (whether) serve different purposes.",
+  "extra": [
+   "This is an explicit legitimate example. Learners should not leave thinking every bank change is fraud."
+  ]
+ },
+ "SL27": {
+  "answer": "",
+  "extra": [
+   "Ask one person to put the habit in their own words for their job."
+  ]
+ },
+ "SL28": {
+  "answer": "",
+  "extra": [
+   "Read the ‘why this matters’ line, then ask: has anyone seen something like this at work? Keep it to one or two answers."
+  ]
+ },
+ "SL29": {
+  "answer": "Calendar: sign in from a link. HR: disclose personal and bank data. Shared file: open, possibly then sign in. Any could be genuine; each needs the three questions.",
+  "extra": [
+   "Do not claim most breaches start with spear phishing. Phishing matters because it targets everyday tasks."
+  ]
+ },
+ "SL30": {
+  "answer": "The display name says Ravi; the address and reply-to are a free-mail account, not his directory address. That mismatch is a clue. A matching address would still need the request verified.",
+  "extra": [
+   "In notes only, not as a protocol lecture: display names are free text; lookalike domains imitate real ones; a compromised mailbox sends from the real address."
+  ]
+ },
+ "SL31": {
+  "answer": "attacker.test controls it. Read the hostname from the right up to the first single slash; login.company.example is just a label chosen by the owner.",
+  "extra": [
+   "Reserved .test and .example names; nothing navigates. Genuine hosting services and redirects can also be abused, so a familiar domain is not a guarantee."
+  ]
+ },
+ "SL32": {
+  "answer": "A is genuine information (still use your bookmark). B asks for an approval: verify it in the procurement system or with the known approver.",
+  "extra": [
+   "AI can improve lure writing. Do not label a sample as AI-generated without evidence; grammar is simply a weak signal."
+  ]
+ },
+ "SL33": {
+  "answer": "Ask where Aina would check. Hold the inspection for the next slide.",
+  "extra": [
+   "Mobile is not inherently unsafe; it compresses detail. The link is inert text."
+  ]
+ },
+ "SL33B": {
+  "answer": "The sender label is just text and the short link gives little to compare. Aina checks by opening her saved IT app or portal herself, not the link, and reports the message.",
+  "extra": [
+   "The earlier “on a desktop you would also see” card is now a presenter point: a desktop mail client usually shows full sender details and a hover preview of a link, while a phone shows a sender label and the link text, with less room to compare. Mobile is not inherently unsafe; it compresses detail. The slide now keeps the comparison on the same SMS: the label is not identity, and the shown address differs from the saved portal.",
+   "The “saved IT portal” (it.meranti.example) is a fictional Meranti scenario detail, not a customer setting. Replace it with the customer’s real portal name only once it is confirmed in the configuration."
+  ]
+ },
+ "SL34": {
+  "answer": "To a hostname ending in attacker.test. Use the known portal instead of an unsolicited code.",
+  "extra": [
+   "The tile is decorative: random modules under a solid label, encoding nothing. Ask participants not to point phones at slides.",
+   "Microsoft reported QR-code phishing in its telemetry rising from about 7.6 million in January to 18.7 million in March 2026. That is one provider’s observed volume, not global prevalence or success rate.",
+   "Device-linking QR codes come later (SL47); they grant account access rather than leading to a web page."
+  ]
+ },
+ "SL35": {
+  "answer": "Verify the sharing context: was the file expected? Open it from the known storage app, or ask Nadia through the established contact, before any unexpected sign-in or download.",
+  "extra": [
+   "Keep attachments inert. PDF, HTML and SVG are examples of formats used in lures, not automatic signs of an attack. Microsoft’s Q1 2026 report describes shifts in file formats used."
+  ]
+ },
+ "SL36": {
+  "answer": "Card 1: verify first (genuine change, still unapproved). Card 2: verify first, report if not sent by Siti (genuine account misused). Card 3: proceed (genuine notice found through a known route). Card 4: hold and report (impersonated urgent exception).",
+  "extra": [
+   "Score the process, not how many messages a table calls malicious. ‘Verify’ is often right before classification.",
+   "Reveal the hidden facts only after tables have chosen and explained. Facilitator guide has the full key."
+  ]
+ },
+ "SL37": {
+  "answer": "Each signal establishes something narrow (appearance, delivery, encryption, a passed sign-in check). None validates the business request.",
+  "extra": [
+   "Do not imply HTTPS is useless: it protects the connection to the destination. MFA remains valuable."
+  ]
+ },
+ "SL38": {
+  "answer": "Use the organisation’s actual process. Until confirmed, the slide shows a placeholder for the support/ticket route.",
+  "extra": [
+   "This is a course summary, not an official mnemonic. Ask each table to name a concrete route they use today."
+  ]
+ },
+ "SL39": {
+  "answer": "",
+  "extra": [
+   "Ask one person to put the habit in their own words for their job."
+  ]
+ },
+ "SL40": {
+  "answer": "",
+  "extra": [
+   "75-minute lunch break. Restart on time; nothing advances automatically."
+  ]
+ },
+ "SL41": {
+  "answer": "",
+  "extra": [
+   "Read the ‘why this matters’ line, then ask: has anyone seen something like this at work? Keep it to one or two answers."
+  ]
+ },
+ "SL41B": {
+  "answer": "",
+  "extra": [
+   "The glossary covers every technical term used in this module; point back to it whenever a term comes up."
+  ]
+ },
+ "SL42": {
+  "answer": "Session: whoever holds it acts as you. MFA approval: access for the triggering sign-in. App permission: the app uses your data. Linked device: that device reads and sends as you.",
+  "extra": [
+   "Keep protocol names in notes. The point: each approval gives something to someone; ask what, and who started it."
+  ]
+ },
+ "SL43": {
+  "answer": "The relay obtains a valid session and can reuse it while that session remains valid and the service’s controls allow it, often without the password or another prompt.",
+  "extra": [
+   "Adversary-in-the-middle, described conceptually. No proxy code or live capture is shown, and there are no credential fields.",
+   "Do not say MFA is pointless. CISA recommends phishing-resistant MFA (FIDO/WebAuthn, PKI) because it is bound to the genuine site. The CISA fact sheet is dated October 2022.",
+   "The relay diagram replaces the three mock screens (a lookalike page with no fields, the real MFA prompt, “someone else’s browser”). The page passes what Aina types to the real service; the real service asks her to approve; the relay keeps the session the service issues.",
+   "Whether and for how long a captured session works depends on its validity and the service’s session controls (Microsoft, 29 May 2025). A new password or MFA prompt may not be requested for that access, but this is not guaranteed in every service."
+  ]
+ },
+ "SL44": {
+  "answer": "A: deny each prompt and report it.",
+  "extra": [
+   "MFA remains useful. Number matching reduces some risks but does not legitimise a request you did not start.",
+   "Repeated prompts may mean the password is known: IT can investigate and reset."
+  ]
+ },
+ "SL45": {
+  "answer": "Hold the answer: ask whose device or session the code would authorise, then move to the diagram.",
+  "extra": [
+   "No real device code is shown. The service address being genuine does not validate the request."
+  ]
+ },
+ "SL45B": {
+  "answer": "The code was generated by the sender’s device. If Aina enters it on the real page, signs in if asked and authorises the request, that device is signed in as Aina. Authorise only sign-ins you started yourself.",
+  "extra": [
+   "Microsoft (6 April 2026) describes device-code phishing in which victims unknowingly authorise the attacker’s session through the legitimate sign-in flow, without exposing credentials.",
+   "No real device code is shown. The service address being genuine does not validate the request.",
+   "Device-code phishing works through the legitimate sign-in flow: Aina must enter the code on the real page, authenticate if asked and authorise the request; entering the code alone is not described as an unconditional grant (Microsoft, 6 April 2026)."
+  ]
+ },
+ "SL46": {
+  "answer": "B: request the app through the approved IT process.",
+  "extra": [
+   "A real consent screen does not validate the app’s purpose. Unknown publisher alone is not definitive. Never ask learners to grant real consent."
+  ]
+ },
+ "SL47": {
+  "answer": "The app asks to link a device, not to join a group.",
+  "extra": [
+   "The tile is decorative and links nothing."
+  ]
+ },
+ "SL47B": {
+  "answer": "Joining a group adds you to a conversation; linking a device gives that device ongoing access to your account. This QR would link a device.",
+  "extra": [
+   "Course explanation. Our recheck found that the cited Microsoft article covers device registration/join abuse but did not find ‘account linking’ wording; present linking as general product behaviour, not a sourced incident."
+  ]
+ },
+ "SL48": {
+  "answer": "Credentials were exposed, but access was prevented because sign-in required hardware security keys. Layered controls and prompt response worked together.",
+  "extra": [
+   "Cloudflare’s first-party post (9 August 2022) describes the 20 July 2022 SMS campaign: three employees entered credentials; FIDO2 keys prevented the logins.",
+   "Historical positive case. Do not blame staff. Do not promise keys prevent consent abuse or payment fraud."
+  ]
+ },
+ "SL49": {
+  "answer": "B: check the initiating session or app through the known route.",
+  "extra": [
+   "Ask for the learner’s explanation in plain words rather than technical vocabulary."
+  ]
+ },
+ "SL50": {
+  "answer": "",
+  "extra": [
+   "Ask one person to put the habit in their own words for their job."
+  ]
+ },
+ "SL51": {
+  "answer": "",
+  "extra": [
+   "Read the ‘why this matters’ line, then ask: has anyone seen something like this at work? Keep it to one or two answers."
+  ]
+ },
+ "SL52": {
+  "answer": "Verify a ticket through the established helpdesk; do not accept a remote session from this chat.",
+  "extra": [
+   "Separate scene: not proof the earlier fraud caused an account issue.",
+   "Microsoft (7 October 2025) describes attackers posing as IT or helpdesk staff in Teams chats and calls to obtain remote access."
+  ]
+ },
+ "SL53": {
+  "answer": "B: verify the ticket through the established helpdesk.",
+  "extra": [
+   "Legitimate remote tools can be abused. No live remote session is started."
+  ]
+ },
+ "SL54": {
+  "answer": "Ask what the paste step would do; the consequence diagram answers on the next slide.",
+  "extra": [
+   "This mock-up contains no command, no clipboard action and no runnable text."
+  ]
+ },
+ "SL54B": {
+  "answer": "It could run whatever instructions the page supplied on the computer. What follows, from nothing to data theft or remote control, depends on what ran and what was blocked. Stop, close the page and contact approved support; if anything already ran, report immediately.",
+  "extra": [
+   "ClickFix (Microsoft, 21 August 2025): fake verification or ‘fix’ steps lead people to paste and run commands themselves.",
+   "The consequence diagram replaces the earlier hint: typing or pasting instructions from a web page into a system tool can run software on your computer; that is the attack (Microsoft ClickFix analysis, 21 August 2025). The outcomes shown are possible, not guaranteed: they depend on what ran and which protections blocked it."
+  ]
+ },
+ "SL55": {
+  "answer": "Use approved software sources and approved support for both installing and fixing.",
+  "extra": [
+   "Microsoft (5 February 2026) describes CrashFix: a malicious extension posing as an ad blocker that crashes the browser, then shows a fake repair prompt.",
+   "The ‘delay’ stage is from the package’s research summary; our 2 October recheck excerpt confirmed the impersonation, crash and repair prompt. Do not invent losses or reproduce extension code."
+  ]
+ },
+ "SL56": {
+  "answer": "B: check through the known account or the team that manages it, not the supplied number.",
+  "extra": [
+   "FTC (April 2024) describes fake renewal notices that push people to call. Calls stay simulated; DEMO-NUMBER is not a phone number."
+  ]
+ },
+ "SL57": {
+  "answer": "A: follow the verified support process. Access and data rules still apply.",
+  "extra": [
+   "Include this genuine example so learners do not reject all IT help."
+  ]
+ },
+ "SL58": {
+  "answer": "",
+  "extra": [
+   "Ask one person to put the habit in their own words for their job."
+  ]
+ },
+ "SL59": {
+  "answer": "",
+  "extra": [
+   "25-minute tea break. Set up table roles for the tabletop on return."
+  ]
+ },
+ "SL60": {
+  "answer": "",
+  "extra": [
+   "Read the ‘why this matters’ line, then ask: has anyone seen something like this at work? Keep it to one or two answers."
+  ]
+ },
+ "SL61": {
+  "answer": "",
+  "extra": [
+   "New exercise with fresh facts, not a replay of the opening. Assign Operations, Finance, Manager and IT roles per table; small groups can combine roles."
+  ]
+ },
+ "SL61B": {
+  "answer": "",
+  "extra": [
+   "Setup 3 min; cards 27 min; debrief 5 min = 35 min. Use TABLETOP.md and the 10-point rubric."
+  ]
+ },
+ "SL62": {
+  "answer": "Known: a message and a sign-in request. Unverified: the sender and link. Next: a known route before access or disclosure.",
+  "extra": [
+   "Do not reveal later evidence yet."
+  ]
+ },
+ "SL63": {
+  "answer": "Immediate internal report with time, device and action. IT assesses and revokes relevant sessions and grants. Do not wait for proof.",
+  "extra": [
+   "Support the reporter: “Thank you for reporting. What did you see, and what did you do?” Never ask for the actual code."
+  ]
+ },
+ "SL64": {
+  "answer": "Hold the change and payment; call back from the existing record; keep normal approvals; preserve evidence.",
+  "extra": [
+   "Do not assert T2 caused T3. The evidence suggests a possible connection that needs investigation."
+  ]
+ },
+ "SL65": {
+  "answer": "Verify through the helpdesk; allow no unverified control; report facts and uncertainty, with hypotheses kept separate.",
+  "extra": [
+   "Take one report from each role and apply the rubric (0–2 each): sensitive action identified; independent route; approvals kept; prompt useful report with owner; no further unsafe interaction and evidence preserved."
+  ]
+ },
+ "SL66": {
+  "answer": "Confirmed by the cards: Aina reported early (T2) and Finance held the payment with a callback planned (T3). Recommended, not confirmed events: a known route before signing in (T1) and verifying the helpdesk without granting control (T4). Attribution and causation remain for IT to investigate.",
+  "extra": [
+   "Group feedback without names or rankings. Thank the reporter. Compare a fast useful report with waiting for a full diagnosis.",
+   "Keep the strip’s distinctions: confirmed observations (T2: Aina entered a code at 14:05 and reported; T3: payment held, callback planned) versus recommended responses (T1: use a known route before signing in; T4: verify the helpdesk, grant no control). The dotted links mean a relationship is not established."
+  ]
+ },
+ "SL66B": {
+  "answer": "",
+  "extra": [
+   "The earlier debrief card saying known routes “stopped” a sign-in, a payment and a remote session overstated the evidence cards and was removed; recommended actions are not proof that they happened."
+  ]
+ },
+ "SL67": {
+  "answer": "",
+  "extra": [
+   "Ask one person to put the habit in their own words for their job."
+  ]
+ },
+ "SL68": {
+  "answer": "",
+  "extra": [
+   "Read the ‘why this matters’ line, then ask: has anyone seen something like this at work? Keep it to one or two answers."
+  ]
+ },
+ "SL69": {
+  "answer": "",
+  "extra": [
+   "Say clearly: this is our course mnemonic, not a NIST or other official framework."
+  ]
+ },
+ "SL70": {
+  "answer": "Show finding the report action, keeping the original, writing time/action/device and using another channel if access is affected. Nothing is submitted.",
+  "extra": [
+   "The contact fields follow on the next slide; nothing is submitted from either."
+  ]
+ },
+ "SL70B": {
+  "answer": "",
+  "extra": [
+   "Use only verified customer configuration. While reporting.verified is false the slide shows a labelled demo and bracketed placeholders; tell the customer owner what must be supplied.",
+   "Never invent an address or button, and never send a report during training. MyCERT’s Cyber999 is an external Malaysian route; it is not a substitute for the internal procedure."
+  ]
+ },
+ "SL71": {
+  "answer": "Clicked: stop and report. Credentials/approval: report now; IT revokes sessions/grants. Software/control: stop, report via another device; IT contains. Money: finance, security and the bank immediately.",
+  "extra": [
+   "A password reset alone may not remove sessions, app permissions or linked devices. Avoid an unplanned wipe or restart.",
+   "FBI IC3 advises contacting the originating financial institution as soon as fraud is recognised."
+  ]
+ },
+ "SL72": {
+  "answer": "Report A is missing time, channel, claimed sender, action taken and device. Report B includes facts and uncertainty and leaves out secrets.",
+  "extra": [
+   "Do not forward suspicious content widely. Never include passwords, one-time codes or tokens."
+  ]
+ },
+ "SL73": {
+  "answer": "B: confirm the authorised task and approved sharing route; share only what is needed.",
+  "extra": [
+   "Parallel post-check to SL05 with a different surface (HR data, not payments). See ASSESSMENT.md. No identifying scores."
+  ]
+ },
+ "SL74": {
+  "answer": "",
+  "extra": [
+   "Each participant names one concrete action. Offer the optional 30-day refresher; no claim of guaranteed behaviour change."
+  ]
+ },
+ "SL75": {
+  "answer": "",
+  "extra": [
+   "Read the seven habits; ask which one each person will use first."
+  ]
+ },
+ "SL76": {
+  "answer": "",
+  "extra": [
+   "Keep extra questions within time or arrange follow-up. Hand out the printed response card.",
+   "Source recheck on 2 October 2026: 17 of 21 supported as worded; see dist/SOURCE_INDEX.md for limits (S4, S7, S8, S11, S13)."
+  ]
+ }
+}
