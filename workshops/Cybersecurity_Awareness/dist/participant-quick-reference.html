@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>Your workplace response card</title>
+<style>
+:root{--ink:#19283b;--muted:#4d5d72;--accent:#0f766e;--line:#cfd8e3}
+*{box-sizing:border-box}
+body{margin:0;background:#eef2f6;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.45}
+.page{max-width:780px;margin:24px auto;background:#fff;padding:34px 40px;border-radius:12px;box-shadow:0 10px 30px #0001}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:10px}
+.brand{font-weight:700;letter-spacing:1.4px;font-size:12px;text-transform:uppercase;color:var(--muted)}
+h1{font-size:28px;margin:14px 0 6px;letter-spacing:-.5px}
+.lead{font-size:17px;margin:0 0 16px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0 18px}
+.steps div{border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:8px;padding:10px 12px}
+.steps b{display:block;font-size:18px;color:var(--accent)}
+.steps span{font-size:14px}
+h2{font-size:15px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin:18px 0 6px}
+ul{margin:0;padding-left:20px}
+li{margin:4px 0;font-size:15.5px}
+.note{font-size:15px;background:#f3f6fa;border-left:3px solid var(--accent);padding:8px 12px;margin:12px 0}
+.route{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:15.5px;border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.route dt{color:var(--muted)}
+.route dd{margin:0}
+.ph{border:1px dashed #8796a8;border-radius:5px;padding:0 6px}
+.demo{font-size:14px;border:1px dashed #8a6d1a;background:#fff9e6;padding:8px 12px;border-radius:8px}
+.habits{margin:0;padding-left:20px;columns:2;column-gap:26px;font-size:14.5px}
+.habits li{margin:3px 0;break-inside:avoid}
+.gloss{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;font-size:13.5px;margin:0}
+.gloss dt{font-weight:700}
+.gloss dd{margin:0;color:var(--muted)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.cols ul li{font-size:14.5px}
+.foot{font-size:12.5px;color:var(--muted);margin-top:16px;border-top:1px solid var(--line);padding-top:8px}
+@media(max-width:640px){.cols{grid-template-columns:1fr}.page{margin:0;border-radius:0;padding:22px 18px}.steps{grid-template-columns:1fr 1fr}}
+@media print{@page{size:A4;margin:10mm}body{line-height:1.35}.steps div{padding:6px 10px}.steps span{font-size:13px}.route{grid-template-columns:auto 1fr auto 1fr;padding:8px 12px}.gloss{grid-template-columns:auto 1fr auto 1fr}.demo{padding:5px 10px}.note{margin:8px 0}h1{font-size:24px;margin:8px 0 4px}.steps{margin:8px 0 10px}h2{margin:10px 0 4px}li{font-size:14px}body{background:#fff}.page{box-shadow:none;margin:0;max-width:none;padding:0}}
+</style></head><body><main class="page">
+<div class="top"><span class="brand">Awareness workshop · Impersonation and phishing</span><span class="brand"></span></div>
+<h1>Your workplace response card</h1>
+<p class="lead">Before you share information, send money or approve access:</p>
+<div class="steps"><div><b>Pause</b><span>the sensitive action.</span></div><div><b>Verify</b><span>through a route you already trust.</span></div><div><b>Report</b><span>uncertainty or a mistake promptly.</span></div><div><b>Recover</b><span>by following the responsible team’s instructions.</span></div></div>
+<div class="cols"><div><h2>Before you act</h2>
+<ul><li>Identify what the request would disclose or authorise.</li><li>Use the known app, saved address, staff directory or established supplier record, not contact details in the message.</li><li>Keep the usual approval and data-sharing process, even when the request is genuine.</li><li>Check which session, app or device would receive access, and whether you started it.</li></ul></div><div><h2>If you already acted</h2>
+<ul><li>Stop further interaction and report what happened and when.</li><li>Include the channel, who it claimed to be, what you did, and which device. Keep the original message if you can.</li><li>Never include passwords, one-time codes or tokens. Do not forward the message to colleagues.</li><li>For a payment, contact finance and the bank’s established fraud channel immediately.</li></ul></div></div>
+<p class="note">A logo, fluent message, known account, HTTPS padlock or completed MFA alone does not validate a request. A genuine request can still require independent verification.</p>
+
+<h2>Seven habits from today</h2><ol class="habits"><li>Contact people through the directory, not through the message.</li><li>Call back on a number you already have before you pay, reset or share.</li><li>Go to the app or website yourself instead of using the link.</li><li>Approve only what you started and recognise.</li><li>No ticket you raised, no remote access.</li><li>Report early, even if you are not sure.</li><li>Pause, verify, report, recover.</li></ol><h2>Words to know</h2><dl class="gloss"><dt>MFA</dt><dd>A second check when you sign in, such as an app prompt or a code</dd><dt>Session</dt><dd>Staying signed in after you log in, so you are not asked again</dd><dt>Device code</dt><dd>A short code that signs another device in to your account</dd><dt>App permission</dt><dd>Letting an app read or change your mail and files</dd></dl>
+<h2>Your reporting route</h2>
+<p class="demo"><b>Demo card.</b> Reporting details below are not yet confirmed by your organisation. Do not use this card for live reporting until they are filled in.</p>
+<dl class="route"><dt>Report button</dt><dd><span class="ph">[Confirm report button or menu]</span></dd><dt>Mailbox</dt><dd><span class="ph">[Confirm reporting mailbox]</span></dd><dt>Urgent phone</dt><dd><span class="ph">[Confirm urgent phone route]</span></dd><dt>IT support</dt><dd><span class="ph">[Confirm IT support contact]</span></dd></dl>
+<p class="foot">Pause, verify, report, recover is this course’s mnemonic, not an official framework. Training examples were fictional. Contacts are text only; this card sends nothing. Reporting and support fields require customer confirmation before live delivery.</p>
+</main></body></html>

@@ -1,0 +1,27 @@
+{
+  "course_title": "Cybersecurity Awareness: Impersonation and Phishing",
+  "customer_name": null,
+  "sector": "general_workplace",
+  "language": "en",
+  "session_date": null,
+  "timezone": "Asia/Kuala_Lumpur",
+  "venue": null,
+  "audience_size": null,
+  "departments": [],
+  "logo_asset": null,
+  "reporting": {
+    "verified": false,
+    "button_label": null,
+    "mailbox": null,
+    "phone": null,
+    "instructions": null,
+    "screenshot_asset": null
+  },
+  "support": {
+    "verified": false,
+    "contact": null,
+    "ticket_process": null
+  },
+  "prayer_schedule_confirmed": false,
+  "brand_overrides_allowed": false
+}

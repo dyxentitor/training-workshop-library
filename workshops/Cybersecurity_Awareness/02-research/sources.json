@@ -1,0 +1,317 @@
+[
+  {
+    "id": "S1",
+    "title": "Verizon 2026 DBIR findings",
+    "url": "https://www.verizon.com/about/news/breach-industry-wide-dbir-finds",
+    "published": "May 2026",
+    "use_and_limits": "Vulnerability exploitation leads as initial access vector at 31% of breaches analysed (2025 data). Trainer context only. Do not equate spear phishing with all human involvement.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Press release says report 'uses 2025 data'. Phrase as 'breaches analysed', not all breaches.",
+      "publication_date_seen": "May 19, 2026"
+    }
+  },
+  {
+    "id": "S2",
+    "title": "Verizon 2026 DBIR",
+    "url": "https://www.verizon.com/business/resources/reports/dbir/",
+    "published": "2026",
+    "use_and_limits": "Dataset window 1 November 2024–31 October 2025.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Also restates 31% of breaches start with software vulnerabilities; 48% involve ransomware.",
+      "publication_date_seen": null
+    }
+  },
+  {
+    "id": "S3",
+    "title": "Microsoft Email threat landscape Q1 2026",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/",
+    "published": "30 April 2026",
+    "use_and_limits": "QR and attachment delivery patterns. Provider telemetry, not global prevalence.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Also: QR codes embedded in email body +336% in March (5% of volume); CAPTCHA-gated phishing +125% to 11.9M in March.",
+      "publication_date_seen": "April 30, 2026"
+    }
+  },
+  {
+    "id": "S4",
+    "title": "MyCERT MA-1431.032026",
+    "url": "https://mycert.org.my/portal/advisory?id=MA-1431.032026",
+    "published": "19 March 2026",
+    "use_and_limits": "Recheck 2 Oct 2026: this advisory ID is 'Hari Raya Holiday Cyber Security Best Practices'; it does not support scam-call or false-assistance claims. Not cited on any slide; listed only for reference. Find the correct MyCERT advisory before using local impersonation examples.",
+    "verification_status": "rechecked_2026-10-02_not_found_on_page",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "not_found_on_page",
+      "note": "ID and date match, but the page does not address scam calls, impersonation or fake government assistance offers. Says Cyber999 received 1,434 incidents Jan-Feb 2026 and 7,616 in 2025; fraud is the most reported type. Wrong citation for this claim.",
+      "publication_date_seen": "19 Mar 2026"
+    }
+  },
+  {
+    "id": "S5",
+    "title": "FTC Business Impersonator Scams",
+    "url": "https://consumer.ftc.gov/features/pass-it-on/impersonator-scams/business-impersonator-scams",
+    "published": null,
+    "use_and_limits": "Cross-channel impersonation and independent contact.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "No date on page. Also mentions payment via gift cards, crypto, wire transfer.",
+      "publication_date_seen": null
+    }
+  },
+  {
+    "id": "S6",
+    "title": "FTC impersonation scams analysis",
+    "url": "https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2024/04/impersonation-scams-not-what-they-used-be",
+    "published": "April 2024",
+    "use_and_limits": "Combined impersonation and renewal/callback pretexts.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Combined business+government impersonation was nearly half of all fraud reported to the FTC in 2023. Phony subscription renewal was the 2nd most common scam type; callers then seek remote access for a 'refund'.",
+      "publication_date_seen": "April 1, 2024"
+    }
+  },
+  {
+    "id": "S7",
+    "title": "FBI IC3 Business Email Compromise",
+    "url": "https://www.ic3.gov/CrimeInfo/BEC",
+    "published": null,
+    "use_and_limits": "Verify payment changes through a separate channel; contact the financial institution promptly after fraud. 'Use existing records' is the course's practical form of the separate-channel advice.",
+    "verification_status": "rechecked_2026-10-02_partially_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "partially_supported",
+      "note": "Page says 'secondary channels', not 'known contact / not the contact info in the request'. The financial-institution advice is supported. Suggest wording: 'verify through a separate channel'.",
+      "publication_date_seen": null
+    }
+  },
+  {
+    "id": "S8",
+    "title": "Joint Scattered Spider advisory",
+    "url": "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/scattered-spider",
+    "published": "29 July 2025 update",
+    "use_and_limits": "Helpdesk impersonation, voice phishing and MFA pressure. Recheck 2 Oct 2026 could not retrieve the page (timeouts/connection resets); statements rest on the 30 Sep 2026 research review.",
+    "verification_status": "rechecked_2026-10-02_not_checked_retrieval_failed",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": false,
+      "claim_status": "not_checked_retrieval_failed",
+      "note": "Not verified. The 29 July 2025 update date and the helpdesk/MFA-fatigue content are unconfirmed.",
+      "publication_date_seen": null
+    }
+  },
+  {
+    "id": "S9",
+    "title": "Hong Kong Government LCQ9",
+    "url": "https://www.info.gov.hk/gia/general/202406/26/P2024062600192p.htm",
+    "published": "26 June 2024",
+    "use_and_limits": "January 2024 incident: approximately HK$200m, five local bank accounts, prerecorded meeting with no interaction.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Phishing email impersonated the CFO of the UK head office. Video built from public clips and voices. Later payment instructions came by instant messaging. All details match.",
+      "publication_date_seen": "June 26, 2024"
+    }
+  },
+  {
+    "id": "S10",
+    "title": "MITRE ATT&CK T1566",
+    "url": "https://attack.mitre.org/techniques/T1566/",
+    "published": null,
+    "use_and_limits": "Taxonomy: attachments, links, services and voice. Not an awareness certification.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "",
+      "publication_date_seen": null
+    }
+  },
+  {
+    "id": "S11",
+    "title": "Microsoft evolving identity attacks",
+    "url": "https://www.microsoft.com/en-us/security/blog/2025/05/29/defending-against-evolving-identity-attack-techniques/",
+    "published": "29 May 2025",
+    "use_and_limits": "Consent phishing, device-code phishing, device registration/join abuse and AiTM. Recheck did not find 'account linking' wording; SL39 presents linking as course explanation.",
+    "verification_status": "rechecked_2026-10-02_partially_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "partially_supported",
+      "note": "Consent phishing, device code phishing, device join/registration and AiTM are confirmed. 'Account linking' was not found.",
+      "publication_date_seen": "May 29, 2025"
+    }
+  },
+  {
+    "id": "S12",
+    "title": "Microsoft AI-enabled device-code campaign",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/",
+    "published": "6 April 2026",
+    "use_and_limits": "A real sign-in service can authorise an attacker-originated session.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Title 'Inside an AI-enabled device code phishing campaign'. Codes are generated dynamically to stay inside the 15-minute validity window.",
+      "publication_date_seen": "April 6, 2026"
+    }
+  },
+  {
+    "id": "S13",
+    "title": "CISA phishing-resistant MFA fact sheet",
+    "url": "https://www.cisa.gov/sites/default/files/2023-01/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf",
+    "published": "October 2022",
+    "use_and_limits": "Phishing-resistant authentication; do not generalise to all approvals/consent.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Document is dated October 2022, although the URL path says 2023-01. It calls FIDO/WebAuthn 'the only widely available phishing-resistant authentication'. If you can't use it yet, consider number matching.",
+      "publication_date_seen": "October 2022"
+    }
+  },
+  {
+    "id": "S14",
+    "title": "Cloudflare phishing incident disclosure",
+    "url": "https://blog.cloudflare.com/2022-07-sms-phishing-attacks/",
+    "published": "9 August 2022",
+    "use_and_limits": "July 2022 SMS campaign; three credential submissions, hardware keys prevented attempted access.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "The attack began on 20 July 2022 at 22:49 UTC.",
+      "publication_date_seen": "August 9, 2022"
+    }
+  },
+  {
+    "id": "S15",
+    "title": "Microsoft threats targeting Teams",
+    "url": "https://www.microsoft.com/en-us/security/blog/2025/10/07/disrupting-threats-targeting-microsoft-teams/",
+    "published": "7 October 2025",
+    "use_and_limits": "Collaboration-platform IT impersonation and remote access abuse.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Usually follows email bombing. Teams voice/video calls impersonate IT.",
+      "publication_date_seen": "October 7, 2025"
+    }
+  },
+  {
+    "id": "S16",
+    "title": "Microsoft ClickFix analysis",
+    "url": "https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/",
+    "published": "21 August 2025",
+    "use_and_limits": "Fake verification and repair prompts that induce command execution.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Lures include fake CAPTCHA/human verification. The command is silently copied to the clipboard.",
+      "publication_date_seen": "August 21, 2025"
+    }
+  },
+  {
+    "id": "S17",
+    "title": "Microsoft CrashFix",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/02/05/clickfix-variant-crashfix-deploying-python-rat-trojan/",
+    "published": "5 February 2026",
+    "use_and_limits": "Fake extension/browser problem/repair pretext. Inert reconstruction only.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Delivered via malicious ads leading to a fake Chrome Web Store listing. Payload is ModeloRAT (Python).",
+      "publication_date_seen": "February 5, 2026"
+    }
+  },
+  {
+    "id": "S18",
+    "title": "NIST TN 2276 Phish Scale",
+    "url": "https://csrc.nist.gov/pubs/tn/2276/final",
+    "published": "November 2023",
+    "use_and_limits": "Rate email exercise difficulty and recipient context. Not a validated scale for voice/video.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "The landing-page abstract doesn't mention cues or premise alignment. These are confirmed in the linked primary PDF (nvlpubs NIST.TN.2276.pdf), sections 2.1 'Number of Cues' and 2.2 'Premise Alignment'.",
+      "publication_date_seen": "November 2023"
+    }
+  },
+  {
+    "id": "S19",
+    "title": "MyCERT reporting channel",
+    "url": "https://www.mycert.org.my/portal/full?id=9eb77829-7dd4-4180-814f-de3a539b7a01",
+    "published": null,
+    "use_and_limits": "External Malaysian reporting. Internal customer procedure must be supplied.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "Page title 'MyCERT : Reporting Channel'. Email: cyber999[at]cybersecurity.my. Phone: 1-300-88-2999 (office hours); emergency +6019-266 5850 (24x7). Calls monitored 8:30am-5:30pm on business days.",
+      "publication_date_seen": null
+    }
+  },
+  {
+    "id": "S20",
+    "title": "NIST SP 800-50 Rev. 1",
+    "url": "https://csrc.nist.gov/pubs/sp/800/50/r1/final",
+    "published": "September 2024",
+    "use_and_limits": "Behaviour change, role relevance, evaluation and lifecycle learning.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "",
+      "publication_date_seen": "September 2024"
+    }
+  },
+  {
+    "id": "S21",
+    "title": "NIST CSF 2.0",
+    "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+    "published": "26 February 2024",
+    "use_and_limits": "PR.AT-01 general awareness and PR.AT-02 role-specific training.",
+    "verification_status": "rechecked_2026-10-02_supported",
+    "recheck_before_delivery": true,
+    "recheck_2026_10_02": {
+      "retrieved": true,
+      "claim_status": "supported",
+      "note": "",
+      "publication_date_seen": "February 26, 2024"
+    }
+  }
+]

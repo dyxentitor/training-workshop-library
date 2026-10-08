@@ -1,0 +1,331 @@
+{
+ "package_version": "1.0",
+ "created_myt": "2026-10-02",
+ "purpose": "Claude build handover; clarity rework v2 (76 slides) built 2026-10-02; presentation redesign v3 built 2026-10-08; visual asset pack integrated 2026-10-08; readability rework (87 slides) 2026-10-08; takeaway presentation rework (88 slides) 2026-10-08; layout fix (89 slides) 2026-10-08",
+ "files": [
+  {
+   "path": "00-start/CLAUDE_START_PROMPT.md",
+   "size_bytes": 4434,
+   "sha256": "de3daaf8bec76c97fc5f1e4330206f863f8877b4385b3d8a1ee0ffa09ec86382"
+  },
+  {
+   "path": "00-start/CONTINUE_PROMPT.md",
+   "size_bytes": 495,
+   "sha256": "cc9555040e7987d8ddc480edba1fd225524c160c26a592f29e1412233d2e743d"
+  },
+  {
+   "path": "00-start/DESIGN_CORRECTION_PROMPT.md",
+   "size_bytes": 514,
+   "sha256": "99a674d723afbccfd51a50e354daf9773f0b4fbda026a557ddd9d73028f4f018"
+  },
+  {
+   "path": "00-start/HOW_TO_HAND_OVER.md",
+   "size_bytes": 1119,
+   "sha256": "b1096f9c08e16dcd3b7e9c5f49ae87ab98674578204dea5641117bfd22bf8623"
+  },
+  {
+   "path": "01-course/AGENDA.md",
+   "size_bytes": 1186,
+   "sha256": "4fe6f88e5cea22dd237cbe817e98fc8a523b674a86220fd20960c0c22cfa2c88"
+  },
+  {
+   "path": "01-course/DECISIONS_AND_REQUIREMENTS.md",
+   "size_bytes": 1750,
+   "sha256": "8413d29039063239e4335407e1163d7497732b26e5bc8f2ff64c04131eedb258"
+  },
+  {
+   "path": "01-course/PROJECT_BRIEF.md",
+   "size_bytes": 2098,
+   "sha256": "2497bfa14d113d8d976af5ac9365c2b78444e40955252478e2d08c3367098027"
+  },
+  {
+   "path": "02-research/CLAIMS_AND_CASES.md",
+   "size_bytes": 2543,
+   "sha256": "cbf11d609f9224de61461491a93b02e7f23255b913ba996b33fd7b237d45f59b"
+  },
+  {
+   "path": "02-research/RESEARCH_BASELINE.md",
+   "size_bytes": 31417,
+   "sha256": "a001f741632b139a937dd03f3aa77cbfe8f692495dd7f403b981fd03245b057e"
+  },
+  {
+   "path": "02-research/SOURCE_INDEX.md",
+   "size_bytes": 5608,
+   "sha256": "77aee513d4a1d118e7a519a693a8cc90cab22e54c2189b364611061e4f3730d6"
+  },
+  {
+   "path": "02-research/sources.json",
+   "size_bytes": 14741,
+   "sha256": "a2fc69d0047e8ac9f39fc2f431ac53db882aac356e05b31e465121ca1a871ea7"
+  },
+  {
+   "path": "03-story/EVIDENCE_KNOWLEDGE_MATRIX.md",
+   "size_bytes": 1274,
+   "sha256": "6f72ffb8b02444b4e7fdf08b026b0f08b77485d4581f496b0db4859b65575130"
+  },
+  {
+   "path": "03-story/EXAMPLE_BANK.md",
+   "size_bytes": 3205,
+   "sha256": "4a0ed2bb49e9959580029e37ed3e36b21aa46846b94a6775215ee69f5744b975"
+  },
+  {
+   "path": "03-story/STORY_FLOW.md",
+   "size_bytes": 2601,
+   "sha256": "8f1c5b069d2d1f60542532dbf9c6a6bf1f8f3ae29bd36c8d0f3ff11dc6a83255"
+  },
+  {
+   "path": "04-content/INTERACTION_STATES.md",
+   "size_bytes": 2056,
+   "sha256": "024eac9e79f4621a7c48153b7601d394d7247feca87b7d13b11b852268b4a703"
+  },
+  {
+   "path": "04-content/MASTER_STORYBOARD.md",
+   "size_bytes": 5285,
+   "sha256": "71737642ef6c37aa739be7c333249049b314658f09b7896c8049fce56aae6f81"
+  },
+  {
+   "path": "04-content/modules/M0_CONTENT.md",
+   "size_bytes": 3530,
+   "sha256": "534ac66a74eae02116749317148f643274fc97cd5a01a2a51d562490977e5c9c"
+  },
+  {
+   "path": "04-content/modules/M1_CONTENT.md",
+   "size_bytes": 4859,
+   "sha256": "1ed86e92970121a63a8ce5243a6bdf7d613d70763ed45aeb768a12fbf41d4174"
+  },
+  {
+   "path": "04-content/modules/M2_CONTENT.md",
+   "size_bytes": 4487,
+   "sha256": "385b47fb0641977ba4152259f688d8d8c11ad68938918b7345a2760ad72ee43f"
+  },
+  {
+   "path": "04-content/modules/M3_CONTENT.md",
+   "size_bytes": 5590,
+   "sha256": "c4afcf18873b3b9a5743bc4a34eb6eda5982026325d65f22517e86a84f761f7a"
+  },
+  {
+   "path": "04-content/modules/M4_CONTENT.md",
+   "size_bytes": 4823,
+   "sha256": "f267484240c8b1ffc37459ebec84078a16ac19b8da4e2e5c5aeb186c158a69d0"
+  },
+  {
+   "path": "04-content/modules/M5_CONTENT.md",
+   "size_bytes": 3887,
+   "sha256": "63b9e4772fab1c6917774935ade15122d4afffe2abaab50c7b9047b06b489fb4"
+  },
+  {
+   "path": "04-content/modules/M6_CONTENT.md",
+   "size_bytes": 2878,
+   "sha256": "9e20d1ea935c5898359e7e12c41a6fafd2231b4d37845e3bcc94119163327017"
+  },
+  {
+   "path": "04-content/modules/M7_CONTENT.md",
+   "size_bytes": 4128,
+   "sha256": "8d6469486a1a46abb2623db77a1bef3db3f58e5708a3ebf90ee9a7d2f5654365"
+  },
+  {
+   "path": "04-content/slides.json",
+   "size_bytes": 103333,
+   "sha256": "811f478d70a11e12a7138a0eccaf10aa30bc6f873b47eeee9749db052ef17030"
+  },
+  {
+   "path": "05-design/DESIGN_SPEC.md",
+   "size_bytes": 5008,
+   "sha256": "86ef1850b72b28e8309b20d1672fab4446b6115dff8d95d7092567b271f535c5"
+  },
+  {
+   "path": "05-design/LAYOUT_AND_ASSET_RULES.md",
+   "size_bytes": 3683,
+   "sha256": "b87e70b40c1c57eb66cc1cc900cf6d0d4ae6d600cb6eb1142589f66f0f1ce485"
+  },
+  {
+   "path": "05-design/TEMPLATE_CATALOG.md",
+   "size_bytes": 1991,
+   "sha256": "d6fe7406acb5d9e6de3e4ff691060eb0e7e7cb7d91197c8176bb9a9d45e332e6"
+  },
+  {
+   "path": "05-design/design-tokens.json",
+   "size_bytes": 638,
+   "sha256": "f2b3626fdd0e1a43d69d1150a6495696d5a0f0cd8e6dc2e47a56dc3bf8c62dbb"
+  },
+  {
+   "path": "06-prototype/PROTOTYPE_QA.md",
+   "size_bytes": 1404,
+   "sha256": "03cf7488aa231d329883eede0f62407776d284318561b6ad8cf25c6e87faba52"
+  },
+  {
+   "path": "06-prototype/prototype.html",
+   "size_bytes": 32214,
+   "sha256": "2fa2d30431d2eb61eb0f0b35ee4d9bfeaf43ff8af38fc3be8bd1a26c6a7d3408"
+  },
+  {
+   "path": "06-prototype/reference_screenshots/slide-01.png",
+   "size_bytes": 113348,
+   "sha256": "6693e8a8afbafbe8b57ce4d68cad6e9c371cb545b5b86f57bc93f349b9a9adb6"
+  },
+  {
+   "path": "06-prototype/reference_screenshots/slide-02-inspected.png",
+   "size_bytes": 143983,
+   "sha256": "ebe8d0d7eaee8c13889202efc4adff5b189c1a37a33ef0fb9fc42fcbc7198051"
+  },
+  {
+   "path": "06-prototype/reference_screenshots/slide-02.png",
+   "size_bytes": 122394,
+   "sha256": "6c08cb9ce5479acada019c03c91e9322851c8a4dcfffd908a4681201abf8e0e9"
+  },
+  {
+   "path": "06-prototype/reference_screenshots/slide-03.png",
+   "size_bytes": 120205,
+   "sha256": "888f04de72cceebcf870deb6928691ba39c6a16b9de51901be31a9cb6728729e"
+  },
+  {
+   "path": "06-prototype/reference_screenshots/slide-04.png",
+   "size_bytes": 126572,
+   "sha256": "da6bfb66e61921b8ba41d4d5ef603c20013c4a56db36012464d344527e7073c0"
+  },
+  {
+   "path": "06-prototype/reference_screenshots/slide-05.png",
+   "size_bytes": 152822,
+   "sha256": "52210ff2e9061e04a3f0dd95fb18ba67900baca2505cbe37bf63ae79a20915f4"
+  },
+  {
+   "path": "06-prototype/reference_screenshots/slide-06.png",
+   "size_bytes": 144981,
+   "sha256": "0f3ed86ff7ff2a7eeca8f2c920b1549b3e2cf2db3c30abc3a1ed0aa0d9591c26"
+  },
+  {
+   "path": "07-implementation/ARCHITECTURE.md",
+   "size_bytes": 5799,
+   "sha256": "9b5674945dc13f7a4755f27a4bf131cbec83de57d464a90beef471af82028a46"
+  },
+  {
+   "path": "07-implementation/BUILD_PLAN.md",
+   "size_bytes": 1326,
+   "sha256": "db7b34e3eaee4d1cf6b851eb7da88bb51e7bdda325d36bb935e3b099efdebd49"
+  },
+  {
+   "path": "08-facilitator/ASSESSMENT.md",
+   "size_bytes": 1790,
+   "sha256": "73767aa6bcafa6108094fca381d509e2fb51e39804ca3bc00d21854cc1fc10c1"
+  },
+  {
+   "path": "08-facilitator/EXERCISES_AND_ANSWER_KEYS.md",
+   "size_bytes": 2637,
+   "sha256": "ce259b6489699bcc3af998d0a15449109978612ff661fb0a1cb69ffc0e6b406e"
+  },
+  {
+   "path": "08-facilitator/FACILITATOR_GUIDE.md",
+   "size_bytes": 3282,
+   "sha256": "4569a6f96b0cfe72161301825f9ecedf578eb2523903c6e1805e622678633af2"
+  },
+  {
+   "path": "08-facilitator/RESPONSE_AND_REPORTING.md",
+   "size_bytes": 1883,
+   "sha256": "3a3da21556bbcc64c6cdc2fafc07db5390eba3dfb3f84a75dcf8ac8efb8bac71"
+  },
+  {
+   "path": "08-facilitator/TABLETOP.md",
+   "size_bytes": 2428,
+   "sha256": "94afb0b020475358b0f91ae2c08918b6818b59cdd8ebbd6059da08376301e318"
+  },
+  {
+   "path": "09-participant/QUICK_REFERENCE.md",
+   "size_bytes": 1142,
+   "sha256": "5bc8c70bbdd1c76d697ea4eb275e4d46a52f70cbfab20beec909f8831b4995b5"
+  },
+  {
+   "path": "09-participant/REFRESHER_30_DAYS.md",
+   "size_bytes": 857,
+   "sha256": "d7c117d20f630f2262eb82eedd524e408bf45dbcefca01cdc2df7a4d292f22a0"
+  },
+  {
+   "path": "10-validation/ACCEPTANCE_CRITERIA.md",
+   "size_bytes": 2881,
+   "sha256": "202b96f875268235407f6529e980646e38c19c32f9d16f04dff0b1189b2c3c37"
+  },
+  {
+   "path": "10-validation/COVERAGE_MATRIX.md",
+   "size_bytes": 2725,
+   "sha256": "bb62fc800d5a645dec733c98792ee675da84db8d55b86a6cbab45617f4d01e77"
+  },
+  {
+   "path": "10-validation/PROGRESS_LEDGER.md",
+   "size_bytes": 6455,
+   "sha256": "f2ecd0588015503144d6cb621a8ce37c99db8b0bee0da24035138c4be178ff6f"
+  },
+  {
+   "path": "10-validation/validate_package.py",
+   "size_bytes": 1610,
+   "sha256": "b63fa5718b165f9077eae319fb7dd7945718b2b5002db92300fe68d1c492e613"
+  },
+  {
+   "path": "11-customer/CUSTOMER_CHECKLIST.md",
+   "size_bytes": 1107,
+   "sha256": "67afa71d27d4a70aa36d9be79819f76ca73580c0ec1de9dd64874ea454c96854"
+  },
+  {
+   "path": "11-customer/customer-config.example.json",
+   "size_bytes": 629,
+   "sha256": "6a72e4577c88c7398ad77bd5d5d3dc7781cb62daa40435f9fe0676282a8bd964"
+  },
+  {
+   "path": "12-delivery/DELIVERY_CONTRACT.md",
+   "size_bytes": 1358,
+   "sha256": "f2a6fa47f23dfeb56aa9ee6a0eed607f4b2f9b0e65fcb748ba984464f995558e"
+  },
+  {
+   "path": "CHANGELOG.md",
+   "size_bytes": 8384,
+   "sha256": "673d76ca9f377bd706f859519d5a89744b426ff5ddf139381544465464b00480"
+  },
+  {
+   "path": "CLAUDE.md",
+   "size_bytes": 1214,
+   "sha256": "03f351d5538428a7d5778d8b1b5229228c840c0bfffd03c7994182f7078ac3ec"
+  },
+  {
+   "path": "PACKAGE_MAP.md",
+   "size_bytes": 2287,
+   "sha256": "90256378c2efb1da78adeb56ef543c72e3b706fa54a73dc5c1f725522b5fa99f"
+  },
+  {
+   "path": "README.md",
+   "size_bytes": 3042,
+   "sha256": "8278644b70187cc13a1c6e888c5c48625ed72343f9ecf04b945e9216e041e714"
+  },
+  {
+   "path": "docs/READABILITY_REWORK_2026-10-08.md",
+   "size_bytes": 10469,
+   "sha256": "884f8579732f79a8d271f7c106c80fa72168d2db9d98141ef66f191fb20b38fb"
+  },
+  {
+   "path": "docs/READABILITY_INVENTORY_2026-10-08.md",
+   "size_bytes": 37148,
+   "sha256": "cad67fbaccc359dfd16ebeb0e9026e99ed10dc11b6f382f19ea0369449d2b53a"
+  },
+  {
+   "path": "docs/TAKEAWAY_REWORK_2026-10-08.md",
+   "sha256": "5e3587dc3c5af9c66eac3b77339697383b7d591cf91f61dc7f8ee17f94921316",
+   "size_bytes": 30925
+  },
+  {
+   "path": "docs/LAYOUT_FIX_2026-10-08.md",
+   "size_bytes": 16011,
+   "sha256": "7ccbde02f3ecd5ea31925b0a66927b550cff38bb3919dcd2ae8a24ff374fd6a1"
+  }
+ ],
+ "updated_by_build_2026_10_02": [
+  "02-research/sources.json",
+  "04-content/slides.json",
+  "10-validation/COVERAGE_MATRIX.md",
+  "10-validation/PROGRESS_LEDGER.md"
+ ],
+ "updated_by_redesign_2026_10_08": [
+  "04-content/slides.json",
+  "07-implementation/ARCHITECTURE.md",
+  "10-validation/PROGRESS_LEDGER.md",
+  "CHANGELOG.md"
+ ],
+ "updated_by_readability_rework_2026_10_08": "type scale raised, header restructured, eleven continuation slides (SLxxB); hashes refreshed",
+ "updated_by_layout_fix_2026_10_08": "three-row slide grid, takeaway spacing rule, SL04B explanation slide; hashes refreshed"
+}

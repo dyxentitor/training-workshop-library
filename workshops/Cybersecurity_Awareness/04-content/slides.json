@@ -1,0 +1,2602 @@
+{
+  "version": "2.0",
+  "timezone": "Asia/Kuala_Lumpur",
+  "slide_count": 89,
+  "duration_minutes": 420,
+  "slides": [
+    {
+      "id": "SL01",
+      "module": "M0",
+      "title": "The request before 5 PM",
+      "duration_minutes": 1,
+      "layout": "cover",
+      "objective": "Establish the fictional cast and baseline decision",
+      "screen_text": [
+        "A familiar name. A payment deadline.",
+        "What would you check?"
+      ],
+      "evidence": "Farid receives Invoice MS-1048 at 16:42.",
+      "interaction": "Open the first message to show the full email.",
+      "reveal": "",
+      "facilitator_notes": "Say Meranti is fictional. Farid is the central character of the opening; Aina, Mei and Ravi are introduced as they appear. Open the email when the room has read the headline. Do not disclose the outcome.",
+      "source_ids": [],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:00",
+      "planned_end": "10:01",
+      "pause_point": false
+    },
+    {
+      "id": "SL02",
+      "module": "M0",
+      "title": "Today’s workshop",
+      "duration_minutes": 3,
+      "layout": "agenda",
+      "objective": "What we will practise today, in what order, and how we will work together.",
+      "screen_text": [
+        "Spot when a message asks for money, information or access",
+        "Check requests through a route you already trust",
+        "Know what an approval, code or app permission really gives away",
+        "Report quickly and usefully, including your own mistakes"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Today",
+      "outcomes": [
+        "Spot when a message asks for money, information or access",
+        "Check requests through a route you already trust",
+        "Know what an approval, code or app permission really gives away",
+        "Report quickly and usefully, including your own mistakes"
+      ],
+      "rules": [
+        "Everything in today’s story is fictional; real cases are labelled",
+        "There are no wrong questions",
+        "Nobody needs to share a personal incident",
+        "Reporting is never blamed: thank people for speaking up"
+      ],
+      "pause_point": false,
+      "what_this_shows": "What we will practise today, in what order, and how we will work together.",
+      "key_point": "Today is about one habit: when a message asks for money, information or access, check it through a route you already trust.",
+      "planned_start": "10:01",
+      "planned_end": "10:04"
+    },
+    {
+      "id": "SL03",
+      "module": "M0",
+      "title": "A request that fits the job",
+      "duration_minutes": 2,
+      "layout": "email",
+      "objective": "Inspect evidence without assuming trust",
+      "screen_text": [
+        "What can this email actually prove?"
+      ],
+      "evidence": "Nadia asks Farid to use changed bank details. Expected .example sender and destination.",
+      "interaction": "Expand sender and destination.",
+      "reveal": "A matching address does not prove who controls the account.",
+      "facilitator_notes": "Ask what changed and what must be verified. Use the prototype text.",
+      "source_ids": [
+        "S7"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:04",
+      "planned_end": "10:06",
+      "pause_point": false,
+      "what_this_shows": "Farid gets an expected invoice email from a known supplier, but the bank details have changed.",
+      "key_point": "A correct sender address and a familiar conversation do not prove who is writing. A change to bank details always needs an independent check."
+    },
+    {
+      "id": "SL04",
+      "module": "M0",
+      "title": "Another familiar name appears",
+      "duration_minutes": 2,
+      "layout": "chat",
+      "objective": "Recognise pressure from an apparent manager",
+      "screen_text": [
+        "Does this conversation give Farid enough confidence to pay?"
+      ],
+      "evidence": "Ravi display name urges payment, then says he is in a meeting.",
+      "interaction": "Reveal messages one by one; replay.",
+      "reveal": "",
+      "facilitator_notes": "Ask what changed in the evidence. A display name is insufficient.",
+      "source_ids": [],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:06",
+      "planned_end": "10:08",
+      "pause_point": false,
+      "what_this_shows": "A chat using the manager’s name pushes Farid to pay quickly.",
+      "key_point": "A display name and urgency tell you nothing about who controls the account. Pressure to skip a check is a reason to slow down."
+    },
+    {
+      "id": "SL04B",
+      "module": "M0",
+      "title": "What the two messages can prove",
+      "duration_minutes": 2,
+      "layout": "chat",
+      "objective": "State what the email and the chat can and cannot prove",
+      "screen_text": [
+        "A correct sender address and a familiar conversation do not prove who is writing.",
+        "A display name and urgency tell you nothing about who controls the account."
+      ],
+      "evidence": "",
+      "interaction": "Give the explanation after the room has answered both questions; then move to the decision.",
+      "reveal": "",
+      "facilitator_notes": "Explanation stage for scenes 01 and 02. Use the answers the room gave. Both points lead to the decision on the next slide.",
+      "source_ids": [
+        "S7"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:08",
+      "planned_end": "10:10",
+      "pause_point": false,
+      "what_this_shows": "Neither message proves who is asking. The bank change still needs an independent check.",
+      "key_point": "A correct sender address, a familiar conversation, a display name and urgency do not prove who is writing. A change to bank details always needs an independent check, and pressure to skip it is a reason to slow down."
+    },
+    {
+      "id": "SL05",
+      "module": "M0",
+      "title": "What should Farid do next?",
+      "duration_minutes": 4,
+      "layout": "decision",
+      "objective": "Choose independent verification",
+      "screen_text": [
+        "Choose an action.",
+        "What makes the verification route trustworthy?"
+      ],
+      "evidence": "Expected invoice, changed bank details, manager pressure.",
+      "interaction": "Vote before selecting.",
+      "reveal": "Call the supplier’s established contact and follow normal approval.",
+      "facilitator_notes": "A genuine request would still need the same process.",
+      "source_ids": [
+        "S7"
+      ],
+      "evidence_kind": "fictional",
+      "options": [
+        {
+          "label": "Pay using revised details",
+          "feedback": "The bank change remains unverified."
+        },
+        {
+          "label": "Reply to Nadia for confirmation",
+          "feedback": "The same mailbox cannot provide an independent check."
+        },
+        {
+          "label": "Call the supplier using existing records",
+          "feedback": "This gives an independent verification route.",
+          "preferred": true
+        }
+      ],
+      "planned_start": "10:10",
+      "planned_end": "10:14",
+      "pause_point": true,
+      "what_this_shows": "Your first decision of the day. Vote with a show of hands, then select the answer the room chose.",
+      "key_point": "Verify through a contact you already hold, such as the supplier record, then follow the normal approval process. Replying to the same email cannot verify anything."
+    },
+    {
+      "id": "SL06",
+      "module": "M0",
+      "title": "The callback changes the picture",
+      "duration_minutes": 3,
+      "layout": "annotated",
+      "objective": "Separate original clues from newly verified facts",
+      "screen_text": [
+        "The supplier denies the change.",
+        "Ravi denies sending the chat.",
+        "Farid holds the payment and reports."
+      ],
+      "evidence": "Same email as SL02.",
+      "interaction": "Reveal findings.",
+      "reveal": "Independent verification supplies new evidence.",
+      "facilitator_notes": "Do not imply participants should have guessed facts revealed only now. IT investigates account misuse.",
+      "source_ids": [
+        "S7"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:14",
+      "planned_end": "10:17",
+      "pause_point": true,
+      "what_this_shows": "Farid calls the supplier on the number already held in the finance system.",
+      "key_point": "Independent verification gives you facts the message never could. Hold the payment, keep the evidence and report."
+    },
+    {
+      "id": "SL07",
+      "module": "M0",
+      "title": "When the meeting looked convincing",
+      "duration_minutes": 3,
+      "layout": "case",
+      "objective": "Apply verification to a documented video fraud",
+      "screen_text": [
+        "Approximate reported loss: HK$200m",
+        "Email, prerecorded video and payment messages"
+      ],
+      "evidence": "Official January 2024 Hong Kong incident.",
+      "interaction": "Ask which independent check could interrupt the sequence.",
+      "reveal": "Use an independent authorised transaction workflow.",
+      "facilitator_notes": "Preserve prerecorded/no-interaction detail. No victim screenshot or invented dialogue.",
+      "source_ids": [
+        "S9"
+      ],
+      "evidence_kind": "documented",
+      "options": [],
+      "planned_start": "10:17",
+      "planned_end": "10:20",
+      "pause_point": false,
+      "what_this_shows": "A real case: a fabricated video meeting helped convince an employee to transfer about HK$200 million.",
+      "key_point": "Even a convincing meeting can be fabricated. A separate, authorised payment check is what stops the loss."
+    },
+    {
+      "id": "SL08",
+      "module": "M1",
+      "title": "Module 1: The borrowed identity",
+      "duration_minutes": 2,
+      "layout": "opener",
+      "objective": "What this module covers and why it matters.",
+      "screen_text": [
+        "Tell a copied profile from a genuine account someone else controls",
+        "Spot when a friendly conversation turns into a sensitive request",
+        "Respond if someone uses your name"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 1",
+      "why": "Anyone can copy a name, photo and job title, and messages that borrow a familiar identity get trusted.",
+      "outcomes": [
+        "Tell a copied profile from a genuine account someone else controls",
+        "Spot when a friendly conversation turns into a sensitive request",
+        "Respond if someone uses your name"
+      ],
+      "cast": [
+        "aina",
+        "siti",
+        "daniel",
+        "farid"
+      ],
+      "pause_point": false,
+      "what_this_shows": "What this module covers and why it matters.",
+      "key_point": "Identity on a screen is easy to borrow. Verify the person through a route you already trust.",
+      "planned_start": "10:20",
+      "planned_end": "10:22"
+    },
+    {
+      "id": "SL09",
+      "module": "M1",
+      "title": "Impersonation and phishing",
+      "duration_minutes": 2,
+      "layout": "comparison",
+      "objective": "Distinguish concepts",
+      "screen_text": [
+        "Impersonation",
+        "Phishing",
+        "Spear phishing"
+      ],
+      "evidence": "One copied profile leads to a document invitation.",
+      "interaction": "Define the three words; the overlap follows on the next slide.",
+      "reveal": "The techniques can overlap.",
+      "facilitator_notes": "Keep terms plain. Definitions are course paraphrases.",
+      "source_ids": [
+        "S5",
+        "S10"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "10:22",
+      "planned_end": "10:24",
+      "pause_point": false,
+      "what_this_shows": "Three words we use all day.",
+      "key_point": "Impersonation borrows a trusted identity; phishing asks you to act; spear phishing aims at you specifically."
+    },
+    {
+      "id": "SL09B",
+      "module": "M1",
+      "duration_minutes": 1,
+      "planned_start": "10:24",
+      "planned_end": "10:25",
+      "source_ids": [
+        "S5",
+        "S10"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "pause_point": false,
+      "reveal": "The techniques can overlap.",
+      "interaction": "Ask which concept describes each step.",
+      "title": "One message can do all three",
+      "layout": "comparison",
+      "objective": "Show how impersonation, spear phishing and phishing overlap in one attack",
+      "screen_text": [
+        "One story, three steps",
+        "Which word describes each step?"
+      ],
+      "evidence": "A fictional three-step story: a copied profile, targeted messages, a sign-in request.",
+      "facilitator_notes": "Keep terms plain. Ask the room to name the concept for each step before you do.",
+      "what_this_shows": "One fictional story in three steps. Which word describes each step?",
+      "key_point": "One message can do all three: borrow an identity, aim at you specifically and ask you to act."
+    },
+    {
+      "id": "SL10",
+      "module": "M1",
+      "title": "What can someone learn about Aina?",
+      "duration_minutes": 6,
+      "layout": "profile",
+      "objective": "Identify public context used in persuasive messages",
+      "screen_text": [
+        "Job title",
+        "Project announcement",
+        "Supplier and colleague names"
+      ],
+      "evidence": "Fictional public profile and event post.",
+      "interaction": "Reveal public details; identify one that makes a message credible.",
+      "reveal": "Knowing workplace details does not prove employment or authority.",
+      "facilitator_notes": "Use only invented posts. Explain that public context can reduce suspicion without victim blame.",
+      "source_ids": [
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:25",
+      "planned_end": "10:31",
+      "pause_point": false,
+      "what_this_shows": "Everything on Aina’s public profile that a stranger could reuse.",
+      "key_point": "Public work details make a fake message feel expected. Knowing them does not prove the sender works with you."
+    },
+    {
+      "id": "SL11",
+      "module": "M1",
+      "title": "Two profiles with the same face",
+      "duration_minutes": 6,
+      "layout": "comparison",
+      "objective": "Avoid judging authenticity from copied profile details",
+      "screen_text": [
+        "Which details can be copied?",
+        "How would you contact Aina independently?"
+      ],
+      "evidence": "Two fictional profiles with same initials, employer and project details.",
+      "interaction": "Compare profiles; select verify rather than guessing.",
+      "reveal": "Use the established directory/contact.",
+      "facilitator_notes": "No score for guessing from account age or follower counts.",
+      "source_ids": [
+        "S5"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:31",
+      "planned_end": "10:37",
+      "pause_point": true,
+      "what_this_shows": "Two profiles with the same photo, name and posts. Can you tell which is real?",
+      "key_point": "You cannot tell from the screen. Photos, names, posts and follower counts can all be copied. Contact the person through the staff directory."
+    },
+    {
+      "id": "SL12",
+      "module": "M1",
+      "title": "A genuine account, an unusual request",
+      "duration_minutes": 2,
+      "layout": "chat",
+      "objective": "Understand compromised account risk",
+      "screen_text": [
+        "The account may be real.",
+        "The request still needs authorisation."
+      ],
+      "evidence": "Known colleague account asks for a staff contact list.",
+      "interaction": "Reveal request, then ask how to verify need and permitted disclosure.",
+      "reveal": "Follow data-sharing rules and independently verify the purpose.",
+      "facilitator_notes": "Let the room read the chat. Ask what the request would disclose before showing the findings.",
+      "source_ids": [
+        "S8",
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:37",
+      "planned_end": "10:39",
+      "pause_point": false,
+      "what_this_shows": "A real colleague’s account asks Aina for the full staff contact list.",
+      "key_point": "A genuine account can still be used by someone else, and even a genuine request needs permission."
+    },
+    {
+      "id": "SL12B",
+      "module": "M1",
+      "duration_minutes": 2,
+      "planned_start": "10:39",
+      "planned_end": "10:41",
+      "source_ids": [
+        "S8",
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "pause_point": false,
+      "reveal": "Follow data-sharing rules and independently verify the purpose.",
+      "interaction": "Ask how to verify the need and what may be disclosed; then explain the diagram.",
+      "title": "Two checks before sharing the list",
+      "layout": "chat",
+      "objective": "Separate verifying the purpose from permitted disclosure, and account takeover from profile cloning",
+      "screen_text": [
+        "Verify the purpose separately",
+        "Follow data-sharing rules",
+        "Copied profile or taken-over account"
+      ],
+      "evidence": "Two findings and a diagram comparing a copied profile with a taken-over account.",
+      "facilitator_notes": "Distinguish account compromise from profile cloning. Both can send the same message, so both need an independent check.",
+      "what_this_shows": "What Aina does with the request, and why a known account is not proof of who is typing.",
+      "key_point": "Verify the purpose separately and share only what is needed, through the approved route."
+    },
+    {
+      "id": "SL13",
+      "module": "M1",
+      "title": "The support page that found you",
+      "duration_minutes": 5,
+      "layout": "browser",
+      "objective": "Recognise brand impersonation",
+      "screen_text": [
+        "An unsolicited support contact offers to fix an account issue."
+      ],
+      "evidence": "Search advert/social direct message pointing to fake brand support.",
+      "interaction": "Inspect claimed identity and route to known support.",
+      "reveal": "Start support from the known service/app.",
+      "facilitator_notes": "Do not suggest every advert is malicious.",
+      "source_ids": [
+        "S5",
+        "S6"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:41",
+      "planned_end": "10:46",
+      "pause_point": false,
+      "what_this_shows": "Aina complains publicly about a login problem and “support” replies within minutes.",
+      "key_point": "If support found you, do not use it. Start from the app, your saved bookmark or your IT helpdesk."
+    },
+    {
+      "id": "SL14",
+      "module": "M1",
+      "title": "A collaboration that sounds relevant",
+      "duration_minutes": 7,
+      "layout": "chat",
+      "objective": "Reassess a sensitive action after a normal conversation",
+      "screen_text": [
+        "A normal conversation can lead to an unexpected request."
+      ],
+      "evidence": "Contact discusses a project before requesting a document/login.",
+      "interaction": "Reveal benign opener then sensitive follow-up.",
+      "reveal": "Re-evaluate when money, access or information is requested.",
+      "facilitator_notes": "Pair exercise: identify the point requiring verification. Keep business names fictional.",
+      "source_ids": [
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:46",
+      "planned_end": "10:53",
+      "pause_point": false,
+      "what_this_shows": "A friendly professional contact builds trust, then asks for a sign-in and internal documents.",
+      "key_point": "Re-check whenever a conversation reaches money, access or information, however friendly it has been."
+    },
+    {
+      "id": "SL15",
+      "module": "M1",
+      "title": "Someone is using your name",
+      "duration_minutes": 3,
+      "layout": "response",
+      "objective": "Respond to cloning versus takeover",
+      "screen_text": [
+        "Preserve the profile details.",
+        "Report and warn affected contacts through a trusted channel.",
+        "Use official account recovery if the genuine account is compromised."
+      ],
+      "evidence": "A copied profile sends requests to colleagues.",
+      "interaction": "Walk through the three responses; the sorting table follows.",
+      "reveal": "Password changes alone do not remove a copied profile.",
+      "facilitator_notes": "Internal security/communications owns work-related coordination. Avoid promising platform takedown times.",
+      "source_ids": [
+        "S5"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "10:53",
+      "planned_end": "10:56",
+      "pause_point": false,
+      "what_this_shows": "What to do when someone pretends to be you, and how that differs from someone taking over your account.",
+      "key_point": "Preserve the evidence, then report and warn affected contacts through a trusted channel."
+    },
+    {
+      "id": "SL15B",
+      "module": "M1",
+      "duration_minutes": 2,
+      "planned_start": "10:56",
+      "planned_end": "10:58",
+      "source_ids": [
+        "S5"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "pause_point": false,
+      "reveal": "Password changes alone do not remove a copied profile.",
+      "interaction": "Sort cloning and takeover response cards.",
+      "title": "Copied profile or taken-over account?",
+      "layout": "response",
+      "objective": "Match each response action to cloning or takeover",
+      "screen_text": [
+        "Which action fits which situation?",
+        "Password changes alone do not remove a copied profile."
+      ],
+      "evidence": "A tick table of four actions against the two situations.",
+      "facilitator_notes": "A password change secures the genuine account but does nothing about a separate copied profile. Avoid promising platform takedown times.",
+      "what_this_shows": "Which action fits which situation.",
+      "key_point": "A copied profile needs a platform report; a taken-over account needs official recovery. Both need you to warn contacts through a trusted channel."
+    },
+    {
+      "id": "SL16",
+      "module": "M1",
+      "title": "Verify before you classify",
+      "duration_minutes": 5,
+      "layout": "decision",
+      "objective": "Choose a next action with uncertain identity",
+      "screen_text": [
+        "A profile looks familiar, but the request is new."
+      ],
+      "evidence": "Aina’s apparent profile requests a work document.",
+      "interaction": "Choose: trust photo, continue in chat, verify through directory.",
+      "reveal": "Verify the request and permission to share.",
+      "facilitator_notes": "Ask learners to justify the route, not only the classification.",
+      "source_ids": [
+        "S5",
+        "S20"
+      ],
+      "evidence_kind": "fictional",
+      "options": [
+        {
+          "label": "Trust the photo",
+          "feedback": "Profile details can be copied."
+        },
+        {
+          "label": "Ask in the same chat",
+          "feedback": "The person controlling that chat can answer."
+        },
+        {
+          "label": "Contact through the staff directory",
+          "feedback": "Verify independently and check sharing permissions.",
+          "preferred": true
+        }
+      ],
+      "planned_start": "10:58",
+      "planned_end": "11:03",
+      "pause_point": true,
+      "what_this_shows": "A familiar profile asks Farid for a supplier contract.",
+      "key_point": "Verify through the staff directory, then check the contract may be shared that way."
+    },
+    {
+      "id": "SL17",
+      "module": "M1",
+      "title": "Module 1 takeaways",
+      "duration_minutes": 2,
+      "layout": "takeaway",
+      "objective": "What to remember from Module 1.",
+      "screen_text": [
+        "Photos, names and job titles are easy to copy.",
+        "A real account can be misused, and a real request can still need permission.",
+        "Re-check when a chat turns to money, access or information."
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 1",
+      "takeaways": [
+        "Photos, names and job titles are easy to copy.",
+        "A real account can be misused, and a real request can still need permission.",
+        "Re-check when a chat turns to money, access or information."
+      ],
+      "habit": "Contact people through the directory, not through the message.",
+      "pause_point": false,
+      "what_this_shows": "What to remember from Module 1.",
+      "key_point": "Contact people through the directory, not through the message.",
+      "planned_start": "11:03",
+      "planned_end": "11:05"
+    },
+    {
+      "id": "SL18",
+      "module": "B1",
+      "title": "Short break",
+      "duration_minutes": 10,
+      "layout": "intermission",
+      "objective": "Scheduled break",
+      "screen_text": [
+        "Short break",
+        "We return with Module 2 · The trusted request"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Break. Restart on time; nothing advances automatically.",
+      "source_ids": [],
+      "evidence_kind": "logistics",
+      "options": [],
+      "planned_start": "11:05",
+      "planned_end": "11:15",
+      "pause_point": false
+    },
+    {
+      "id": "SL19",
+      "module": "M2",
+      "title": "Module 2: The trusted request",
+      "duration_minutes": 2,
+      "layout": "opener",
+      "objective": "What this module covers and why it matters.",
+      "screen_text": [
+        "Name the pressure tactics in an urgent request",
+        "Pause politely without refusing outright",
+        "Verify payments and calls through records you already hold"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 2",
+      "why": "Attackers borrow authority and urgency because people want to help their manager and meet deadlines.",
+      "outcomes": [
+        "Name the pressure tactics in an urgent request",
+        "Pause politely without refusing outright",
+        "Verify payments and calls through records you already hold"
+      ],
+      "cast": [
+        "ravi",
+        "farid",
+        "nadia",
+        "it-caller"
+      ],
+      "pause_point": false,
+      "what_this_shows": "What this module covers and why it matters.",
+      "key_point": "Urgency and authority are reasons to check, not reasons to skip the check.",
+      "planned_start": "11:15",
+      "planned_end": "11:17"
+    },
+    {
+      "id": "SL20",
+      "module": "M2",
+      "title": "An urgent request from the manager",
+      "duration_minutes": 4,
+      "layout": "chat",
+      "objective": "Notice authority pressure",
+      "screen_text": [
+        "The deadline is close.",
+        "The normal approval process still applies."
+      ],
+      "evidence": "Ravi’s display name requests an exceptional purchase.",
+      "interaction": "Reveal request and secrecy instruction.",
+      "reveal": "Confirm through established work channels.",
+      "facilitator_notes": "Connect to opening without replaying its six slides.",
+      "source_ids": [
+        "S7",
+        "S8"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "11:17",
+      "planned_end": "11:21",
+      "pause_point": false,
+      "what_this_shows": "“Ravi” asks Farid to pay a new supplier now and approve it later.",
+      "key_point": "Normal approval still applies when the deadline is close. Confirm with Ravi on his directory number."
+    },
+    {
+      "id": "SL21",
+      "module": "M2",
+      "title": "What the pressure asks you to skip",
+      "duration_minutes": 6,
+      "layout": "annotated",
+      "objective": "Identify process bypass",
+      "screen_text": [
+        "Urgency",
+        "Secrecy",
+        "An exception to normal approval"
+      ],
+      "evidence": "Fictional message: “Handle this before the meeting; I’ll approve later.”",
+      "interaction": "Identify the business check being bypassed.",
+      "reveal": "The risk is the requested exception, even if the person is genuine.",
+      "facilitator_notes": "Discuss authority, fear and helpfulness without stereotyping victims.",
+      "source_ids": [
+        "S7"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "11:21",
+      "planned_end": "11:27",
+      "pause_point": false,
+      "what_this_shows": "The three pressure tactics hidden in one short message.",
+      "key_point": "Urgency, secrecy and “I’ll approve it later” all try to remove a check. The risk is the exception, even if the sender is genuine."
+    },
+    {
+      "id": "SL22",
+      "module": "M2",
+      "title": "A polite way to pause",
+      "duration_minutes": 6,
+      "layout": "roleplay",
+      "objective": "Practise a usable response",
+      "screen_text": [
+        "“I can help once I confirm through our normal approval process.”"
+      ],
+      "evidence": "Pairs act as employee and impatient requester.",
+      "interaction": "Two-minute roleplay, swap, debrief.",
+      "reveal": "Choose a specific verification route and next step.",
+      "facilitator_notes": "Make room for cultural/authority concerns. Managers should support this behaviour.",
+      "source_ids": [
+        "S20"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "11:27",
+      "planned_end": "11:33",
+      "pause_point": false,
+      "what_this_shows": "Practise saying “not yet” politely to someone senior.",
+      "key_point": "Name the route and the next step: “I’ll call you back on your directory number, then raise it for approval.”"
+    },
+    {
+      "id": "SL23",
+      "module": "M2",
+      "title": "The voice on the phone",
+      "duration_minutes": 4,
+      "layout": "voice",
+      "objective": "Recognise information-rich caller impersonation",
+      "screen_text": [
+        "A caller knows your name and manager.",
+        "They ask for an account reset or code."
+      ],
+      "evidence": "Scripted caller claims IT support.",
+      "interaction": "Read a captioned script; ask what proves identity.",
+      "reveal": "Call the established service desk.",
+      "facilitator_notes": "No voice cloning of real people required. Do not collect codes.",
+      "source_ids": [
+        "S8"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "11:33",
+      "planned_end": "11:37",
+      "pause_point": false,
+      "what_this_shows": "A caller knows Aina’s name and manager, and asks her to read out a code.",
+      "key_point": "Knowing names proves nothing. Hang up and call the service desk on its known number. Never read out a sign-in code."
+    },
+    {
+      "id": "SL23B",
+      "module": "M2",
+      "title": "What proves who is calling?",
+      "duration_minutes": 2,
+      "layout": "voice",
+      "objective": "State the response to a caller who knows names and asks for a reset or a code",
+      "screen_text": [
+        "Knowing names does not prove identity.",
+        "Hang up.",
+        "Call the service desk using its known number.",
+        "Never read out a sign-in code."
+      ],
+      "evidence": "",
+      "interaction": "Read the statement and the three actions; ask the room which number they would call.",
+      "reveal": "",
+      "facilitator_notes": "This is the lesson from the call on the previous slide. Do not collect codes; nobody reads one out, even as a demonstration.",
+      "source_ids": [
+        "S8"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "11:37",
+      "planned_end": "11:39",
+      "pause_point": false,
+      "what_this_shows": "What to do when a caller asks for a reset or a code.",
+      "key_point": "Knowing names does not prove identity. Hang up, call the service desk using its known number, and never read out a sign-in code."
+    },
+    {
+      "id": "SL24",
+      "module": "M2",
+      "title": "A face or voice cannot approve a payment",
+      "duration_minutes": 7,
+      "layout": "case",
+      "objective": "Use business controls for synthetic-media risk",
+      "screen_text": [
+        "Verify the transaction through a separate authorised process."
+      ],
+      "evidence": "Reference the Hong Kong case from opening plus a fictional manager call.",
+      "interaction": "Compare cosmetic detection with independent verification.",
+      "reveal": "Visual glitches are insufficient as the only defence.",
+      "facilitator_notes": "Do not claim all synthetic media is detectable or all video calls are unsafe.",
+      "source_ids": [
+        "S9",
+        "S7"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "11:39",
+      "planned_end": "11:46",
+      "pause_point": false,
+      "what_this_shows": "Why spotting a fake video is not a reliable defence.",
+      "key_point": "Do not rely on spotting glitches. A separate, authorised payment process works whether the video is real or fake."
+    },
+    {
+      "id": "SL25",
+      "module": "M2",
+      "title": "Which number will you call?",
+      "duration_minutes": 7,
+      "layout": "decision",
+      "objective": "Choose existing contact records",
+      "screen_text": [
+        "The email includes a new phone number to confirm new bank details."
+      ],
+      "evidence": "Old vendor record, new email signature and directory contact.",
+      "interaction": "Choose callback destination, explain rationale.",
+      "reveal": "Use established records; do not rely on a number supplied with the change.",
+      "facilitator_notes": "The genuine vendor may have a new number too; update records through approved procedure.",
+      "source_ids": [
+        "S7",
+        "S5"
+      ],
+      "evidence_kind": "fictional",
+      "options": [
+        {
+          "label": "New number in the email",
+          "feedback": "It comes from the same unverified request."
+        },
+        {
+          "label": "Existing vendor record",
+          "feedback": "Use the established contact and required approval.",
+          "preferred": true
+        },
+        {
+          "label": "Wait without telling anyone",
+          "feedback": "Hold the action and notify the appropriate owner."
+        }
+      ],
+      "planned_start": "11:46",
+      "planned_end": "11:53",
+      "pause_point": true,
+      "what_this_shows": "A bank-change email gives Farid a new number to call.",
+      "key_point": "Call the number already in your records, never one supplied with the change."
+    },
+    {
+      "id": "SL26",
+      "module": "M2",
+      "title": "Keep the process when the request is genuine",
+      "duration_minutes": 5,
+      "layout": "decision",
+      "objective": "Avoid labelling all sensitive requests as fraud",
+      "screen_text": [
+        "A verified vendor really has changed banks."
+      ],
+      "evidence": "Established contact confirms change; approval is still pending.",
+      "interaction": "Ask whether verification alone permits payment.",
+      "reveal": "Complete authorised approval and record updates.",
+      "facilitator_notes": "Explicit legitimate example. Verification and authorisation serve different purposes.",
+      "source_ids": [
+        "S7"
+      ],
+      "evidence_kind": "fictional",
+      "options": [
+        {
+          "label": "Pay immediately after the call",
+          "feedback": "Identity verification does not replace payment authorisation.",
+          "preferred": false
+        },
+        {
+          "label": "Complete the approved bank-change and payment process",
+          "feedback": "Proceed only after verification, records and approvals are complete.",
+          "preferred": true
+        },
+        {
+          "label": "Treat every bank change as fraud",
+          "feedback": "A verified legitimate change can proceed through the proper process.",
+          "preferred": false
+        }
+      ],
+      "planned_start": "11:53",
+      "planned_end": "11:58",
+      "pause_point": true,
+      "what_this_shows": "The supplier confirms the bank change is real. Can Farid pay now?",
+      "key_point": "Verification checks who is asking. Authorisation decides whether it may happen. A genuine change still goes through approval."
+    },
+    {
+      "id": "SL27",
+      "module": "M2",
+      "title": "Module 2 takeaways",
+      "duration_minutes": 2,
+      "layout": "takeaway",
+      "objective": "What to remember from Module 2.",
+      "screen_text": [
+        "Urgency, secrecy and “approve it later” are pressure tactics.",
+        "A face, a voice or a caller’s inside knowledge does not prove identity.",
+        "Genuine requests still follow the approval process."
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 2",
+      "takeaways": [
+        "Urgency, secrecy and “approve it later” are pressure tactics.",
+        "A face, a voice or a caller’s inside knowledge does not prove identity.",
+        "Genuine requests still follow the approval process."
+      ],
+      "habit": "Call back on a number you already have before you pay, reset or share.",
+      "pause_point": false,
+      "what_this_shows": "What to remember from Module 2.",
+      "key_point": "Call back on a number you already have before you pay, reset or share.",
+      "planned_start": "11:58",
+      "planned_end": "12:00"
+    },
+    {
+      "id": "SL28",
+      "module": "M3",
+      "title": "Module 3: The message that fits your job",
+      "duration_minutes": 2,
+      "layout": "opener",
+      "objective": "What this module covers and why it matters.",
+      "screen_text": [
+        "Find the action a message is asking you to take",
+        "Read sender addresses and links without opening them",
+        "Recognise “safety signs” that prove nothing"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 3",
+      "why": "The most convincing messages look like ordinary work: an invitation, a shared file, an account notice.",
+      "outcomes": [
+        "Find the action a message is asking you to take",
+        "Read sender addresses and links without opening them",
+        "Recognise “safety signs” that prove nothing"
+      ],
+      "cast": [
+        "aina",
+        "farid",
+        "ravi",
+        "nadia"
+      ],
+      "pause_point": false,
+      "what_this_shows": "What this module covers and why it matters.",
+      "key_point": "Ask three questions of every message: who is asking, what would I authorise, and how can I check outside this message?",
+      "planned_start": "12:00",
+      "planned_end": "12:02"
+    },
+    {
+      "id": "SL29",
+      "module": "M3",
+      "title": "A message that fits your work",
+      "duration_minutes": 5,
+      "layout": "email",
+      "objective": "Identify the requested action",
+      "screen_text": [
+        "Who is asking?",
+        "What would I authorise or disclose?",
+        "How can I verify outside this message?"
+      ],
+      "evidence": "Meeting, benefits and document invitations.",
+      "interaction": "Ask which action creates risk.",
+      "reveal": "Use context, action and independent route together.",
+      "facilitator_notes": "Do not claim most breaches start with spear phishing.",
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "12:02",
+      "planned_end": "12:07",
+      "pause_point": false,
+      "what_this_shows": "Three ordinary work messages, each asking for a different risky action.",
+      "key_point": "Look for the action: sign in, share data, open a file. Then verify outside the message. Any of these could be genuine."
+    },
+    {
+      "id": "SL30",
+      "module": "M3",
+      "title": "The sender behind the display name",
+      "duration_minutes": 6,
+      "layout": "email",
+      "objective": "Inspect sender without treating it as conclusive",
+      "screen_text": [
+        "Expand the sender.",
+        "Check the full address and reply destination."
+      ],
+      "evidence": "Manager display name with a different reserved .example address.",
+      "interaction": "Toggle sender details.",
+      "reveal": "A mismatch may be a clue; a match still needs request verification.",
+      "facilitator_notes": "Explain sender spoofing, lookalike domains and compromised accounts in notes, not as a protocol lecture.",
+      "source_ids": [
+        "S10"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "12:07",
+      "planned_end": "12:13",
+      "pause_point": false,
+      "what_this_shows": "What the full sender address reveals behind the display name.",
+      "key_point": "A mismatched address is a warning sign, but a matching one does not prove safety. Verify the request itself."
+    },
+    {
+      "id": "SL31",
+      "module": "M3",
+      "title": "The destination behind the label",
+      "duration_minutes": 5,
+      "layout": "browser",
+      "objective": "Read displayed destinations safely",
+      "screen_text": [
+        "Preview without opening.",
+        "Find the actual hostname."
+      ],
+      "evidence": "Display https://login.company.example.attacker.test/review as inert text.",
+      "interaction": "Highlight hostname parts after vote.",
+      "reveal": "Hostname ends with attacker.test.",
+      "facilitator_notes": "Reserved .test domain. Genuine hosting and redirects can also be abused. Never navigate.",
+      "source_ids": [
+        "S10"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "12:13",
+      "planned_end": "12:18",
+      "pause_point": true,
+      "what_this_shows": "Who really controls this link? Vote, then see how to read it.",
+      "key_point": "Read the web address from the right, up to the first single slash. The last part, attacker.test, owns the site."
+    },
+    {
+      "id": "SL32",
+      "module": "M3",
+      "title": "A polished message can still deceive",
+      "duration_minutes": 5,
+      "layout": "comparison",
+      "objective": "Avoid grammar-based trust",
+      "screen_text": [
+        "Professional writing and a familiar logo do not establish intent."
+      ],
+      "evidence": "Two polished messages: legitimate HR notice and deceptive approval request.",
+      "interaction": "Ask what business verification each requires.",
+      "reveal": "Focus on the action and context.",
+      "facilitator_notes": "AI can improve lure writing, but do not label a sample AI-generated without evidence.",
+      "source_ids": [
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "12:18",
+      "planned_end": "12:23",
+      "pause_point": false,
+      "what_this_shows": "Two professional-looking messages: one genuine, one deceptive.",
+      "key_point": "Polish and logos prove nothing. Judge the action requested and check it in the system you normally use."
+    },
+    {
+      "id": "SL33",
+      "module": "M3",
+      "title": "The same request on a phone",
+      "duration_minutes": 3,
+      "layout": "mobile",
+      "objective": "Inspect compressed mobile evidence",
+      "screen_text": [
+        "The screen shows less detail.",
+        "Open the known application directly."
+      ],
+      "evidence": "SMS or WhatsApp notification requesting account review.",
+      "interaction": "Ask where Aina would check this; the inspection follows.",
+      "reveal": "Use the known service and report suspicious requests.",
+      "facilitator_notes": "Do not suggest mobile is inherently unsafe.",
+      "source_ids": [
+        "S5",
+        "S3"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "12:23",
+      "planned_end": "12:26",
+      "pause_point": false,
+      "what_this_shows": "The same request arrives as a text message. Where would Aina check it?",
+      "key_point": "A sender label does not verify the sender. Open the app or website yourself instead of tapping the message."
+    },
+    {
+      "id": "SL33B",
+      "module": "M3",
+      "duration_minutes": 2,
+      "planned_start": "12:26",
+      "planned_end": "12:28",
+      "source_ids": [
+        "S5",
+        "S3"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "pause_point": false,
+      "reveal": "Use the known service and report suspicious requests.",
+      "interaction": "Compare the sender label and the link with the saved portal.",
+      "title": "The same text message, inspected",
+      "layout": "mobile",
+      "objective": "Compare the sender label and the link with the saved portal",
+      "screen_text": [
+        "Sender label: MERANTI-IT",
+        "Message link against the saved IT portal",
+        "Independent check"
+      ],
+      "evidence": "The SMS inspected: sender label, message link, saved portal address.",
+      "facilitator_notes": "The saved portal address is a fictional scenario detail. Do not suggest mobile is inherently unsafe; it compresses detail.",
+      "what_this_shows": "The sender label and the link, compared with the saved portal.",
+      "key_point": "The label is not identity, and the link does not match the saved portal. A short link gives little to compare, so open the saved portal instead."
+    },
+    {
+      "id": "SL34",
+      "module": "M3",
+      "title": "A QR code moves the request",
+      "duration_minutes": 5,
+      "layout": "qr",
+      "objective": "Treat QR as a route requiring verification",
+      "screen_text": [
+        "Where would this code take you?",
+        "Did you initiate this sign-in or linking action?"
+      ],
+      "evidence": "Mock account-security email with an inert QR tile.",
+      "interaction": "Reveal destination in the deck, not via phone scan.",
+      "reveal": "Use the known portal instead of an unsolicited request.",
+      "facilitator_notes": "No functional login/linking QR. Distinguish URL phishing from device-linking later.",
+      "source_ids": [
+        "S3"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "12:28",
+      "planned_end": "12:33",
+      "pause_point": false,
+      "what_this_shows": "A QR code that moves a sign-in request onto your phone.",
+      "key_point": "Treat a QR code like a link you cannot read. Use the known portal instead."
+    },
+    {
+      "id": "SL35",
+      "module": "M3",
+      "title": "A shared file is still a request",
+      "duration_minutes": 5,
+      "layout": "email",
+      "objective": "Assess document and attachment pretexts",
+      "screen_text": [
+        "Branding and file format do not establish safety."
+      ],
+      "evidence": "PDF/HTML/SVG file card and shared-document invitation.",
+      "interaction": "Select inspection cards; no file opens.",
+      "reveal": "Verify the sharing context before unexpected login/download.",
+      "facilitator_notes": "Keep attachment behaviour inert. File formats are examples, not automatic malicious classifications.",
+      "source_ids": [
+        "S3",
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "12:33",
+      "planned_end": "12:38",
+      "pause_point": false,
+      "what_this_shows": "Shared files and attachments that lead to a sign-in or download.",
+      "key_point": "A file type or brand does not make it safe. If you did not expect it, check with the sender through a known contact first."
+    },
+    {
+      "id": "SL36",
+      "module": "M3",
+      "title": "Would you approve this?",
+      "duration_minutes": 8,
+      "layout": "exercise",
+      "objective": "Apply process to both genuine and deceptive requests",
+      "screen_text": [
+        "Proceed, verify or report?",
+        "Explain the next action."
+      ],
+      "evidence": "Four cards: genuine bank change, compromised colleague, genuine portal IT notice, fake manager exception.",
+      "interaction": "Table groups select an action for each.",
+      "reveal": "Independent verification may be right for genuine sensitive requests too.",
+      "facilitator_notes": "Use EXERCISES.md answer key. Score process, not number of messages called malicious.",
+      "source_ids": [
+        "S7",
+        "S20"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "12:38",
+      "planned_end": "12:46",
+      "pause_point": true,
+      "what_this_shows": "Four realistic requests: decide for each whether to proceed, verify first, or hold and report.",
+      "key_point": "Some requests are genuine. The right answer depends on the action and the route, not on calling everything phishing."
+    },
+    {
+      "id": "SL37",
+      "module": "M3",
+      "title": "The signals that do not prove safety",
+      "duration_minutes": 7,
+      "layout": "reveal",
+      "objective": "Challenge misleading assurances",
+      "screen_text": [
+        "Familiar logo",
+        "Known sender",
+        "HTTPS or no email warning"
+      ],
+      "evidence": "Three claimed assurances plus optional fluent wording and MFA.",
+      "interaction": "Reveal what each signal establishes and its limit.",
+      "reveal": "Appearance, delivery and authentication do not validate the business request.",
+      "facilitator_notes": "Do not imply HTTPS is useless. It protects a connection to the destination.",
+      "source_ids": [
+        "S11",
+        "S12"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "12:46",
+      "planned_end": "12:53",
+      "pause_point": false,
+      "what_this_shows": "Six common “safety signs” and what each one really proves.",
+      "key_point": "Logos, padlocks, known senders and completed MFA do not validate the request. HTTPS still matters: it protects the connection."
+    },
+    {
+      "id": "SL38",
+      "module": "M3",
+      "title": "Your verification route",
+      "duration_minutes": 5,
+      "layout": "response",
+      "objective": "Consolidate independent verification",
+      "screen_text": [
+        "Use a known app, saved address or established contact.",
+        "Verify sensitive changes before acting."
+      ],
+      "evidence": "Aina receives another document invitation.",
+      "interaction": "Ask each table to name its route.",
+      "reveal": "Use the organisation’s actual process.",
+      "facilitator_notes": "This is a course summary, not an official mnemonic.",
+      "source_ids": [
+        "S7",
+        "S20"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "12:53",
+      "planned_end": "12:58",
+      "pause_point": false,
+      "what_this_shows": "The three trusted routes you can use to check any request.",
+      "key_point": "Use a known app or bookmark, an established contact, or your organisation’s process. Never the contact details inside the message."
+    },
+    {
+      "id": "SL39",
+      "module": "M3",
+      "title": "Module 3 takeaways",
+      "duration_minutes": 2,
+      "layout": "takeaway",
+      "objective": "What to remember from Module 3.",
+      "screen_text": [
+        "Find the action the message wants.",
+        "Read addresses and links without opening them.",
+        "Polish, padlocks and logos are not proof."
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 3",
+      "takeaways": [
+        "Find the action the message wants.",
+        "Read addresses and links without opening them.",
+        "Polish, padlocks and logos are not proof."
+      ],
+      "habit": "Go to the app or website yourself instead of using the link.",
+      "pause_point": false,
+      "what_this_shows": "What to remember from Module 3.",
+      "key_point": "Go to the app or website yourself instead of using the link.",
+      "planned_start": "12:58",
+      "planned_end": "13:00"
+    },
+    {
+      "id": "SL40",
+      "module": "B2",
+      "title": "Lunch break",
+      "duration_minutes": 75,
+      "layout": "intermission",
+      "objective": "Scheduled break",
+      "screen_text": [
+        "Lunch break",
+        "We return with Module 4 · Beyond the password"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Break. Restart on time; nothing advances automatically.",
+      "source_ids": [],
+      "evidence_kind": "logistics",
+      "options": [],
+      "planned_start": "13:00",
+      "planned_end": "14:15",
+      "pause_point": false
+    },
+    {
+      "id": "SL41",
+      "module": "M4",
+      "title": "Module 4: Beyond the password",
+      "duration_minutes": 2,
+      "layout": "opener",
+      "objective": "What this module covers, and the words we will use.",
+      "screen_text": [
+        "Explain what an approval actually grants",
+        "Respond to sign-in prompts you did not start",
+        "Recognise code, app-permission and device-linking tricks"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 4",
+      "why": "Attackers no longer need your password if you approve a sign-in, a code, an app or a device for them.",
+      "outcomes": [
+        "Explain what an approval actually grants",
+        "Respond to sign-in prompts you did not start",
+        "Recognise code, app-permission and device-linking tricks"
+      ],
+      "cast": [
+        "aina",
+        "mei"
+      ],
+      "pause_point": false,
+      "what_this_shows": "What this module covers and why it matters.",
+      "key_point": "Before approving anything, ask: what does this give, and to whom? Did I start it?",
+      "planned_start": "14:15",
+      "planned_end": "14:17"
+    },
+    {
+      "id": "SL41B",
+      "module": "M4",
+      "duration_minutes": 1,
+      "planned_start": "14:17",
+      "planned_end": "14:18",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "pause_point": false,
+      "reveal": "",
+      "interaction": "",
+      "title": "Words we will use",
+      "layout": "glossary",
+      "objective": "Define the module’s terms in plain language before the scenes",
+      "screen_text": [
+        "MFA",
+        "Session",
+        "Device code",
+        "App permission",
+        "Linked device",
+        "Phishing-resistant MFA"
+      ],
+      "evidence": "",
+      "module_label": "Module 4",
+      "facilitator_notes": "Read the six words briefly; point back to this slide whenever a term comes up.",
+      "what_this_shows": "Six words for this module, in plain language.",
+      "key_point": "You do not need the technical detail. For each one, ask what it gives, and to whom.",
+      "glossary": [
+        [
+          "MFA",
+          "A second check when you sign in, such as an app prompt or a code"
+        ],
+        [
+          "Session",
+          "Staying signed in after you log in, so you are not asked again"
+        ],
+        [
+          "Device code",
+          "A short code that signs another device in to your account"
+        ],
+        [
+          "App permission",
+          "Letting an app read or change your mail and files"
+        ],
+        [
+          "Linked device",
+          "Another phone or computer that can use your account"
+        ],
+        [
+          "Phishing-resistant MFA",
+          "Security keys or passkeys that only work on the real site"
+        ]
+      ]
+    },
+    {
+      "id": "SL42",
+      "module": "M4",
+      "title": "Access can be granted without sharing a password",
+      "duration_minutes": 5,
+      "layout": "comparison",
+      "objective": "Understand permissions and sessions",
+      "screen_text": [
+        "A sign-in, permission or device approval can grant access."
+      ],
+      "evidence": "Four inert cards: login session, MFA request, app permission, linked device.",
+      "interaction": "Identify the access each card represents.",
+      "reveal": "Check what session, device or app receives access.",
+      "facilitator_notes": "Keep technical protocol detail in notes.",
+      "source_ids": [
+        "S11",
+        "S12"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "14:18",
+      "planned_end": "14:23",
+      "pause_point": false,
+      "what_this_shows": "Four ways to give someone access without sharing a password.",
+      "key_point": "A session, an MFA approval, an app permission or a linked device can each let someone act as you."
+    },
+    {
+      "id": "SL43",
+      "module": "M4",
+      "title": "The login session an attacker can reuse",
+      "duration_minutes": 6,
+      "layout": "browser",
+      "objective": "Understand session theft at a high level",
+      "screen_text": [
+        "A deceptive sign-in flow may capture a usable session."
+      ],
+      "evidence": "Annotated static sign-in sequence, no credential fields.",
+      "interaction": "Reveal the access consequence.",
+      "reveal": "Use approved sign-in routes and report suspicious flows.",
+      "facilitator_notes": "Describe AiTM conceptually. No proxy code or live capture. Do not say MFA is pointless.",
+      "source_ids": [
+        "S11",
+        "S13"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "14:23",
+      "planned_end": "14:29",
+      "pause_point": false,
+      "what_this_shows": "How a fake sign-in page can capture a working login, even with MFA.",
+      "key_point": "Sign in from your bookmark or app, not from a link. Phishing-resistant MFA, such as security keys and passkeys, blocks this relay."
+    },
+    {
+      "id": "SL44",
+      "module": "M4",
+      "title": "An approval you did not start",
+      "duration_minutes": 5,
+      "layout": "mobile",
+      "objective": "Respond to MFA pressure",
+      "screen_text": [
+        "Deny an unexpected request.",
+        "Report repeated or suspicious prompts."
+      ],
+      "evidence": "Mock approval notification repeated twice.",
+      "interaction": "Choose deny/report or approve-to-stop.",
+      "reveal": "Do not approve access you did not initiate.",
+      "facilitator_notes": "MFA remains useful. Number matching reduces some risks but does not legitimise an unsolicited request.",
+      "source_ids": [
+        "S8",
+        "S13"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "14:29",
+      "planned_end": "14:34",
+      "pause_point": false,
+      "what_this_shows": "Sign-in prompts arrive late at night while Aina is not signing in.",
+      "key_point": "Deny any prompt you did not start and report it. Never approve just to make the prompts stop."
+    },
+    {
+      "id": "SL45",
+      "module": "M4",
+      "title": "A real sign-in page, someone else’s code",
+      "duration_minutes": 4,
+      "layout": "browser",
+      "objective": "Recognise device-code phishing",
+      "screen_text": [
+        "Whose device or session would this code authorise?"
+      ],
+      "evidence": "Document invitation supplies a DEMO-ONLY code and genuine-looking static service page.",
+      "interaction": "Show the message and the genuine page; ask the question before the next slide answers it.",
+      "reveal": "Enter codes only for recognised sessions you initiated.",
+      "facilitator_notes": "No real device code. Verify purpose even when the service address is genuine.",
+      "source_ids": [
+        "S12"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "14:34",
+      "planned_end": "14:38",
+      "pause_point": false,
+      "what_this_shows": "A genuine sign-in page asks for a code that someone else sent Aina.",
+      "key_point": "Only enter and authorise a code for a sign-in you started yourself."
+    },
+    {
+      "id": "SL45B",
+      "module": "M4",
+      "duration_minutes": 4,
+      "planned_start": "14:38",
+      "planned_end": "14:42",
+      "source_ids": [
+        "S12"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "pause_point": false,
+      "reveal": "Enter codes only for recognised sessions you initiated.",
+      "interaction": "Reveal who initiated the request.",
+      "title": "Whose device the code would sign in",
+      "layout": "browser",
+      "objective": "Show where the code came from and what authorising it does",
+      "screen_text": [
+        "The sender’s device started a sign-in",
+        "Aina enters the code and authorises",
+        "Their device gets access"
+      ],
+      "evidence": "Diagram: sender’s device, the code, the real page, access granted.",
+      "facilitator_notes": "No real device code. Verify purpose even when the service address is genuine.",
+      "what_this_shows": "Where the code came from, and what authorising it would do.",
+      "key_point": "Here, authorising the code would sign in the sender’s device as Aina. Authorise only sign-ins you started yourself."
+    },
+    {
+      "id": "SL46",
+      "module": "M4",
+      "title": "The app asking for your permission",
+      "duration_minutes": 6,
+      "layout": "browser",
+      "objective": "Assess app consent",
+      "screen_text": [
+        "An app asks to read messages or files.",
+        "Use the approved application process."
+      ],
+      "evidence": "Fictional Meeting Helper requests unnecessary access.",
+      "interaction": "Inspect permission list, choose IT approval route.",
+      "reveal": "A real consent screen does not validate the app’s purpose.",
+      "facilitator_notes": "Unknown publisher alone is not definitive. Do not ask learners to grant real consent.",
+      "source_ids": [
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "14:42",
+      "planned_end": "14:48",
+      "pause_point": false,
+      "what_this_shows": "A meeting app asks for far more access than it needs.",
+      "key_point": "A real permission screen does not make the app trustworthy. Ask IT to approve apps through the normal process."
+    },
+    {
+      "id": "SL47",
+      "module": "M4",
+      "title": "Linking another device",
+      "duration_minutes": 3,
+      "layout": "qr",
+      "objective": "Recognise device-linking abuse",
+      "screen_text": [
+        "Link only devices and sessions you recognise and initiated."
+      ],
+      "evidence": "Inert WhatsApp-style linked-device screen; fictional invitation.",
+      "interaction": "Show the invitation and what the app asks; the comparison follows.",
+      "reveal": "A linking QR can authorise access to an account.",
+      "facilitator_notes": "Use labelled nonfunctional placeholder, never a scannable account-link code.",
+      "source_ids": [
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "14:48",
+      "planned_end": "14:51",
+      "pause_point": false,
+      "what_this_shows": "An invitation says “join”, but the app asks to link a device.",
+      "key_point": "This invitation says “join”, but the app asks to link a device. Check your linked-devices list if unsure."
+    },
+    {
+      "id": "SL47B",
+      "module": "M4",
+      "duration_minutes": 2,
+      "planned_start": "14:51",
+      "planned_end": "14:53",
+      "source_ids": [
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "pause_point": false,
+      "reveal": "A linking QR can authorise access to an account.",
+      "interaction": "Reveal difference between joining a group and linking a device.",
+      "title": "Joining a group or linking a device?",
+      "layout": "qr",
+      "objective": "Contrast joining a conversation with linking a device to an account",
+      "screen_text": [
+        "Joining a group",
+        "Linking a device",
+        "Link only devices you own and set up yourself"
+      ],
+      "evidence": "Diagram: joining a group versus linking a device.",
+      "facilitator_notes": "Present linking as general product behaviour, not a sourced incident.",
+      "what_this_shows": "Joining adds you to one conversation. Linking gives another device your account.",
+      "key_point": "Linking gives another device ongoing access to your account. Link only devices you own and set up yourself."
+    },
+    {
+      "id": "SL48",
+      "module": "M4",
+      "title": "A defence that stopped the attempted access",
+      "duration_minutes": 5,
+      "layout": "case",
+      "objective": "Understand layered controls",
+      "screen_text": [
+        "Cloudflare reported three credential submissions.",
+        "Hardware-key requirements prevented the attempted access."
+      ],
+      "evidence": "July 2022 SMS campaign, disclosed August 2022.",
+      "interaction": "Compare credential exposure with prevented access.",
+      "reveal": "Staff reporting and technical controls work together.",
+      "facilitator_notes": "Historical positive case. Do not promise keys prevent consent or payment fraud.",
+      "source_ids": [
+        "S14",
+        "S13"
+      ],
+      "evidence_kind": "documented",
+      "options": [],
+      "planned_start": "14:53",
+      "planned_end": "14:58",
+      "pause_point": false,
+      "what_this_shows": "A real case where staff entered passwords but security keys stopped the attack.",
+      "key_point": "Strong controls and quick reporting work together. Some MFA types resist phishing much better than others."
+    },
+    {
+      "id": "SL49",
+      "module": "M4",
+      "title": "What does this approval grant?",
+      "duration_minutes": 5,
+      "layout": "decision",
+      "objective": "Distinguish authentication from business authority",
+      "screen_text": [
+        "A trusted service asks you to approve an unfamiliar session."
+      ],
+      "evidence": "Genuine-looking code/consent/MFA mini-cards.",
+      "interaction": "Identify grant and independent route.",
+      "reveal": "Pause and verify origin and purpose.",
+      "facilitator_notes": "Ask for learner explanation rather than technical vocabulary.",
+      "source_ids": [
+        "S11",
+        "S12"
+      ],
+      "evidence_kind": "fictional",
+      "options": [
+        {
+          "label": "Approve because the service is genuine",
+          "feedback": "The request may authorise someone else’s session or an unwanted app.",
+          "preferred": false
+        },
+        {
+          "label": "Check the initiating session or app through the known route",
+          "feedback": "Verify what access is granted and why before acting.",
+          "preferred": true
+        },
+        {
+          "label": "Disable MFA to avoid prompts",
+          "feedback": "MFA remains useful; report suspicious requests rather than disabling it.",
+          "preferred": false
+        }
+      ],
+      "planned_start": "14:58",
+      "planned_end": "15:03",
+      "pause_point": true,
+      "what_this_shows": "A trusted service asks you to approve an unfamiliar session.",
+      "key_point": "Check where the request came from through a route you know. If you did not start it, deny it and report it."
+    },
+    {
+      "id": "SL50",
+      "module": "M4",
+      "title": "Module 4 takeaways",
+      "duration_minutes": 2,
+      "layout": "takeaway",
+      "objective": "What to remember from Module 4.",
+      "screen_text": [
+        "Approvals, codes, apps and linked devices can all grant access.",
+        "MFA helps, but never approve something you did not start.",
+        "A genuine sign-in page can still sign in someone else."
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 4",
+      "takeaways": [
+        "Approvals, codes, apps and linked devices can all grant access.",
+        "MFA helps, but never approve something you did not start.",
+        "A genuine sign-in page can still sign in someone else."
+      ],
+      "habit": "Approve only what you started and recognise.",
+      "pause_point": false,
+      "what_this_shows": "What to remember from Module 4.",
+      "key_point": "Approve only what you started and recognise.",
+      "planned_start": "15:03",
+      "planned_end": "15:05"
+    },
+    {
+      "id": "SL51",
+      "module": "M5",
+      "title": "Module 5: The helpful stranger",
+      "duration_minutes": 2,
+      "layout": "opener",
+      "objective": "What this module covers and why it matters.",
+      "screen_text": [
+        "Check a support request before giving access",
+        "Stop when a web page asks you to run something",
+        "Tell genuine support from a fake offer"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 5",
+      "why": "Fake IT help, fake “verification” pages and fake renewal notices all try to get you to let them in.",
+      "outcomes": [
+        "Check a support request before giving access",
+        "Stop when a web page asks you to run something",
+        "Tell genuine support from a fake offer"
+      ],
+      "cast": [
+        "mei",
+        "aina",
+        "farid"
+      ],
+      "pause_point": false,
+      "what_this_shows": "What this module covers and why it matters.",
+      "key_point": "Real help can be checked: a ticket you raised, through a portal or number you know.",
+      "planned_start": "15:05",
+      "planned_end": "15:07"
+    },
+    {
+      "id": "SL52",
+      "module": "M5",
+      "title": "Mei offers help in chat",
+      "duration_minutes": 4,
+      "layout": "chat",
+      "objective": "Check claimed IT identity",
+      "screen_text": [
+        "Someone using Mei’s name offers to fix an access problem."
+      ],
+      "evidence": "Workplace chat requests a remote-support session.",
+      "interaction": "Reveal display name and request.",
+      "reveal": "Verify a support ticket through the established helpdesk.",
+      "facilitator_notes": "This is a separate scene, not proof the earlier fraud caused an account issue.",
+      "source_ids": [
+        "S15"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "15:07",
+      "planned_end": "15:11",
+      "pause_point": false,
+      "what_this_shows": "Someone using Mei’s name and photo offers to fix a problem Aina never reported.",
+      "key_point": "Verify a support offer with the helpdesk through a route you know. A name and photo in chat prove nothing."
+    },
+    {
+      "id": "SL53",
+      "module": "M5",
+      "title": "Remote access changes the stakes",
+      "duration_minutes": 6,
+      "layout": "decision",
+      "objective": "Require verified support authorisation",
+      "screen_text": [
+        "Who will control the device?",
+        "Which approved support request does this match?"
+      ],
+      "evidence": "Unsolicited screen-control request.",
+      "interaction": "Choose directory/helpdesk verification.",
+      "reveal": "Use approved support workflow before access.",
+      "facilitator_notes": "Legitimate remote tools can be abused. No live remote session.",
+      "source_ids": [
+        "S8",
+        "S15"
+      ],
+      "evidence_kind": "fictional",
+      "options": [
+        {
+          "label": "Accept control because the tool is well known",
+          "feedback": "A legitimate tool can still enable unauthorised access.",
+          "preferred": false
+        },
+        {
+          "label": "Verify the ticket through the established helpdesk",
+          "feedback": "Check support identity, purpose and authorised access before proceeding.",
+          "preferred": true
+        },
+        {
+          "label": "Send a login code to prove the account",
+          "feedback": "Do not disclose codes to an unsolicited caller.",
+          "preferred": false
+        }
+      ],
+      "planned_start": "15:11",
+      "planned_end": "15:17",
+      "pause_point": true,
+      "what_this_shows": "A remote-control request appears on Aina’s screen.",
+      "key_point": "No ticket, no session. Check with the helpdesk first, and never send a login code to prove anything."
+    },
+    {
+      "id": "SL54",
+      "module": "M5",
+      "title": "The verification page asks too much",
+      "duration_minutes": 3,
+      "layout": "browser",
+      "objective": "Recognise ClickFix behaviour",
+      "screen_text": [
+        "A page tells you to open an operating-system tool."
+      ],
+      "evidence": "Fake CAPTCHA panel; action labelled STOP: demo only.",
+      "interaction": "Show the page; ask what the step would do before the next slide answers it.",
+      "reveal": "Stop and contact approved support.",
+      "facilitator_notes": "No command, clipboard action or runnable payload in the mock-up.",
+      "source_ids": [
+        "S16"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "15:17",
+      "planned_end": "15:20",
+      "pause_point": false,
+      "what_this_shows": "A fake “are you human?” check ends by asking you to run something on your computer.",
+      "key_point": "No real check asks you to open a system tool and paste text."
+    },
+    {
+      "id": "SL54B",
+      "module": "M5",
+      "duration_minutes": 2,
+      "planned_start": "15:20",
+      "planned_end": "15:22",
+      "source_ids": [
+        "S16"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "pause_point": false,
+      "reveal": "Stop and contact approved support.",
+      "interaction": "Reveal the request to run a supposed verification action.",
+      "title": "What that step would actually do",
+      "layout": "browser",
+      "objective": "Explain what pasting a page’s text into a system tool can cause, and what to do",
+      "screen_text": [
+        "Pasted text can execute instructions",
+        "Possible harm: data theft or remote control",
+        "Stop. Contact IT using your known route."
+      ],
+      "evidence": "Consequence diagram for the paste step.",
+      "facilitator_notes": "Outcomes are possible, not guaranteed: they depend on what ran and what was blocked.",
+      "what_this_shows": "What pasting the page’s text into a system tool could do, and what to do instead.",
+      "key_point": "Stop, close the page and contact IT. If anything already ran, report it immediately."
+    },
+    {
+      "id": "SL55",
+      "module": "M5",
+      "title": "A browser problem becomes a repair request",
+      "duration_minutes": 6,
+      "layout": "case",
+      "objective": "Understand fake-repair sequence",
+      "screen_text": [
+        "A fake extension can create a problem and offer a harmful fix."
+      ],
+      "evidence": "CrashFix concept reconstruction, not exact malicious artefact.",
+      "interaction": "Reveal installation, delay, problem, repair pretext.",
+      "reveal": "Use approved software and support routes.",
+      "facilitator_notes": "Do not reproduce extension code. Cite Microsoft; do not invent losses.",
+      "source_ids": [
+        "S17"
+      ],
+      "evidence_kind": "documented",
+      "options": [],
+      "planned_start": "15:22",
+      "planned_end": "15:28",
+      "pause_point": false,
+      "what_this_shows": "A documented technique: a fake extension breaks your browser, then offers a harmful “fix”.",
+      "key_point": "Install software and get fixes only through approved sources and your IT team."
+    },
+    {
+      "id": "SL56",
+      "module": "M5",
+      "title": "The notice asks you to call",
+      "duration_minutes": 5,
+      "layout": "email",
+      "objective": "Recognise callback pretexts",
+      "screen_text": [
+        "An unexpected renewal notice includes a support number."
+      ],
+      "evidence": "Fictional subscription email with number shown as DEMO-NUMBER.",
+      "interaction": "Select a trusted account/support route.",
+      "reveal": "Check the known service, not the supplied callback number.",
+      "facilitator_notes": "Keep calls simulated. No operational phone numbers.",
+      "source_ids": [
+        "S6"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "15:28",
+      "planned_end": "15:33",
+      "pause_point": false,
+      "what_this_shows": "An unexpected renewal notice urges Farid to call a number.",
+      "key_point": "Check the account through the service or team you already know, not the number in the notice."
+    },
+    {
+      "id": "SL57",
+      "module": "M5",
+      "title": "Which support request can you proceed with?",
+      "duration_minutes": 5,
+      "layout": "decision",
+      "objective": "Recognise a legitimate verified support process",
+      "screen_text": [
+        "A ticket you raised appears in the known portal."
+      ],
+      "evidence": "Mei’s identity and session match the independently checked ticket.",
+      "interaction": "Choose permitted next step under support policy.",
+      "reveal": "Verified support still follows access and data rules.",
+      "facilitator_notes": "Include this genuine example so learners do not reject all IT help.",
+      "source_ids": [
+        "S20"
+      ],
+      "evidence_kind": "fictional",
+      "options": [
+        {
+          "label": "Follow the verified support process",
+          "feedback": "The known ticket confirms context; access and data rules still apply.",
+          "preferred": true
+        },
+        {
+          "label": "Give unrestricted control and all files",
+          "feedback": "Verified support does not remove access limits.",
+          "preferred": false
+        },
+        {
+          "label": "Reject all help even for a verified ticket",
+          "feedback": "Approved support can proceed under the normal policy.",
+          "preferred": false
+        }
+      ],
+      "planned_start": "15:33",
+      "planned_end": "15:38",
+      "pause_point": true,
+      "what_this_shows": "This time the support request matches a ticket Aina raised herself.",
+      "key_point": "Verified help can go ahead under normal rules: stay present and share only what the fix needs."
+    },
+    {
+      "id": "SL58",
+      "module": "M5",
+      "title": "Module 5 takeaways",
+      "duration_minutes": 2,
+      "layout": "takeaway",
+      "objective": "What to remember from Module 5.",
+      "screen_text": [
+        "Unrequested help is a warning sign.",
+        "Never run instructions that a web page gives you.",
+        "Genuine support can be checked and still follows the rules."
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 5",
+      "takeaways": [
+        "Unrequested help is a warning sign.",
+        "Never run instructions that a web page gives you.",
+        "Genuine support can be checked and still follows the rules."
+      ],
+      "habit": "No ticket you raised, no remote access.",
+      "pause_point": false,
+      "what_this_shows": "What to remember from Module 5.",
+      "key_point": "No ticket you raised, no remote access.",
+      "planned_start": "15:38",
+      "planned_end": "15:40"
+    },
+    {
+      "id": "SL59",
+      "module": "B3",
+      "title": "Tea break",
+      "duration_minutes": 25,
+      "layout": "intermission",
+      "objective": "Scheduled break",
+      "screen_text": [
+        "Tea break",
+        "We return with Module 6 · Stop the chain"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Break. Restart on time; nothing advances automatically.",
+      "source_ids": [],
+      "evidence_kind": "logistics",
+      "options": [],
+      "planned_start": "15:40",
+      "planned_end": "16:05",
+      "pause_point": false
+    },
+    {
+      "id": "SL60",
+      "module": "M6",
+      "title": "Module 6: Stop the chain",
+      "duration_minutes": 2,
+      "layout": "opener",
+      "objective": "What this module covers and why it matters.",
+      "screen_text": [
+        "Work as a team across operations, finance, management and IT",
+        "Separate facts from guesses",
+        "Report early, before you know everything"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 6",
+      "why": "Real incidents rarely look like one obvious attack. They look like several small, separate events.",
+      "outcomes": [
+        "Work as a team across operations, finance, management and IT",
+        "Separate facts from guesses",
+        "Report early, before you know everything"
+      ],
+      "cast": [
+        "aina",
+        "farid",
+        "ravi",
+        "mei"
+      ],
+      "pause_point": false,
+      "what_this_shows": "What this module covers and why it matters.",
+      "key_point": "You do not need the full picture to report. Report what you saw and let the right team connect the dots.",
+      "planned_start": "16:05",
+      "planned_end": "16:07"
+    },
+    {
+      "id": "SL61",
+      "module": "M6",
+      "title": "Your team at Meranti",
+      "duration_minutes": 1,
+      "layout": "exercise",
+      "objective": "Assign responsibilities",
+      "screen_text": [
+        "Operations",
+        "Finance",
+        "Manager",
+        "IT support"
+      ],
+      "evidence": "Four role cards.",
+      "interaction": "Assign roles.",
+      "reveal": "",
+      "facilitator_notes": "This is a new exercise with fresh facts, not a replay of the opening. Use TABLETOP.md.",
+      "source_ids": [],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "16:07",
+      "planned_end": "16:08",
+      "pause_point": false,
+      "what_this_shows": "Your table becomes the Meranti team. Each role checks different things.",
+      "key_point": "Every role matters: operations spots the request, finance holds payments, managers protect time to check, IT handles access."
+    },
+    {
+      "id": "SL61B",
+      "module": "M6",
+      "duration_minutes": 1,
+      "planned_start": "16:08",
+      "planned_end": "16:09",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "pause_point": false,
+      "reveal": "",
+      "interaction": "Explain the task; then start with evidence card T1.",
+      "title": "How the tabletop runs",
+      "layout": "exercise",
+      "objective": "Explain the task and the recording format",
+      "screen_text": [
+        "Known facts",
+        "Unverified claims",
+        "Next safe actions, each with an owner",
+        "A short report"
+      ],
+      "evidence": "",
+      "facilitator_notes": "Use TABLETOP.md. Setup, four cards one at a time, short debrief.",
+      "what_this_shows": "Four evidence cards, one at a time. Record four things for each.",
+      "key_point": "Record facts, unverified claims, next safe actions with an owner and a short report. Do not decide that one event caused another without evidence."
+    },
+    {
+      "id": "SL62",
+      "module": "M6",
+      "title": "Evidence 1: the document invitation",
+      "duration_minutes": 6,
+      "layout": "evidence_board",
+      "objective": "Identify what remains unverified",
+      "screen_text": [
+        "Aina receives a document invitation after a normal conversation."
+      ],
+      "evidence": "Card T1.",
+      "interaction": "Record known facts, unknowns and next action.",
+      "reveal": "Use a known route before access or disclosure.",
+      "facilitator_notes": "Do not reveal later evidence yet.",
+      "source_ids": [
+        "S11"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "16:09",
+      "planned_end": "16:15",
+      "pause_point": true,
+      "what_this_shows": "Evidence card 1: a document invitation after a normal call.",
+      "key_point": "Use a known route before signing in or sharing."
+    },
+    {
+      "id": "SL63",
+      "module": "M6",
+      "title": "Evidence 2: the account approval",
+      "duration_minutes": 7,
+      "layout": "evidence_board",
+      "objective": "Respond to a completed suspicious action",
+      "screen_text": [
+        "Aina says she entered a supplied device code."
+      ],
+      "evidence": "Card T2.",
+      "interaction": "Choose immediate report and the IT owner.",
+      "reveal": "IT assesses/revokes relevant access; do not wait for proof.",
+      "facilitator_notes": "Support the reporter. Do not request the actual code.",
+      "source_ids": [
+        "S12"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "16:15",
+      "planned_end": "16:22",
+      "pause_point": true,
+      "what_this_shows": "Evidence card 2: Aina admits she entered a code.",
+      "key_point": "Report immediately, thank the reporter, and let IT review access. Do not wait for proof."
+    },
+    {
+      "id": "SL64",
+      "module": "M6",
+      "title": "Evidence 3: the bank change",
+      "duration_minutes": 7,
+      "layout": "evidence_board",
+      "objective": "Coordinate payment verification",
+      "screen_text": [
+        "Finance receives changed bank details and an urgent chat."
+      ],
+      "evidence": "Card T3.",
+      "interaction": "Hold action, verify through established records, identify approver.",
+      "reveal": "Verify and preserve evidence.",
+      "facilitator_notes": "Do not assert T2 caused T3. Evidence suggests possible connection requiring investigation.",
+      "source_ids": [
+        "S7"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "16:22",
+      "planned_end": "16:29",
+      "pause_point": true,
+      "what_this_shows": "Evidence card 3: a bank change plus an urgent chat from “Ravi”.",
+      "key_point": "Hold, call back from records and keep approvals. A link to card 2 is a guess until IT confirms it."
+    },
+    {
+      "id": "SL65",
+      "module": "M6",
+      "title": "Evidence 4: someone offers help",
+      "duration_minutes": 7,
+      "layout": "evidence_board",
+      "objective": "Coordinate support and reporting",
+      "screen_text": [
+        "An apparent helpdesk caller offers remote control."
+      ],
+      "evidence": "Card T4.",
+      "interaction": "Verify ticket, stop unverified access, draft a report.",
+      "reveal": "Separate reported facts from conclusions.",
+      "facilitator_notes": "Take role-specific reports and apply the rubric.",
+      "source_ids": [
+        "S8",
+        "S15"
+      ],
+      "evidence_kind": "fictional",
+      "options": [],
+      "planned_start": "16:29",
+      "planned_end": "16:36",
+      "pause_point": true,
+      "what_this_shows": "Evidence card 4: an unrequested offer to take control of a screen.",
+      "key_point": "Verify with the helpdesk, allow no control, and report facts and uncertainty together."
+    },
+    {
+      "id": "SL66",
+      "module": "M6",
+      "title": "What stopped the chain?",
+      "duration_minutes": 1,
+      "layout": "reveal",
+      "objective": "Debrief the process",
+      "screen_text": [
+        "Independent verification",
+        "Normal approval",
+        "Early reporting"
+      ],
+      "evidence": "Trainer shows supported/unsupported claims and containment ownership.",
+      "interaction": "Explain which decision reduced risk.",
+      "reveal": "A useful report can precede a complete diagnosis.",
+      "facilitator_notes": "Give group feedback without names or public rankings.",
+      "source_ids": [
+        "S20"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "16:36",
+      "planned_end": "16:37",
+      "pause_point": false,
+      "what_this_shows": "Which decisions stopped the chain, and what is still unknown.",
+      "key_point": "Early reporting and the payment hold are confirmed. Independent checks and normal approval are the recommended responses; links between the events are not established."
+    },
+    {
+      "id": "SL66B",
+      "module": "M6",
+      "duration_minutes": 1,
+      "planned_start": "16:37",
+      "planned_end": "16:38",
+      "source_ids": [
+        "S20"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "pause_point": false,
+      "reveal": "A useful report can precede a complete diagnosis.",
+      "interaction": "Read both panels; name the owners.",
+      "title": "What the evidence supports",
+      "layout": "reveal",
+      "objective": "Separate what the cards confirm from what is left for IT",
+      "screen_text": [
+        "Supported by the evidence",
+        "Not established: for IT to investigate"
+      ],
+      "evidence": "",
+      "facilitator_notes": "Give group feedback without names or public rankings.",
+      "what_this_shows": "What the cards confirm, and what is left for IT to investigate.",
+      "key_point": "The confirmed facts are reported. Who sent the four events, and whether one caused another, remain for IT to investigate."
+    },
+    {
+      "id": "SL67",
+      "module": "M6",
+      "title": "Module 6 takeaways",
+      "duration_minutes": 2,
+      "layout": "takeaway",
+      "objective": "What to remember from Module 6.",
+      "screen_text": [
+        "Small events can be connected, so report each one.",
+        "Keep facts and guesses separate.",
+        "Early reporting gives IT time to act."
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 6",
+      "takeaways": [
+        "Small events can be connected, so report each one.",
+        "Keep facts and guesses separate.",
+        "Early reporting gives IT time to act."
+      ],
+      "habit": "Report early, even if you are not sure.",
+      "pause_point": false,
+      "what_this_shows": "What to remember from Module 6.",
+      "key_point": "Report early, even if you are not sure.",
+      "planned_start": "16:38",
+      "planned_end": "16:40"
+    },
+    {
+      "id": "SL68",
+      "module": "M7",
+      "title": "Module 7: Report and recover",
+      "duration_minutes": 1,
+      "layout": "opener",
+      "objective": "What this module covers and why it matters.",
+      "screen_text": [
+        "Use your organisation’s reporting route",
+        "Write a report that helps the response team",
+        "Know what to do after different kinds of mistake"
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Module 7",
+      "why": "Mistakes happen. Fast, honest reporting limits the damage.",
+      "outcomes": [
+        "Use your organisation’s reporting route",
+        "Write a report that helps the response team",
+        "Know what to do after different kinds of mistake"
+      ],
+      "cast": [
+        "aina",
+        "lina",
+        "mei"
+      ],
+      "pause_point": false,
+      "what_this_shows": "What this module covers and why it matters.",
+      "key_point": "Reporting a mistake quickly is the right thing to do, and it is never blamed.",
+      "planned_start": "16:40",
+      "planned_end": "16:41"
+    },
+    {
+      "id": "SL69",
+      "module": "M7",
+      "title": "Pause, verify, report, recover",
+      "duration_minutes": 2,
+      "layout": "response",
+      "objective": "Remember actionable steps",
+      "screen_text": [
+        "Pause the sensitive action.",
+        "Verify through an established route.",
+        "Report uncertainty or a mistaken action.",
+        "Follow recovery instructions."
+      ],
+      "evidence": "Course mnemonic.",
+      "interaction": "Ask audience to name an example for each.",
+      "reveal": "",
+      "facilitator_notes": "Label this our course mnemonic, not a NIST framework.",
+      "source_ids": [
+        "S20"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "16:41",
+      "planned_end": "16:43",
+      "pause_point": false,
+      "what_this_shows": "Four steps to remember for any suspicious request.",
+      "key_point": "Pause, verify, report, recover. This is our course summary, not an official framework."
+    },
+    {
+      "id": "SL70",
+      "module": "M7",
+      "title": "Your actual reporting route",
+      "duration_minutes": 3,
+      "layout": "report_demo",
+      "objective": "Demonstrate the customer process",
+      "screen_text": [
+        "[CONFIRMED REPORTING ROUTE]",
+        "Tell us what happened and when."
+      ],
+      "evidence": "Customer screenshot or clearly labelled demo workflow.",
+      "interaction": "Walk through the four steps; the contact fields follow.",
+      "reveal": "Preserve original message and describe the action taken.",
+      "facilitator_notes": "Use customer-config values. Never invent an address/button or send a report during training.",
+      "source_ids": [
+        "S20"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "16:43",
+      "planned_end": "16:46",
+      "pause_point": false,
+      "what_this_shows": "How to report at your organisation, step by step.",
+      "key_point": "Keep the original, say what happened and when, and use another channel if your account may be affected."
+    },
+    {
+      "id": "SL70B",
+      "module": "M7",
+      "duration_minutes": 2,
+      "planned_start": "16:46",
+      "planned_end": "16:48",
+      "source_ids": [
+        "S20"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "pause_point": false,
+      "reveal": "",
+      "interaction": "Point to each field; nothing is sent.",
+      "title": "Your organisation’s route",
+      "layout": "report_demo",
+      "objective": "Show the confirmed reporting contacts, or labelled placeholders",
+      "screen_text": [
+        "Report button",
+        "Mailbox",
+        "Urgent phone",
+        "IT support",
+        "Instructions"
+      ],
+      "evidence": "",
+      "facilitator_notes": "Use customer-config values. Never invent an address or button, and never send a report during training.",
+      "what_this_shows": "The report button, mailbox, urgent phone and IT support contact for this organisation.",
+      "key_point": "Use the route your organisation confirmed, and another channel if your account or device may be affected."
+    },
+    {
+      "id": "SL71",
+      "module": "M7",
+      "title": "What happened determines the response",
+      "duration_minutes": 3,
+      "layout": "response",
+      "objective": "Distinguish mistakes and ownership",
+      "screen_text": [
+        "Clicked",
+        "Entered credentials or approved access",
+        "Ran software or transferred money"
+      ],
+      "evidence": "Action-specific response cards.",
+      "interaction": "Match situation to immediate reporting/containment owner.",
+      "reveal": "Contact security promptly; bank/finance escalation for payments.",
+      "facilitator_notes": "Password reset alone may not remove sessions or app permissions. Avoid unplanned wipe/reboot.",
+      "source_ids": [
+        "S7",
+        "S12"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "16:48",
+      "planned_end": "16:51",
+      "pause_point": false,
+      "what_this_shows": "What to do depends on what happened.",
+      "key_point": "A password reset alone may not remove access. Report early so the right team can check sessions, apps and devices."
+    },
+    {
+      "id": "SL72",
+      "module": "M7",
+      "title": "A useful report",
+      "duration_minutes": 2,
+      "layout": "report_demo",
+      "objective": "Provide facts without secrets",
+      "screen_text": [
+        "Time and channel",
+        "Claimed sender and action taken",
+        "Device and original evidence"
+      ],
+      "evidence": "Fictional completed report card.",
+      "interaction": "Reveal one fact missing from a poor report.",
+      "reveal": "Include facts and uncertainty; omit passwords, OTPs and tokens.",
+      "facilitator_notes": "Do not forward suspicious content widely.",
+      "source_ids": [
+        "S20"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "16:51",
+      "planned_end": "16:53",
+      "pause_point": false,
+      "what_this_shows": "The difference between a vague report and a useful one.",
+      "key_point": "Include the time, channel, who it claimed to be, what you did and which device. Never include passwords or codes."
+    },
+    {
+      "id": "SL73",
+      "module": "M7",
+      "title": "A new request, the same decision",
+      "duration_minutes": 3,
+      "layout": "decision",
+      "objective": "Check learning transfer",
+      "screen_text": [
+        "A genuine HR request asks for sensitive staff information."
+      ],
+      "evidence": "New department and request, same verification principle.",
+      "interaction": "Choose approved disclosure route after independent verification.",
+      "reveal": "Genuine identity does not replace authorisation.",
+      "facilitator_notes": "Use ASSESSMENT.md parallel check. No identifying scores.",
+      "source_ids": [
+        "S20"
+      ],
+      "evidence_kind": "fictional",
+      "options": [
+        {
+          "label": "Send the whole staff list after recognising HR",
+          "feedback": "Identity alone does not establish permitted disclosure.",
+          "preferred": false
+        },
+        {
+          "label": "Confirm the authorised task and approved sharing route",
+          "feedback": "Share only permitted information through the approved route.",
+          "preferred": true
+        },
+        {
+          "label": "Report all HR data requests as phishing",
+          "feedback": "Some requests are genuine and still need authorisation checks.",
+          "preferred": false
+        }
+      ],
+      "planned_start": "16:53",
+      "planned_end": "16:56",
+      "pause_point": true,
+      "what_this_shows": "A new situation: a genuine HR colleague asks for staff records.",
+      "key_point": "A genuine requester still needs a permitted reason and the approved sharing route."
+    },
+    {
+      "id": "SL74",
+      "module": "M7",
+      "title": "The check you will use tomorrow",
+      "duration_minutes": 1,
+      "layout": "reflection",
+      "objective": "Commit to an achievable behaviour",
+      "screen_text": [
+        "Name one sensitive request and your verification route."
+      ],
+      "evidence": "Pairs or table reflection.",
+      "interaction": "Each participant gives one concrete action.",
+      "reveal": "",
+      "facilitator_notes": "Offer a 30-day refresher, not a claim of guaranteed behaviour change.",
+      "source_ids": [
+        "S20"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "16:56",
+      "planned_end": "16:57",
+      "pause_point": false,
+      "what_this_shows": "Your commitment for tomorrow.",
+      "key_point": "Pick one request you handle at work and the route you will use to check it."
+    },
+    {
+      "id": "SL75",
+      "module": "M7",
+      "title": "Today’s takeaways",
+      "duration_minutes": 2,
+      "layout": "recap",
+      "objective": "The seven habits from today, in one place.",
+      "screen_text": [
+        "When a message asks for money, information or access: pause, check through a route you already trust, and report anything unusual."
+      ],
+      "evidence": "",
+      "interaction": "",
+      "reveal": "",
+      "facilitator_notes": "Read the slide aloud briefly; it frames the module. No hidden content.",
+      "source_ids": [],
+      "evidence_kind": "guidance",
+      "options": [],
+      "module_label": "Today",
+      "pause_point": false,
+      "what_this_shows": "The seven habits from today, in one place.",
+      "key_point": "When a message asks for money, information or access: pause, check through a route you already trust, and report anything unusual.",
+      "planned_start": "16:57",
+      "planned_end": "16:59"
+    },
+    {
+      "id": "SL76",
+      "module": "M7",
+      "title": "Questions and references",
+      "duration_minutes": 1,
+      "layout": "references",
+      "objective": "Close with access to guidance",
+      "screen_text": [
+        "Questions",
+        "Participant response card",
+        "Primary-source reference index"
+      ],
+      "evidence": "Expandable sources grouped by subject.",
+      "interaction": "Open reference panel; no automatic external navigation.",
+      "reveal": "",
+      "facilitator_notes": "All cited source IDs resolve. Keep additional questions within allocated time or follow up.",
+      "source_ids": [
+        "S18",
+        "S20",
+        "S21"
+      ],
+      "evidence_kind": "guidance",
+      "options": [],
+      "planned_start": "16:59",
+      "planned_end": "17:00",
+      "pause_point": false
+    }
+  ]
+}

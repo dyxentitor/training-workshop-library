@@ -1,0 +1,33 @@
+{
+  "font_family": "Arial, Helvetica, sans-serif",
+  "colors": {
+    "background": "#0B1220",
+    "surface": "#162236",
+    "text_primary": "#F3F6FA",
+    "text_secondary": "#B8C4D6",
+    "accent": "#2DD4BF",
+    "info": "#60A5FA",
+    "warning": "#FBBF24",
+    "danger": "#FB7185",
+    "evidence_ink": "#19283B",
+    "line": "#33445B"
+  },
+  "radii_px": {
+    "panel": 18,
+    "control": 9
+  },
+  "viewport_reference": [
+    1440,
+    900
+  ],
+  "secondary_viewport": [
+    1366,
+    768
+  ],
+  "mobile_reference": [
+    390,
+    844
+  ],
+  "motion_ms": 180,
+  "motion_policy": "respect prefers-reduced-motion; trainer-triggered only"
+}
